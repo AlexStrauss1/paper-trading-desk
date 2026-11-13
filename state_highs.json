@@ -120,15 +120,15 @@
   }
  },
  "last_prices": {
-  "ABBV": 295.825,
-  "LLY": 1446.45,
-  "KO": 99.256,
-  "JNJ": 286.707,
+  "ABBV": 295.725,
+  "LLY": 1447.235,
+  "KO": 99.205,
+  "JNJ": 286.721,
   "MO": 78.545,
-  "AAPL": 357.479,
-  "PG": 169.96,
-  "CL": 99.48,
-  "COST": 1101.84
+  "AAPL": 357.29,
+  "PG": 169.81,
+  "CL": 99.455,
+  "COST": 1101.83
  },
  "trades": [
   {
@@ -313,5 +313,12 @@
   "PG": "yahoo",
   "CL": "yahoo",
   "COST": "yahoo"
+ },
+ "status": {
+  "note": "starting",
+  "decisions": [],
+  "last_run": "2026-11-13T19:58:43+00:00",
+  "market_open": true,
+  "last_daily": null
  }
 }

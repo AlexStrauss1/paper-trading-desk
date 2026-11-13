@@ -55,10 +55,10 @@
   }
  },
  "last_prices": {
-  "TMO": 698.13,
-  "MMM": 184.93,
-  "SBUX": 106.959,
-  "LOW": 227.285
+  "TMO": 699.075,
+  "MMM": 185.08,
+  "SBUX": 107.015,
+  "LOW": 227.4
  },
  "trades": [
   {
@@ -148,5 +148,12 @@
   "MMM": "yahoo",
   "SBUX": "yahoo",
   "LOW": "yahoo"
+ },
+ "status": {
+  "note": "starting",
+  "decisions": [],
+  "last_run": "2026-11-13T19:58:43+00:00",
+  "market_open": true,
+  "last_daily": null
  }
 }

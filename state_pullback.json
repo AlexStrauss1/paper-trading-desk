@@ -31,8 +31,8 @@
   }
  },
  "last_prices": {
-  "MRNA": 223.4,
-  "VEEV": 301.52
+  "MRNA": 224.27,
+  "VEEV": 302.11
  },
  "trades": [
   {
@@ -84,5 +84,12 @@
  "price_sources": {
   "MRNA": "yahoo",
   "VEEV": "yahoo"
+ },
+ "status": {
+  "note": "starting",
+  "decisions": [],
+  "last_run": "2026-11-13T19:58:43+00:00",
+  "market_open": true,
+  "last_daily": null
  }
 }

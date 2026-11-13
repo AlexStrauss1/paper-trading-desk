@@ -16,7 +16,7 @@
   }
  },
  "last_prices": {
-  "PFE": 28.856
+  "PFE": 28.855
  },
  "trades": [
   {
@@ -49,5 +49,12 @@
  "last_daily_run": "2026-11-13",
  "price_sources": {
   "PFE": "yahoo"
+ },
+ "status": {
+  "note": "starting",
+  "decisions": [],
+  "last_run": "2026-11-13T19:58:43+00:00",
+  "market_open": true,
+  "last_daily": null
  }
 }

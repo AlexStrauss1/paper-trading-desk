@@ -20,7 +20,7 @@
   }
  },
  "last_prices": {
-  "NVDA": 162.04
+  "NVDA": 163.16
  },
  "trades": [
   {
@@ -53,5 +53,12 @@
  "last_daily_run": "2026-11-13",
  "price_sources": {
   "NVDA": "yahoo"
+ },
+ "status": {
+  "note": "starting",
+  "decisions": [],
+  "last_run": "2026-11-13T19:58:43+00:00",
+  "market_open": true,
+  "last_daily": null
  }
 }
