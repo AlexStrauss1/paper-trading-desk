@@ -16,7 +16,7 @@
   }
  },
  "last_prices": {
-  "PFE": 28.79
+  "PFE": 28.89
  },
  "trades": [
   {
@@ -53,8 +53,8 @@
  "status": {
   "note": "starting",
   "decisions": [],
-  "last_run": "2026-11-13T20:44:17+00:00",
-  "market_open": true,
+  "last_run": "2026-11-13T21:31:56+00:00",
+  "market_open": false,
   "last_daily": null
  }
 }

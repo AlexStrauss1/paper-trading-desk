@@ -115,14 +115,14 @@
   }
  },
  "last_prices": {
-  "MRNA": 223.33,
-  "TGT": 161.175,
-  "AMGN": 465.865,
-  "MSI": 530.5,
-  "VEEV": 301.475,
-  "MAR": 423.01,
-  "TMO": 699.14,
-  "HLT": 372.34
+  "MRNA": 223.37,
+  "TGT": 161.45,
+  "AMGN": 465.67,
+  "MSI": 531.2,
+  "VEEV": 301.53,
+  "MAR": 423.16,
+  "TMO": 700.22,
+  "HLT": 373.09
  },
  "trades": [
   {
@@ -292,8 +292,8 @@
  "status": {
   "note": "starting",
   "decisions": [],
-  "last_run": "2026-11-13T20:44:17+00:00",
-  "market_open": true,
+  "last_run": "2026-11-13T21:31:56+00:00",
+  "market_open": false,
   "last_daily": null
  }
 }

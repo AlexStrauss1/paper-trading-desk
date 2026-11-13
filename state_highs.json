@@ -120,15 +120,15 @@
   }
  },
  "last_prices": {
-  "ABBV": 294.663,
-  "LLY": 1441.93,
-  "KO": 99.13,
-  "JNJ": 286.28,
+  "ABBV": 295.03,
+  "LLY": 1443.5,
+  "KO": 99.25,
+  "JNJ": 285.75,
   "MO": 78.64,
-  "AAPL": 356.0,
-  "PG": 169.76,
-  "CL": 99.475,
-  "COST": 1104.41
+  "AAPL": 356.27,
+  "PG": 169.8,
+  "CL": 99.67,
+  "COST": 1106.21
  },
  "trades": [
   {
@@ -317,8 +317,8 @@
  "status": {
   "note": "starting",
   "decisions": [],
-  "last_run": "2026-11-13T20:44:17+00:00",
-  "market_open": true,
+  "last_run": "2026-11-13T21:31:56+00:00",
+  "market_open": false,
   "last_daily": null
  }
 }
