@@ -1,0 +1,55 @@
+# Runs the paper-trading desk on GitHub's servers, so it keeps going with your computer off.
+# Every 15 minutes on weekdays during (and just after) US market hours, it runs run_once.py and
+# commits the updated account files + dashboard (docs/) back to the repository.
+name: Paper trading desk
+
+on:
+  schedule:
+    # 13:00-21:45 UTC covers 9:30 am-4:00 pm New York in both summer (EDT) and winter (EST) time.
+    # GitHub may start scheduled runs late; run_once.py's time windows allow for that.
+    - cron: "*/15 13-21 * * 1-5"
+    # one late run after the close, in case the 3:30-4:00 pm runs were delayed or skipped
+    - cron: "30 22 * * 1-5"
+  workflow_dispatch: {}   # "Run workflow" button in the Actions tab
+
+permissions:
+  contents: write         # to commit the updated account files
+
+concurrency:
+  group: trading-desk     # never let two runs touch the account files at once
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # 5 years of daily prices (~25 MB): download once per day, reuse for the other runs that day
+      - name: Date
+        id: date
+        run: echo "day=$(TZ=America/New_York date +%F)" >> "$GITHUB_OUTPUT"
+      - uses: actions/cache@v4
+        with:
+          path: backtest_data.json.gz
+          key: daily-prices-${{ steps.date.outputs.day }}
+
+      - name: Trade
+        run: python3 run_once.py
+
+      - name: Save account files and dashboard
+        run: |
+          git config user.name "paper-trading-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add state*.json daily_info.json scan.json docs
+          if git diff --cached --quiet; then
+            echo "nothing changed"
+          else
+            git commit -q -m "Trading run $(TZ=America/New_York date '+%F %H:%M %Z')"
+            git push
+          fi

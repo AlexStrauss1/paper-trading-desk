@@ -1,0 +1,14 @@
+{
+ "cash": 10000.0,
+ "positions": {},
+ "last_prices": {},
+ "trades": [],
+ "events": [],
+ "day": {
+  "date": "2026-11-13",
+  "start_equity": 10000.0,
+  "trades": 0
+ },
+ "halted": false,
+ "last_daily_run": "2026-11-13"
+}

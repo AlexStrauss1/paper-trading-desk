@@ -1,0 +1,656 @@
+{
+ "cash": 0.087804500001198,
+ "positions": {
+  "TMO": {
+   "qty": 1.4303,
+   "avg_price": 699.14,
+   "opened": "2026-11-13T19:32:39+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "golden cross",
+   "entry_date": "2026-11-13",
+   "max_hold": null,
+   "meta": null,
+   "tp": null,
+   "sl": null
+  },
+  "ACN": {
+   "qty": 3.9654,
+   "avg_price": 252.18,
+   "opened": "2026-11-13T19:32:39+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "golden cross",
+   "entry_date": "2026-11-13",
+   "max_hold": null,
+   "meta": null,
+   "tp": null,
+   "sl": null
+  },
+  "LLY": {
+   "qty": 0.6916,
+   "avg_price": 1445.92,
+   "opened": "2026-11-13T19:32:39+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "golden cross",
+   "entry_date": "2026-11-13",
+   "max_hold": null,
+   "meta": null,
+   "tp": null,
+   "sl": null
+  },
+  "AMGN": {
+   "qty": 2.1476,
+   "avg_price": 465.63,
+   "opened": "2026-11-13T19:32:39+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "golden cross",
+   "entry_date": "2026-11-13",
+   "max_hold": null,
+   "meta": null,
+   "tp": null,
+   "sl": null
+  },
+  "ABBV": {
+   "qty": 3.3849,
+   "avg_price": 295.425,
+   "opened": "2026-11-13T19:32:39+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "golden cross",
+   "entry_date": "2026-11-13",
+   "max_hold": null,
+   "meta": null,
+   "tp": null,
+   "sl": null
+  },
+  "ABNB": {
+   "qty": 5.3548,
+   "avg_price": 186.745,
+   "opened": "2026-11-13T19:32:39+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "golden cross",
+   "entry_date": "2026-11-13",
+   "max_hold": null,
+   "meta": null,
+   "tp": null,
+   "sl": null
+  },
+  "MDT": {
+   "qty": 9.72,
+   "avg_price": 102.88,
+   "opened": "2026-11-13T19:32:39+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "golden cross",
+   "entry_date": "2026-11-13",
+   "max_hold": null,
+   "meta": null,
+   "tp": null,
+   "sl": null
+  },
+  "TGT": {
+   "qty": 6.2152,
+   "avg_price": 160.895,
+   "opened": "2026-11-13T19:32:39+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "golden cross",
+   "entry_date": "2026-11-13",
+   "max_hold": null,
+   "meta": null,
+   "tp": null,
+   "sl": null
+  },
+  "PYPL": {
+   "qty": 16.8648,
+   "avg_price": 59.295,
+   "opened": "2026-11-13T19:32:39+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "golden cross",
+   "entry_date": "2026-11-13",
+   "max_hold": null,
+   "meta": null,
+   "tp": null,
+   "sl": null
+  },
+  "MRK": {
+   "qty": 6.7914,
+   "avg_price": 147.245,
+   "opened": "2026-11-13T19:32:39+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "golden cross",
+   "entry_date": "2026-11-13",
+   "max_hold": null,
+   "meta": null,
+   "tp": null,
+   "sl": null
+  }
+ },
+ "last_prices": {
+  "TMO": 698.13,
+  "ACN": 252.24,
+  "LLY": 1446.45,
+  "AMGN": 466.24,
+  "ABBV": 295.825,
+  "ABNB": 186.35,
+  "MDT": 102.835,
+  "TGT": 160.695,
+  "PYPL": 59.275,
+  "MRK": 147.4,
+  "MA": 659.37,
+  "GILD": 168.235,
+  "V": 425.7,
+  "ABT": 108.83,
+  "MMM": 185.355,
+  "JNJ": 286.29,
+  "MSFT": 524.32,
+  "KO": 99.11,
+  "PG": 169.93,
+  "DE": 671.835,
+  "AAPL": 357.815,
+  "WFC": 85.55,
+  "PFE": 28.825,
+  "DIS": 119.186,
+  "JPM": 344.4,
+  "COP": 141.9,
+  "CVX": 218.65,
+  "USB": 60.765,
+  "CSX": 52.13,
+  "AMT": 191.63,
+  "CL": 99.51,
+  "EOG": 157.72,
+  "BLK": 1217.6,
+  "BMY": 63.35,
+  "MDLZ": 67.18,
+  "UNP": 302.8,
+  "MO": 78.45,
+  "PNC": 231.18,
+  "XOM": 169.74,
+  "PM": 198.125,
+  "UNH": 404.235,
+  "TXN": 302.61,
+  "AMZN": 265.39,
+  "ADI": 397.575
+ },
+ "trades": [
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "TMO",
+   "side": "buy",
+   "qty": 1.4303,
+   "price": 699.14,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "golden cross"
+  },
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "ACN",
+   "side": "buy",
+   "qty": 3.9654,
+   "price": 252.18,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "golden cross"
+  },
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "LLY",
+   "side": "buy",
+   "qty": 0.6916,
+   "price": 1445.92,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "golden cross"
+  },
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "AMGN",
+   "side": "buy",
+   "qty": 2.1476,
+   "price": 465.63,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "golden cross"
+  },
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "ABBV",
+   "side": "buy",
+   "qty": 3.3849,
+   "price": 295.425,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "golden cross"
+  },
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "ABNB",
+   "side": "buy",
+   "qty": 5.3548,
+   "price": 186.745,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "golden cross"
+  },
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "MDT",
+   "side": "buy",
+   "qty": 9.72,
+   "price": 102.88,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "golden cross"
+  },
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "TGT",
+   "side": "buy",
+   "qty": 6.2152,
+   "price": 160.895,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "golden cross"
+  },
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "PYPL",
+   "side": "buy",
+   "qty": 16.8648,
+   "price": 59.295,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "golden cross"
+  },
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "MRK",
+   "side": "buy",
+   "qty": 6.7914,
+   "price": 147.245,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "golden cross"
+  }
+ ],
+ "events": [
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "TMO",
+   "action": "buy",
+   "price": 699.14,
+   "source": "auto",
+   "result": "filled buy 1.4303 @ 699.14 (golden cross)"
+  },
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "ACN",
+   "action": "buy",
+   "price": 252.18,
+   "source": "auto",
+   "result": "filled buy 3.9654 @ 252.18 (golden cross)"
+  },
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "LLY",
+   "action": "buy",
+   "price": 1445.92,
+   "source": "auto",
+   "result": "filled buy 0.6916 @ 1445.92 (golden cross)"
+  },
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "AMGN",
+   "action": "buy",
+   "price": 465.63,
+   "source": "auto",
+   "result": "filled buy 2.1476 @ 465.63 (golden cross)"
+  },
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "ABBV",
+   "action": "buy",
+   "price": 295.425,
+   "source": "auto",
+   "result": "filled buy 3.3849 @ 295.425 (golden cross)"
+  },
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "ABNB",
+   "action": "buy",
+   "price": 186.745,
+   "source": "auto",
+   "result": "filled buy 5.3548 @ 186.745 (golden cross)"
+  },
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "MDT",
+   "action": "buy",
+   "price": 102.88,
+   "source": "auto",
+   "result": "filled buy 9.72 @ 102.88 (golden cross)"
+  },
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "TGT",
+   "action": "buy",
+   "price": 160.895,
+   "source": "auto",
+   "result": "filled buy 6.2152 @ 160.895 (golden cross)"
+  },
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "PYPL",
+   "action": "buy",
+   "price": 59.295,
+   "source": "auto",
+   "result": "filled buy 16.8648 @ 59.295 (golden cross)"
+  },
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "MRK",
+   "action": "buy",
+   "price": 147.245,
+   "source": "auto",
+   "result": "filled buy 6.7914 @ 147.245 (golden cross)"
+  },
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "MA",
+   "action": "buy",
+   "price": 659.37,
+   "source": "auto",
+   "result": "rejected: max positions reached"
+  },
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "GILD",
+   "action": "buy",
+   "price": 168.235,
+   "source": "auto",
+   "result": "rejected: max positions reached"
+  },
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "V",
+   "action": "buy",
+   "price": 425.7,
+   "source": "auto",
+   "result": "rejected: max positions reached"
+  },
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "ABT",
+   "action": "buy",
+   "price": 108.83,
+   "source": "auto",
+   "result": "rejected: max positions reached"
+  },
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "MMM",
+   "action": "buy",
+   "price": 185.355,
+   "source": "auto",
+   "result": "rejected: max positions reached"
+  },
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "JNJ",
+   "action": "buy",
+   "price": 286.29,
+   "source": "auto",
+   "result": "rejected: max positions reached"
+  },
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "MSFT",
+   "action": "buy",
+   "price": 524.32,
+   "source": "auto",
+   "result": "rejected: max positions reached"
+  },
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "KO",
+   "action": "buy",
+   "price": 99.11,
+   "source": "auto",
+   "result": "rejected: max positions reached"
+  },
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "PG",
+   "action": "buy",
+   "price": 169.93,
+   "source": "auto",
+   "result": "rejected: max positions reached"
+  },
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "DE",
+   "action": "buy",
+   "price": 671.835,
+   "source": "auto",
+   "result": "rejected: max positions reached"
+  },
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "AAPL",
+   "action": "buy",
+   "price": 357.815,
+   "source": "auto",
+   "result": "rejected: max positions reached"
+  },
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "WFC",
+   "action": "buy",
+   "price": 85.55,
+   "source": "auto",
+   "result": "rejected: max positions reached"
+  },
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "PFE",
+   "action": "buy",
+   "price": 28.825,
+   "source": "auto",
+   "result": "rejected: max positions reached"
+  },
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "DIS",
+   "action": "buy",
+   "price": 119.186,
+   "source": "auto",
+   "result": "rejected: max positions reached"
+  },
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "JPM",
+   "action": "buy",
+   "price": 344.4,
+   "source": "auto",
+   "result": "rejected: max positions reached"
+  },
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "COP",
+   "action": "buy",
+   "price": 141.9,
+   "source": "auto",
+   "result": "rejected: max positions reached"
+  },
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "CVX",
+   "action": "buy",
+   "price": 218.65,
+   "source": "auto",
+   "result": "rejected: max positions reached"
+  },
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "USB",
+   "action": "buy",
+   "price": 60.765,
+   "source": "auto",
+   "result": "rejected: max positions reached"
+  },
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "CSX",
+   "action": "buy",
+   "price": 52.13,
+   "source": "auto",
+   "result": "rejected: max positions reached"
+  },
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "AMT",
+   "action": "buy",
+   "price": 191.63,
+   "source": "auto",
+   "result": "rejected: max positions reached"
+  },
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "CL",
+   "action": "buy",
+   "price": 99.51,
+   "source": "auto",
+   "result": "rejected: max positions reached"
+  },
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "EOG",
+   "action": "buy",
+   "price": 157.72,
+   "source": "auto",
+   "result": "rejected: max positions reached"
+  },
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "BLK",
+   "action": "buy",
+   "price": 1217.6,
+   "source": "auto",
+   "result": "rejected: max positions reached"
+  },
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "BMY",
+   "action": "buy",
+   "price": 63.35,
+   "source": "auto",
+   "result": "rejected: max positions reached"
+  },
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "MDLZ",
+   "action": "buy",
+   "price": 67.18,
+   "source": "auto",
+   "result": "rejected: max positions reached"
+  },
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "UNP",
+   "action": "buy",
+   "price": 302.8,
+   "source": "auto",
+   "result": "rejected: max positions reached"
+  },
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "MO",
+   "action": "buy",
+   "price": 78.45,
+   "source": "auto",
+   "result": "rejected: max positions reached"
+  },
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "PNC",
+   "action": "buy",
+   "price": 231.18,
+   "source": "auto",
+   "result": "rejected: max positions reached"
+  },
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "XOM",
+   "action": "buy",
+   "price": 169.74,
+   "source": "auto",
+   "result": "rejected: max positions reached"
+  },
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "PM",
+   "action": "buy",
+   "price": 198.125,
+   "source": "auto",
+   "result": "rejected: max positions reached"
+  },
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "UNH",
+   "action": "buy",
+   "price": 404.235,
+   "source": "auto",
+   "result": "rejected: max positions reached"
+  },
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "TXN",
+   "action": "buy",
+   "price": 302.61,
+   "source": "auto",
+   "result": "rejected: max positions reached"
+  },
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "AMZN",
+   "action": "buy",
+   "price": 265.39,
+   "source": "auto",
+   "result": "rejected: max positions reached"
+  },
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "ADI",
+   "action": "buy",
+   "price": 397.575,
+   "source": "auto",
+   "result": "rejected: max positions reached"
+  }
+ ],
+ "day": {
+  "date": "2026-11-13",
+  "start_equity": 10000.0,
+  "trades": 10
+ },
+ "halted": false,
+ "last_daily_run": "2026-11-13",
+ "price_sources": {
+  "TMO": "yahoo",
+  "ACN": "yahoo",
+  "LLY": "yahoo",
+  "AMGN": "yahoo",
+  "ABBV": "yahoo",
+  "ABNB": "yahoo",
+  "MDT": "yahoo",
+  "TGT": "yahoo",
+  "PYPL": "yahoo",
+  "MRK": "yahoo"
+ }
+}

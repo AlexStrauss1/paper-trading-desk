@@ -1,0 +1,53 @@
+{
+ "cash": 8000.000435,
+ "positions": {
+  "PFE": {
+   "qty": 69.3842,
+   "avg_price": 28.825,
+   "opened": "2026-11-13T19:32:39+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "7-day low",
+   "entry_date": "2026-11-13",
+   "max_hold": 15,
+   "meta": null,
+   "tp": null,
+   "sl": null
+  }
+ },
+ "last_prices": {
+  "PFE": 28.856
+ },
+ "trades": [
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "PFE",
+   "side": "buy",
+   "qty": 69.3842,
+   "price": 28.825,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "7-day low"
+  }
+ ],
+ "events": [
+  {
+   "time": "2026-11-13T19:32:39+00:00",
+   "ticker": "PFE",
+   "action": "buy",
+   "price": 28.825,
+   "source": "auto",
+   "result": "filled buy 69.3842 @ 28.825 (7-day low)"
+  }
+ ],
+ "day": {
+  "date": "2026-11-13",
+  "start_equity": 10000.0,
+  "trades": 1
+ },
+ "halted": false,
+ "last_daily_run": "2026-11-13",
+ "price_sources": {
+  "PFE": "yahoo"
+ }
+}

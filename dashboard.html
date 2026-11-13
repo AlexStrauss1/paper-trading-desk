@@ -1,0 +1,502 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Paper Trading Desk</title>
+<style>
+  :root { --bg:#f6f7f9; --card:#fff; --text:#16181d; --muted:#6b7280; --line:#e5e7eb; --up:#0f9d58; --down:#d93025; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#0f1115; --card:#171a21; --text:#e8eaed; --muted:#9aa0a6; --line:#2a2f3a; --up:#34c77b; --down:#ff6b5e; } }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:14px/1.45 -apple-system, system-ui, sans-serif; }
+  header { display:flex; flex-wrap:wrap; gap:12px; align-items:center; justify-content:space-between; padding:14px 16px; border-bottom:1px solid var(--line); }
+  h1 { font-size:17px; margin:0; }
+  .badge { font-size:12px; padding:2px 8px; border-radius:99px; border:1px solid var(--line); color:var(--muted); }
+  .warn { color:var(--down); border-color:var(--down); }
+  .live { color:var(--up); border-color:var(--up); }
+  main { padding:16px; display:grid; gap:16px; grid-template-columns: minmax(0,2fr) minmax(0,1fr); }
+  @media (max-width: 900px) { main { grid-template-columns: 1fr; } }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px; min-width:0; }
+  .card h2 { font-size:13px; text-transform:uppercase; letter-spacing:.04em; color:var(--muted); margin:0 0 10px; }
+  .stats { display:grid; grid-template-columns:repeat(auto-fit, minmax(120px,1fr)); gap:10px; }
+  .stat b { display:block; font-size:20px; font-variant-numeric:tabular-nums; }
+  .stat span { color:var(--muted); font-size:12px; }
+  .up { color:var(--up); } .down { color:var(--down); }
+  #chart { height:520px; }
+  .row { display:flex; gap:8px; margin-bottom:10px; }
+  input { flex:1; padding:7px 10px; border:1px solid var(--line); border-radius:6px; background:var(--bg); color:var(--text); }
+  button { padding:7px 12px; border:1px solid var(--line); border-radius:6px; background:var(--card); color:var(--text); cursor:pointer; }
+  table { width:100%; border-collapse:collapse; font-variant-numeric:tabular-nums; }
+  th, td { text-align:left; padding:6px 4px; border-bottom:1px solid var(--line); white-space:nowrap; }
+  th { color:var(--muted); font-weight:500; font-size:12px; }
+  .scroll { overflow-x:auto; max-height:320px; overflow-y:auto; }
+  a { color:inherit; font-weight:600; }
+  #scanner { margin:0 16px 16px; }
+  .tabs { display:flex; gap:6px; flex-wrap:wrap; align-items:center; margin-bottom:12px; }
+  .tabs button[aria-selected="true"] { background:var(--text); color:var(--bg); border-color:var(--text); }
+  .tabs .meta { margin-left:auto; color:var(--muted); font-size:12px; }
+  th.sort { cursor:pointer; user-select:none; }
+  th.sort:hover { color:var(--text); }
+  .name { max-width:180px; overflow:hidden; text-overflow:ellipsis; color:var(--muted); }
+  .pill { font-size:11px; padding:1px 6px; border-radius:99px; border:1px solid var(--line); color:var(--muted); }
+  .pill.on { color:var(--up); border-color:var(--up); }
+  .clusters { display:grid; gap:10px; grid-template-columns:repeat(auto-fill, minmax(220px,1fr)); }
+  .cluster { border:1px solid var(--line); border-radius:8px; padding:10px; }
+  .cluster small { color:var(--muted); }
+  .chips { display:flex; flex-wrap:wrap; gap:6px; margin-top:6px; }
+  .chips a { font-size:13px; padding:2px 8px; border:1px solid var(--line); border-radius:6px; text-decoration:none; }
+  .note { color:var(--muted); font-size:12px; margin:10px 0 0; }
+  :root { --s1:#2a78d6; --s2:#eb6834; --s3:#1baf7a; --gridc:#eceef1; }
+  @media (prefers-color-scheme: dark) { :root { --s1:#3987e5; --s2:#d95926; --s3:#199e70; --gridc:#262b36; } }
+  #lab { margin:0 16px 16px; }
+  .legend { display:flex; flex-wrap:wrap; gap:14px; font-size:12px; color:var(--muted); margin:4px 0 6px; }
+  .legend i { display:inline-block; width:14px; height:3px; vertical-align:middle; margin-right:6px; border-radius:2px; }
+  #eq { position:relative; }
+  #eq svg { display:block; width:100%; height:320px; overflow:visible; }
+  #eqTip { position:absolute; pointer-events:none; background:var(--card); border:1px solid var(--line); border-radius:8px;
+           padding:8px 10px; font-size:12px; box-shadow:0 4px 14px rgba(0,0,0,.14); display:none; white-space:nowrap; z-index:2; }
+  #eqTip div { display:flex; gap:10px; justify-content:space-between; }
+  #eqTip b { font-variant-numeric:tabular-nums; }
+  tr.pick { cursor:pointer; }
+  tr.pick:hover td { background:color-mix(in srgb, var(--text) 5%, transparent); }
+  tr.sel td { background:color-mix(in srgb, var(--s1) 12%, transparent); }
+  .best { font-size:11px; padding:1px 6px; border-radius:99px; border:1px solid var(--up); color:var(--up); margin-left:6px; }
+  .detail { margin-top:12px; padding:10px 12px; border:1px solid var(--line); border-radius:8px; }
+  .detail p { margin:4px 0; }
+  .empty { color:var(--muted); padding:8px 0; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Paper Trading Desk</h1>
+  <div style="display:flex;gap:8px;flex-wrap:wrap">
+    <span class="badge" id="feed">…</span>
+    <span class="badge" id="broker">…</span>
+    <span class="badge" id="halt" hidden>HALTED</span>
+    <span class="badge warn" id="secretWarn" hidden>WEBHOOK_SECRET is default</span>
+  </div>
+</header>
+<section class="card" id="accounts" style="margin:16px 16px 0">
+  <div style="display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:10px">
+    <h2 style="margin:0">Accounts: each strategy trades its own $10,000 <span style="text-transform:none;letter-spacing:0;font-weight:400">(click one to see its positions and trades)</span></h2>
+    <button id="runDaily" style="margin-left:auto" title="Daily strategies normally decide at 3:50 pm ET">Run strategies now</button>
+  </div>
+  <div class="scroll" style="max-height:none" id="acctBody"></div>
+</section>
+<main>
+  <section style="display:grid;gap:16px;min-width:0">
+    <div class="card stats" id="stats"></div>
+    <div class="card">
+      <form class="row" id="symForm"><input id="sym" value="NASDAQ:AAPL" aria-label="Symbol"><button>Load chart</button></form>
+      <div id="chart"></div>
+    </div>
+  </section>
+  <section style="display:grid;gap:16px;align-content:start;min-width:0">
+    <div class="card"><h2><span id="acctTitle">Auto-trader</span> <span id="autoMeta" style="text-transform:none;letter-spacing:0;font-weight:400"></span></h2><div class="scroll" id="autoBody"></div></div>
+    <div class="card"><h2>Open positions</h2><div class="scroll" id="positions"></div></div>
+    <div class="card"><h2>Trades</h2><div class="scroll" id="trades"></div></div>
+    <div class="card"><h2>Alert log</h2><div class="scroll" id="events"></div></div>
+  </section>
+</main>
+<section class="card" id="scanner">
+  <div class="tabs" role="tablist">
+    <button data-tab="ranking" aria-selected="true">Ranking</button>
+    <button data-tab="pairs" aria-selected="false">Diverged pairs</button>
+    <button data-tab="clusters" aria-selected="false">Clusters</button>
+    <span class="meta" id="scanMeta">No scan yet</span>
+    <button id="rescan">Rescan</button>
+  </div>
+  <div class="scroll" style="max-height:none" id="scanBody"></div>
+</section>
+<section class="card" id="lab">
+  <div class="tabs" role="tablist">
+    <h2 style="margin:0 8px 0 0">Strategy lab</h2>
+    <button data-lab="swing" aria-selected="true">Swing (4 years, daily)</button>
+    <button data-lab="day" aria-selected="false">Day trading (60 days, 5-min)</button>
+    <span class="meta" id="labMeta">No results yet</span>
+    <button id="runLab">Run tests</button>
+  </div>
+  <div class="legend" id="eqLegend"></div>
+  <div id="eq"><svg id="eqSvg" role="img" aria-label="Growth of $10,000 for each strategy"></svg><div id="eqTip"></div></div>
+  <div class="scroll" style="max-height:none;margin-top:14px" id="labTable"></div>
+  <div class="detail" id="labDetail"></div>
+  <p class="note" id="labNote"></p>
+</section>
+<script>
+const $ = id => document.getElementById(id);
+// Static mode (GitHub Pages): read the JSON files written by export_static.py instead of the live API.
+const STATIC = !!window.STATIC_MODE;
+function api(path) {
+  if (!STATIC) return path;
+  const [p, q] = path.split("?");
+  if (p === "/api/state") return "data/state_" + new URLSearchParams(q).get("account") + ".json?" + Date.now();
+  return "data/" + p.slice(5) + ".json?" + Date.now();
+}
+if (STATIC) {
+  document.addEventListener("DOMContentLoaded", () => {
+    ["runDaily", "rescan", "runLab"].forEach(id => { const b = $(id); if (b) b.hidden = true; });
+    const h = document.querySelector("header div");
+    const b = document.createElement("span"); b.className = "badge"; b.id = "updated"; h.prepend(b);
+    fetch(api("/api/accounts")).then(r => r.json()).then(r => {
+      const t = new Date(r.generated);
+      b.textContent = "Updated by GitHub Actions " + t.toLocaleString([], {dateStyle: "medium", timeStyle: "short"});
+    }).catch(() => {});
+  });
+}
+const money = n => (n < 0 ? "-$" : "$") + Math.abs(n).toLocaleString(undefined, {minimumFractionDigits:2, maximumFractionDigits:2});
+const cls = n => n > 0 ? "up" : n < 0 ? "down" : "";
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const dark = matchMedia("(prefers-color-scheme: dark)").matches;
+
+function loadChart(symbol) {
+  const box = $("chart");
+  box.innerHTML = '<div class="tradingview-widget-container" style="height:100%"><div class="tradingview-widget-container__widget" style="height:100%"></div></div>';
+  const s = document.createElement("script");
+  s.src = "https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js";
+  s.async = true;
+  s.innerHTML = JSON.stringify({
+    autosize: true, symbol, interval: "5", timezone: "Etc/UTC", theme: dark ? "dark" : "light",
+    style: "1", locale: "en", allow_symbol_change: true,
+    studies: ["STD;EMA", "STD;RSI"]
+  });
+  box.firstChild.appendChild(s);
+}
+$("symForm").onsubmit = e => { e.preventDefault(); loadChart($("sym").value.trim()); };
+loadChart($("sym").value);
+
+function table(rows, cols) {
+  if (!rows.length) return '<div class="empty">None yet</div>';
+  return "<table><tr>" + cols.map(c => `<th>${c[0]}</th>`).join("") + "</tr>" +
+    rows.map(r => "<tr>" + cols.map(c => `<td>${c[1](r)}</td>`).join("") + "</tr>").join("") + "</table>";
+}
+
+let account = (() => { try { return localStorage.getItem("account") || "momentum"; } catch { return "momentum"; } })();
+const KIND_ORDER = {"long-term": 0, "swing": 1, "day": 2};
+
+async function refreshAccounts() {
+  let r;
+  try { r = await (await fetch(api("/api/accounts"))).json(); } catch { return; }
+  const total = r.accounts.reduce((x, a) => x + a.equity, 0), start = r.accounts.length * 10000;
+  const rows = r.accounts.slice().sort((a, b) => KIND_ORDER[a.kind] - KIND_ORDER[b.kind]);
+  $("acctBody").innerHTML = `<table><tr><th>Account</th><th>Type</th><th>Value</th><th>Return</th><th>Today</th><th>Positions</th><th>Size each</th><th>Backtest</th></tr>` +
+    rows.map(a => `<tr class="pick ${a.key === account ? "sel" : ""}" data-acct="${a.key}">
+      <td><b>${esc(a.label)}</b>${a.experimental ? ' <span class="pill" style="color:var(--down);border-color:var(--down)">experimental</span>' : ""}</td><td><span class="pill">${esc(a.kind)}</span></td>
+      <td>${money(a.equity)}</td><td>${fmtPct(a.total_return_pct / 100, 2)}</td><td>${fmtPct(a.day_pnl_pct / 100, 2)}</td>
+      <td>${a.positions}</td><td>${+(a.size * 100).toFixed(1)}%</td>
+      <td style="color:var(--muted)">${a.backtest ? (a.backtest.cagr != null ? (a.backtest.cagr * 100).toFixed(1) + "%/yr" : (a.backtest.total_return * 100).toFixed(1) + "% in 60d") + ` · Sharpe ${a.backtest.sharpe}` : "–"}</td></tr>`).join("") +
+    `<tr><td><b>All accounts</b></td><td></td><td><b>${money(total)}</b></td><td>${fmtPct(total / start - 1, 2)}</td><td></td><td>${r.accounts.reduce((x, a) => x + a.positions, 0)}</td><td></td><td></td></tr></table>`;
+  $("acctBody").querySelectorAll("tr[data-acct]").forEach(tr => tr.onclick = () => {
+    account = tr.dataset.acct;
+    try { localStorage.setItem("account", account); } catch {}
+    refreshAccounts(); refresh();
+  });
+}
+
+async function refresh() {
+  let s;
+  try { s = await (await fetch(api("/api/state?account=" + encodeURIComponent(account)))).json(); } catch { return; }
+  $("broker").textContent = s.broker === "sim" ? "Simulator" : "Alpaca paper";
+  $("halt").hidden = !s.halted;
+  const f = s.feed, live = f.age_sec != null && f.age_sec <= f.stale_after_sec;
+  $("feed").textContent = live ? `TradingView feed · ${f.symbols} symbols · ${f.age_sec}s ago`
+    : f.price_source === "tradingview" ? "TradingView feed: silent (not trading)"
+    : f.price_source === "yahoo" ? "Prices: Yahoo" : "TradingView feed: waiting (using Yahoo)";
+  $("feed").className = "badge" + (live ? " live" : f.price_source === "tradingview" ? " warn" : "");
+  $("secretWarn").hidden = !s.secret_is_default;
+  const a = s.auto;
+  $("acctTitle").textContent = a.label;
+  $("stats").innerHTML = [
+    ["Account", esc(a.label), ""],
+    ["Value", money(s.equity), ""],
+    ["Cash", money(s.cash), ""],
+    ["Total return", s.total_return_pct + "%", cls(s.total_return_pct)],
+    ["Today", s.day_pnl_pct + "%", cls(s.day_pnl_pct)],
+    ["Realized P&L", money(s.realized_pnl), cls(s.realized_pnl)],
+  ].map(([k,v,c]) => `<div class="stat"><span>${k}</span><b class="${c}">${v}</b></div>`).join("");
+
+  const pos = Object.entries(s.positions).map(([t,p]) => ({t, ...p, last: s.last_prices[t] ?? p.avg_price, sgn: p.side === "short" ? -1 : 1}));
+  $("positions").innerHTML = table(pos, [
+    ["Ticker", r => `<a href="#" onclick="$('sym').value='${esc(r.t)}';loadChart('${esc(r.t)}');return false">${esc(r.t)}</a>`],
+    ["Side", r => r.sgn < 0 ? '<span class="pill" style="color:var(--down);border-color:var(--down)">short</span>' : '<span class="pill">long</span>'],
+    ["Qty", r => +r.qty.toFixed(4)], ["Avg", r => r.avg_price.toFixed(2)], ["Last", r => `${r.last.toFixed(2)} <span class="pill ${(s.price_sources || {})[r.t] === "tradingview" ? "on" : ""}">${(s.price_sources || {})[r.t] === "tradingview" ? "TV" : (s.price_sources || {})[r.t] === "yahoo" ? "Y!" : "fill"}</span>`],
+    ["P&L", r => { const p = (r.last - r.avg_price) * r.qty * r.sgn; return `<span class="${cls(p)}">${money(p)}</span>`; }],
+    ["Target", r => r.tp ? r.tp.toFixed(2) : "–"],
+    ["Stop", r => r.sl ? r.sl.toFixed(2) : "–"],
+    ["Since", r => esc(r.entry_date || (r.opened || "").slice(0, 10))],
+  ]);
+  $("autoMeta").textContent = !a.enabled ? "off" :
+    `${a.market_open === false ? "market closed · " : ""}${a.note}${a.last_run ? " · checked " + a.last_run.slice(11, 19) + " UTC" : ""}`;
+  $("autoBody").innerHTML = table(a.decisions || [], [
+    ["Ticker", r => esc(r.ticker)], ["Detail", r => esc(r.info)],
+    ["Decision", r => `<span class="${/^(BOUGHT|SHORTED|topped)/.test(r.decision) ? "up" : /^(CLOSED|skipped)/.test(r.decision) ? "down" : ""}">${esc(r.decision)}</span>`],
+  ]) + `<p class="note"><b>${esc(a.name)}</b> (${esc(a.kind)}, ${+(a.size * 100).toFixed(1)}% of the account per position, no limit on how many). ${esc(a.desc)}
+    ${a.kind === "day" ? "Scans at 9:31 am ET; checks stops every minute; flat by 3:55 pm ET."
+      : `Decides once a day at ${esc(a.daily_run_at)} ET using that day's prices and fills at the live price; stops are checked every minute.`} Simulator only.</p>`;
+  $("trades").innerHTML = table(s.trades.slice().reverse(), [
+    ["Time", r => esc(r.time.slice(5,16).replace("T"," "))], ["Ticker", r => esc(r.ticker)],
+    ["Side", r => `<span class="${r.side === "buy" || r.side === "cover" ? "up" : "down"}">${r.side}</span>`],
+    ["Qty", r => +(+r.qty).toFixed(4)], ["Price", r => r.price.toFixed(2)],
+    ["P&L", r => r.pnl == null ? "" : `<span class="${cls(r.pnl)}">${money(r.pnl)}</span>`],
+    ["Why", r => `<span class="name" style="display:inline-block;max-width:220px" title="${esc(r.reason)}">${esc(r.reason)}</span>`],
+  ]);
+  $("events").innerHTML = table(s.events.slice().reverse().slice(0,100), [
+    ["Time", r => esc(r.time.slice(11,19))], ["Order", r => esc(`${r.action} ${r.ticker} @ ${(+r.price).toFixed(2)}`)], ["Result", r => esc(r.result)],
+  ]);
+}
+refreshAccounts(); setInterval(refreshAccounts, 5000);
+$("runDaily").onclick = async () => {
+  const b = $("runDaily"); b.disabled = true; b.textContent = "Running…";
+  const r = await fetch("/api/run-daily", {method: "POST"}).then(x => x.json()).catch(() => ({}));
+  b.textContent = r.started ? "Started, results in ~10s" : (r.reason || "Failed");
+  setTimeout(() => { b.disabled = false; b.textContent = "Run strategies now"; refreshAccounts(); refresh(); }, 10000);
+};
+refresh(); setInterval(refresh, 3000);
+
+// ------------------------------------------------------------- market scanner
+let scan = null, tab = "ranking", sortKey = "rank", sortDir = 1;
+const pct = v => v == null ? "–" : `<span class="${cls(v)}">${(v * 100).toFixed(1)}%</span>`;
+const chartLink = (sym, label) => `<a href="#" data-chart="${esc(sym)}">${esc(label)}</a>`;
+document.addEventListener("click", e => {
+  const a = e.target.closest("[data-chart]");
+  if (!a) return;
+  e.preventDefault();
+  $("sym").value = a.dataset.chart; loadChart(a.dataset.chart);
+  $("chart").scrollIntoView({behavior: "smooth", block: "center"});
+});
+document.querySelectorAll("[data-tab]").forEach(b => b.onclick = () => {
+  tab = b.dataset.tab;
+  document.querySelectorAll("[data-tab]").forEach(x => x.setAttribute("aria-selected", x === b));
+  renderScan();
+});
+$("rescan").onclick = async () => { $("rescan").disabled = true; await fetch("/api/scan", {method: "POST"}); setTimeout(loadScan, 2500); };
+
+const RANK_COLS = [
+  ["rank", "#", r => r.rank], ["ticker", "Ticker", r => chartLink(r.tv_symbol, r.ticker)],
+  ["name", "Company", r => `<div class="name">${esc(r.name)}</div>`],
+  ["score", "Score", r => `<b class="${cls(r.score)}">${r.score.toFixed(2)}</b>`],
+  ["ret_1m", "1M", r => pct(r.ret_1m)], ["ret_3m", "3M", r => pct(r.ret_3m)],
+  ["ret_6m", "6M", r => pct(r.ret_6m)], ["ret_1y", "1Y", r => pct(r.ret_1y)],
+  ["volatility", "Vol", r => (r.volatility * 100).toFixed(0) + "%"], ["sharpe", "Sharpe", r => r.sharpe.toFixed(2)],
+  ["max_drawdown", "Max DD", r => pct(r.max_drawdown)], ["from_high", "From high", r => pct(r.from_high)],
+  ["rsi", "RSI", r => `<span class="${r.rsi > 70 ? "down" : r.rsi < 30 ? "up" : ""}">${r.rsi.toFixed(0)}</span>`],
+  ["above_sma200", "Trend", r => `<span class="pill ${r.above_sma50 ? "on" : ""}">50d</span> <span class="pill ${r.above_sma200 ? "on" : ""}">200d</span>`],
+];
+
+function renderScan() {
+  const body = $("scanBody");
+  if (!scan) { body.innerHTML = '<div class="empty">Waiting for the first scan…</div>'; return; }
+  if (tab === "ranking") {
+    const rows = scan.ranking.slice().sort((a, b) => {
+      const x = a[sortKey], y = b[sortKey];
+      return (typeof x === "string" ? x.localeCompare(y) : (x ?? -1e9) - (y ?? -1e9)) * sortDir;
+    });
+    body.innerHTML = "<table><tr>" + RANK_COLS.map(([k, l]) =>
+      `<th class="sort" data-k="${k}">${l}${k === sortKey ? (sortDir > 0 ? " ▲" : " ▼") : ""}</th>`).join("") + "</tr>" +
+      rows.map(r => "<tr>" + RANK_COLS.map(c => `<td>${c[2](r)}</td>`).join("") + "</tr>").join("") + "</table>" +
+      '<p class="note">Score = 35% 6M momentum + 25% 3M momentum + 25% Sharpe + 15% drawdown, each as a z-score against the rest of the list. Click a header to sort, a ticker to chart it.</p>';
+    body.querySelectorAll("th.sort").forEach(th => th.onclick = () => {
+      const k = th.dataset.k;
+      if (k === sortKey) sortDir = -sortDir; else { sortKey = k; sortDir = ["rank", "name", "ticker", "volatility"].includes(k) ? 1 : -1; }
+      renderScan();
+    });
+  } else if (tab === "pairs") {
+    const div = scan.pairs.filter(p => p.diverged);
+    const rest = scan.pairs.filter(p => !p.diverged).slice(0, 15);
+    const cols = [
+      ["Pair", p => chartLink(`${p.tv_a}/${p.tv_b}`, `${p.a} / ${p.b}`)],
+      ["Spread z", p => `<b class="${Math.abs(p.z) >= 2 ? "down" : ""}">${p.z > 0 ? "+" : ""}${p.z.toFixed(2)}</b>`],
+      ["5d ago", p => p.z_5d_ago.toFixed(2)], ["Corr", p => p.corr.toFixed(2)],
+      ["Hedge β", p => p.hedge_ratio.toFixed(2)], ["3M gap", p => pct(p.perf_gap_3m)],
+      ["Mean-reverting", p => `<span class="pill ${p.cointegrated ? "on" : ""}">${p.cointegrated ? "yes" : "no"} (t ${p.adf_t})</span>`],
+      ["Half-life", p => p.half_life_days ? p.half_life_days + "d" : "–"],
+      ["Idea", p => esc(p.idea)],
+    ];
+    body.innerHTML = "<h2>Stretched now (|z| ≥ 2)</h2>" + table(div, cols) +
+      "<h2 style='margin-top:16px'>Most correlated, not stretched</h2>" + table(rest, cols) +
+      '<p class="note">For each pair of companies that move together (correlation ≥ 0.6), log(A) is regressed on log(B). The leftover "spread" is how far A has drifted from where B says it should be, and z is that drift in standard deviations. "Mean-reverting" means the spread passed an Engle-Granger test, so the gap has tended to close; when it says no, the gap can keep widening. Click a pair to chart A÷B on TradingView.</p>';
+  } else {
+    const groups = scan.clusters.filter(g => g.members.length > 1);
+    const loners = scan.clusters.filter(g => g.members.length === 1).map(g => g.members[0]);
+    const byT = Object.fromEntries(scan.ranking.map(r => [r.ticker, r]));
+    body.innerHTML = '<div class="clusters">' + groups.map(g => `<div class="cluster"><small>avg correlation ${g.avg_corr}</small>
+      <div class="chips">${g.members.map(t => chartLink(byT[t].tv_symbol, t)).join("")}</div></div>`).join("") + "</div>" +
+      (loners.length ? `<p class="note">Moves on its own: ${loners.map(t => chartLink(byT[t].tv_symbol, t)).join(", ")}</p>` : "") +
+      '<p class="note">Companies are grouped by how closely their daily returns move together (average-linkage clustering, merging until the average correlation drops below 0.5). Use it to avoid holding several names that are really one bet.</p>';
+  }
+}
+
+async function loadScan() {
+  try {
+    const r = await (await fetch(api("/api/scan"))).json();
+    $("rescan").disabled = r.status.running;
+    if (r.scan) scan = r.scan;
+    $("scanMeta").textContent = r.status.running ? "Scanning…" : r.status.error ? "Scan failed: " + r.status.error :
+      scan ? `${scan.universe.length} companies · data to ${scan.as_of} · run ${scan.generated.slice(11, 16)} UTC` : "No scan yet";
+    renderScan();
+  } catch {}
+}
+loadScan(); setInterval(loadScan, 30000);
+
+// ------------------------------------------------------------- strategy lab
+let lab = null, labTab = "swing", labSel = {swing: null, day: null}, labSort = {k: "sharpe", d: -1};
+const fmtPct = (v, d = 1) => v == null ? "–" : `<span class="${cls(v)}">${v > 0 ? "+" : ""}${(v * 100).toFixed(d)}%</span>`;
+const ink = n => `<span class="${cls(n)}">${n > 0 ? "+" : ""}${n}</span>`;
+
+const LAB_COLS = {
+  swing: [
+    ["name", "Strategy", s => esc(s.name) + (s.best ? '<span class="best">beat S&amp;P both halves</span>' : "")],
+    ["final", "$10k →", s => money(s.metrics.final).replace(".00", "")],
+    ["cagr", "Per year", s => fmtPct(s.metrics.cagr)],
+    ["max_drawdown", "Worst drop", s => fmtPct(s.metrics.max_drawdown)],
+    ["sharpe", "Sharpe", s => s.metrics.sharpe.toFixed(2)],
+    ["first_half_cagr", "1st half/yr", s => fmtPct(s.metrics.first_half_cagr)],
+    ["second_half_cagr", "2nd half/yr", s => fmtPct(s.metrics.second_half_cagr)],
+    ["trades", "Trades", s => s.metrics.trades],
+    ["win_rate", "Win %", s => s.metrics.win_rate == null ? "–" : (s.metrics.win_rate * 100).toFixed(0) + "%"],
+    ["exposure", "In market", s => (s.metrics.exposure * 100).toFixed(0) + "%"],
+  ],
+  day: [
+    ["name", "Strategy", s => esc(s.name)],
+    ["total_return", "After costs", s => fmtPct(s.metrics.total_return)],
+    ["gross_return", "Before costs", s => fmtPct(s.metrics.gross_return)],
+    ["max_drawdown", "Worst drop", s => fmtPct(s.metrics.max_drawdown)],
+    ["sharpe", "Sharpe", s => s.metrics.sharpe.toFixed(2)],
+    ["first_half", "1st half", s => fmtPct(s.metrics.first_half)],
+    ["second_half", "2nd half", s => fmtPct(s.metrics.second_half)],
+    ["trades_per_day", "Trades/day", s => s.metrics.trades_per_day],
+    ["win_rate", "Win %", s => s.metrics.win_rate == null ? "–" : (s.metrics.win_rate * 100).toFixed(0) + "%"],
+    ["avg_trade_bps", "Avg trade", s => s.metrics.avg_trade_bps == null ? "–" : ink(s.metrics.avg_trade_bps) + " bp"],
+  ],
+};
+
+function labData() {
+  const r = lab && lab[labTab];
+  if (!r) return null;
+  r.strategies.forEach(s => { s.best = !!s.metrics.beats_spy_both_halves && !s.benchmark; });
+  return r;
+}
+
+function renderLab() {
+  document.querySelectorAll("[data-lab]").forEach(b => b.setAttribute("aria-selected", b.dataset.lab === labTab));
+  const r = labData();
+  if (!r) { $("labTable").innerHTML = '<div class="empty">No results yet. Press "Run tests".</div>'; $("eqSvg").innerHTML = ""; return; }
+  const strats = r.strategies;
+  const nonBench = strats.filter(s => !s.benchmark);
+  if (!labSel[labTab] || !strats.find(s => s.name === labSel[labTab]))
+    labSel[labTab] = nonBench.slice().sort((a, b) => b.metrics.sharpe - a.metrics.sharpe)[0].name;
+  const sel = strats.find(s => s.name === labSel[labTab]);
+  $("labMeta").textContent = `${r.start} → ${r.end} · ${r.tickers.length} stocks · $${r.capital.toLocaleString()} start · ${r.cost_bps} bp/side costs`;
+
+  // table
+  const cols = LAB_COLS[labTab];
+  const get = (s, k) => k === "name" ? s.name : s.metrics[k];
+  const rows = strats.slice().sort((a, b) => {
+    const x = get(a, labSort.k), y = get(b, labSort.k);
+    return (typeof x === "string" ? x.localeCompare(y) : (x ?? -1e9) - (y ?? -1e9)) * labSort.d;
+  });
+  $("labTable").innerHTML = "<table><tr>" + cols.map(([k, l]) =>
+      `<th class="sort" data-k="${k}">${l}${k === labSort.k ? (labSort.d > 0 ? " ▲" : " ▼") : ""}</th>`).join("") + "</tr>" +
+    rows.map(s => `<tr class="pick ${s === sel ? "sel" : ""}" data-name="${esc(s.name)}">` +
+      cols.map(c => `<td>${c[2](s)}</td>`).join("") + "</tr>").join("") + "</table>";
+  $("labTable").querySelectorAll("th.sort").forEach(th => th.onclick = () => {
+    const k = th.dataset.k;
+    labSort = k === labSort.k ? {k, d: -labSort.d} : {k, d: k === "name" ? 1 : -1};
+    renderLab();
+  });
+  $("labTable").querySelectorAll("tr.pick").forEach(tr => tr.onclick = () => { labSel[labTab] = tr.dataset.name; renderLab(); });
+
+  // detail
+  const m = sel.metrics, ex = sel.exits || m.exits || {};
+  $("labDetail").innerHTML = `<p><b>${esc(sel.name)}</b>: ${esc(sel.desc)}</p>` +
+    (Object.keys(ex).length ? `<p style="color:var(--muted)">How trades ended: ${Object.entries(ex).map(([k, v]) => `${esc(k)} ${v}`).join(" · ")}</p>` : "");
+
+  // chart: selected + benchmarks highlighted, everything else as faint context
+  const benches = strats.filter(s => s.benchmark);
+  const hi = [{s: sel, color: "var(--s1)"}, ...benches.filter(b => b !== sel).map((b, i) => ({s: b, color: i ? "var(--s3)" : "var(--s2)"}))];
+  const ctxLines = strats.filter(s => !hi.some(h => h.s === s));
+  $("eqLegend").innerHTML = hi.map(h => `<span><i style="background:${h.color}"></i>${esc(h.s.name)}</span>`).join("") +
+    `<span><i style="background:var(--muted);opacity:.4"></i>Other strategies (click a row to highlight)</span>`;
+  drawChart(r.dates, hi, ctxLines);
+
+  $("labNote").innerHTML = labTab === "swing"
+    ? `Decisions at each close, fills at the next open, stops and targets checked against each day's high and low. Positions are 10% of equity each (max 10). The halves split the test at ${r.half_split}: a strategy that only works in one half probably got lucky. <b>Caveat:</b> the stock list is today's large companies, so every strategy looks better than it would have in real time (survivorship bias). Compare strategies with each other, not with real-world expectations.`
+    : `Long only, always out by the close. At most ${r.max_open} trades open at once, each 1/${r.max_open} of the account, filled at the next 5-minute bar's open (or at the stop price). ${r.cost_bps} bp per side covers commissions and slippage on very liquid stocks. 60 days is a short sample: treat this as a first filter, not proof. In the US, accounts under $25,000 can be limited in how many day trades they make (pattern-day-trader rules), so check with your broker.`;
+}
+
+function drawChart(dates, hi, ctxLines) {
+  const svg = $("eqSvg"), W = svg.clientWidth || 800, H = 320, L = 58, R = W < 600 ? 12 : 150, T = 10, B = 26;
+  const all = [...hi.map(h => h.s), ...ctxLines].flatMap(s => s.curve);
+  let lo = Math.min(...all), top = Math.max(...all);
+  const pad = (top - lo) * 0.05; lo -= pad; top += pad;
+  const n = dates.length, x = i => L + (W - L - R) * i / (n - 1), y = v => T + (H - T - B) * (1 - (v - lo) / (top - lo));
+  const step = Math.pow(10, Math.floor(Math.log10((top - lo) / 4))), nice = [1, 2, 2.5, 5, 10].map(m => m * step).find(s => (top - lo) / s <= 6);
+  let g = "";
+  for (let v = Math.ceil(lo / nice) * nice; v <= top; v += nice)
+    g += `<line x1="${L}" x2="${W - R}" y1="${y(v)}" y2="${y(v)}" stroke="var(--gridc)"/>` +
+         `<text x="${L - 8}" y="${y(v) + 4}" text-anchor="end" font-size="11" fill="var(--muted)">$${Math.round(v).toLocaleString()}</text>`;
+  g += `<line x1="${L}" x2="${W - R}" y1="${y(10000)}" y2="${y(10000)}" stroke="var(--muted)" stroke-dasharray="3 3" opacity=".6"/>`;
+  // x labels: first trading day of each year (swing) or month (day)
+  const key = d => labTab === "swing" ? d.slice(0, 4) : d.slice(0, 7);
+  let last = null, lastX = -1e9;
+  dates.forEach((d, i) => {
+    if (key(d) !== last) {
+      last = key(d);
+      if (i === 0) return;  // partial first year/month: label from the first full one
+      if (x(i) - lastX > 50 && x(i) < W - R - 20) {
+        const lbl = labTab === "swing" ? d.slice(0, 4) : new Date(d + "T12:00Z").toLocaleString(undefined, {month: "short"});
+        g += `<text x="${x(i)}" y="${H - 6}" text-anchor="middle" font-size="11" fill="var(--muted)">${lbl}</text>`;
+        lastX = x(i);
+      }
+    }
+  });
+  const path = c => c.map((v, i) => `${i ? "L" : "M"}${x(i).toFixed(1)},${y(v).toFixed(1)}`).join("");
+  ctxLines.forEach(s => g += `<path d="${path(s.curve)}" fill="none" stroke="var(--muted)" stroke-width="1" opacity=".22"/>`);
+  hi.slice().reverse().forEach(h => g += `<path d="${path(h.s.curve)}" fill="none" stroke="${h.color}" stroke-width="2" stroke-linejoin="round"/>`);
+  // direct end labels (wide screens), nudged apart so they never overlap
+  if (R > 100) {
+    const lab = hi.map(h => ({h, yy: y(h.s.curve[n - 1])})).sort((a, b) => a.yy - b.yy);
+    for (let i = 1; i < lab.length; i++) lab[i].yy = Math.max(lab[i].yy, lab[i - 1].yy + 28);
+    lab.forEach(({h, yy}) => {
+      const nm = h.s.name.length > 22 ? h.s.name.slice(0, 21) + "…" : h.s.name;
+      g += `<circle cx="${x(n - 1)}" cy="${y(h.s.curve[n - 1])}" r="4" fill="${h.color}" stroke="var(--card)" stroke-width="2"/>` +
+           `<text x="${x(n - 1) + 10}" y="${yy}" font-size="11" fill="var(--text)">${esc(nm)}</text>` +
+           `<text x="${x(n - 1) + 10}" y="${yy + 13}" font-size="11" fill="var(--muted)">$${Math.round(h.s.curve[n - 1]).toLocaleString()}</text>`;
+    });
+  }
+  g += `<line id="eqX" y1="${T}" y2="${H - B}" stroke="var(--muted)" opacity="0" />` +
+       hi.map((h, k) => `<circle class="eqDot" data-k="${k}" r="4" fill="${h.color}" stroke="var(--card)" stroke-width="2" opacity="0"/>`).join("") +
+       `<rect x="${L}" y="${T}" width="${W - L - R}" height="${H - T - B}" fill="transparent" id="eqHit"/>`;
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+  svg.innerHTML = g;
+  const tip = $("eqTip"), hit = $("eqHit"), xl = $("eqX");
+  hit.onmousemove = e => {
+    const rect = svg.getBoundingClientRect(), px = (e.clientX - rect.left) * W / rect.width;
+    const i = Math.max(0, Math.min(n - 1, Math.round((px - L) / (W - L - R) * (n - 1))));
+    xl.setAttribute("x1", x(i)); xl.setAttribute("x2", x(i)); xl.setAttribute("opacity", ".5");
+    svg.querySelectorAll(".eqDot").forEach(c => { const s = hi[c.dataset.k].s; c.setAttribute("cx", x(i)); c.setAttribute("cy", y(s.curve[i])); c.setAttribute("opacity", 1); });
+    tip.innerHTML = `<div style="color:var(--muted);margin-bottom:4px">${dates[i]}</div>` +
+      hi.map(h => `<div><span><i class="swatch" style="display:inline-block;width:8px;height:8px;border-radius:2px;margin-right:6px;background:${h.color}"></i>${esc(h.s.name.slice(0, 34))}</span><b>$${Math.round(h.s.curve[i]).toLocaleString()}</b></div>`).join("");
+    tip.style.display = "block";
+    const tx = x(i) * rect.width / W;
+    tip.style.left = Math.min(tx + 14, rect.width - tip.offsetWidth - 4) + "px";
+    tip.style.top = "8px";
+  };
+  hit.onmouseleave = () => { tip.style.display = "none"; xl.setAttribute("opacity", 0); svg.querySelectorAll(".eqDot").forEach(c => c.setAttribute("opacity", 0)); };
+}
+
+document.querySelectorAll("[data-lab]").forEach(b => b.onclick = () => { labTab = b.dataset.lab; renderLab(); });
+$("runLab").onclick = async () => { $("runLab").disabled = true; $("runLab").textContent = "Running…"; await fetch("/api/lab", {method: "POST"}); pollLab(); };
+async function pollLab() {
+  try {
+    const r = await (await fetch(api("/api/lab"))).json();
+    lab = r; renderLab();
+    if (r.status.running) return setTimeout(pollLab, 2000);
+    $("runLab").disabled = false; $("runLab").textContent = "Run tests";
+    if (r.status.error) $("labMeta").textContent = "Test failed: " + r.status.error;
+  } catch {}
+}
+pollLab();
+addEventListener("resize", () => lab && renderLab());
+</script>
+</body>
+</html>

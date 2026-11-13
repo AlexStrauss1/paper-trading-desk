@@ -1,0 +1,29 @@
+//@version=6
+// TradingView -> server price feed.
+// One alert pushes the latest price of every symbol below to server.py on each bar close.
+// Put it on a 1-minute chart (any symbol), then: Alerts -> Create alert -> Condition: this
+// indicator, "Any alert() function call" -> Webhook URL: https://<your-host>/webhook
+// The alert message box is ignored; the JSON comes from the script.
+indicator("Price feed -> webhook", overlay = true)
+
+secret  = input.string("change-me", "Webhook secret (same as WEBHOOK_SECRET)")
+symList = input.text_area("NASDAQ:AAPL,NASDAQ:AMD,NASDAQ:AMZN,NASDAQ:AVGO,NYSE:BAC,NYSE:CAT,NYSE:CL,NYSE:COP,NASDAQ:COST,NYSE:CVS,NYSE:CVX,NYSE:DE,NYSE:FDX,NASDAQ:GOOGL,NYSE:GS,NYSE:HD,NASDAQ:INTC,NYSE:JNJ,NYSE:JPM,NYSE:KO,NYSE:LOW,NYSE:MA,NYSE:MCD,NASDAQ:META,NYSE:MRK,NYSE:MS,NASDAQ:MSFT,NASDAQ:NVDA,NASDAQ:PEP,NYSE:PFE,NYSE:PG,NASDAQ:QCOM,NYSE:TGT,NYSE:UNH,NYSE:UPS,NYSE:V,NYSE:WFC,NASDAQ:WMT,NYSE:XOM,NYSE:YUM",
+     "Symbols, comma-separated (Pine allows 40 data requests per script)")
+
+syms = str.split(str.replace_all(symList, " ", ""), ",")
+
+// Pine v6 allows request.security() with a series symbol inside a loop ("dynamic requests").
+string body = ""
+int n = 0
+for s in syms
+    if str.length(s) > 0
+        float px = request.security(s, timeframe.period, close, ignore_invalid_symbol = true)
+        if not na(px)
+            body += (n > 0 ? "," : "") + '"' + s + '":' + str.tostring(px, "#.####")
+            n += 1
+
+if barstate.isrealtime and n > 0
+    alert('{"secret":"' + secret + '","type":"prices","bar_seconds":' + str.tostring(timeframe.in_seconds()) +
+          ',"prices":{' + body + '}}', alert.freq_once_per_bar_close)
+
+plot(n, "Symbols reporting", display = display.data_window)

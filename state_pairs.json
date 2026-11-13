@@ -1,0 +1,57 @@
+{
+ "cash": 8000.010547,
+ "positions": {
+  "NVDA": {
+   "qty": 12.3099,
+   "avg_price": 162.47,
+   "opened": "2026-11-13T19:41:46+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "NVDA lags AMD",
+   "entry_date": "2026-11-13",
+   "max_hold": 20,
+   "meta": [
+    "AMD",
+    "NVDA"
+   ],
+   "trail": null,
+   "tp": null,
+   "sl": 149.47
+  }
+ },
+ "last_prices": {
+  "NVDA": 162.04
+ },
+ "trades": [
+  {
+   "time": "2026-11-13T19:41:46+00:00",
+   "ticker": "NVDA",
+   "side": "buy",
+   "qty": 12.3099,
+   "price": 162.47,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "NVDA lags AMD"
+  }
+ ],
+ "events": [
+  {
+   "time": "2026-11-13T19:41:46+00:00",
+   "ticker": "NVDA",
+   "action": "buy",
+   "price": 162.47,
+   "source": "auto",
+   "result": "filled buy 12.3099 @ 162.47 (NVDA lags AMD)"
+  }
+ ],
+ "day": {
+  "date": "2026-11-13",
+  "start_equity": 10000.0,
+  "trades": 1
+ },
+ "halted": false,
+ "last_daily_run": "2026-11-13",
+ "price_sources": {
+  "NVDA": "yahoo"
+ }
+}

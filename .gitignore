@@ -1,0 +1,6 @@
+# downloaded price caches (re-fetched automatically)
+backtest_data.json.gz
+daytrade_data.json.gz
+__pycache__/
+*.tmp
+.claude/
