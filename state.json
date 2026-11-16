@@ -76,7 +76,7 @@
   }
  },
  "last_prices": {
-  "TGT": 161.11,
+  "TGT": 161.13,
   "MRK": 147.23,
   "V": 425.81,
   "MA": 659.7,
@@ -84,15 +84,15 @@
   "COP": 142.215,
   "NVDA": 150.0,
   "ABBV": 295.46,
-  "MU": 733.739,
-  "INTC": 55.76,
-  "AMD": 509.98,
-  "AMAT": 356.485,
-  "CRWD": 221.385,
-  "LRCX": 214.21,
-  "PANW": 315.729,
-  "TXN": 293.87,
-  "FCX": 56.48
+  "MU": 737.265,
+  "INTC": 55.882,
+  "AMD": 511.315,
+  "AMAT": 357.575,
+  "CRWD": 222.105,
+  "LRCX": 215.08,
+  "PANW": 316.81,
+  "TXN": 294.66,
+  "FCX": 56.589
  },
  "trades": [
   {
@@ -916,7 +916,7 @@
  "status": {
   "note": "next decision after 15:30 ET on trading days",
   "decisions": [],
-  "last_run": "2026-11-16T16:00:39+00:00",
+  "last_run": "2026-11-16T16:02:14+00:00",
   "market_open": true,
   "last_daily": null
  }

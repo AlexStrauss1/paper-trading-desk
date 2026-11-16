@@ -16,7 +16,7 @@
   }
  },
  "last_prices": {
-  "PFE": 29.05
+  "PFE": 29.025
  },
  "trades": [
   {
@@ -53,7 +53,7 @@
  "status": {
   "note": "next decision after 15:30 ET on trading days",
   "decisions": [],
-  "last_run": "2026-11-16T16:00:39+00:00",
+  "last_run": "2026-11-16T16:02:14+00:00",
   "market_open": true,
   "last_daily": null
  }
