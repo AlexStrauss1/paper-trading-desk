@@ -55,10 +55,10 @@
   }
  },
  "last_prices": {
-  "TMO": 694.175,
-  "MMM": 183.68,
-  "SBUX": 109.58,
-  "LOW": 226.745
+  "TMO": 696.845,
+  "MMM": 183.32,
+  "SBUX": 108.54,
+  "LOW": 226.325
  },
  "trades": [
   {
@@ -152,7 +152,7 @@
  "status": {
   "note": "next decision after 15:30 ET on trading days",
   "decisions": [],
-  "last_run": "2026-11-16T16:02:14+00:00",
+  "last_run": "2026-11-16T17:09:35+00:00",
   "market_open": true,
   "last_daily": null
  }
