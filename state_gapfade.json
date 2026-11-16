@@ -11,10 +11,10 @@
  },
  "halted": false,
  "status": {
-  "note": "market closed",
+  "note": "waiting for 9:31 am ET to scan for gap-ups",
   "decisions": [],
-  "last_run": "2026-11-13T23:10:50+00:00",
-  "market_open": false,
+  "last_run": "2026-11-16T16:00:39+00:00",
+  "market_open": true,
   "last_daily": null
  }
 }

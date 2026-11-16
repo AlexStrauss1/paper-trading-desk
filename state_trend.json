@@ -133,16 +133,16 @@
   }
  },
  "last_prices": {
-  "TMO": 700.22,
-  "ACN": 250.49,
-  "LLY": 1443.5,
-  "AMGN": 465.67,
-  "ABBV": 295.03,
-  "ABNB": 186.78,
-  "MDT": 102.86,
-  "TGT": 161.45,
-  "PYPL": 59.28,
-  "MRK": 147.76,
+  "TMO": 693.985,
+  "ACN": 251.265,
+  "LLY": 1456.465,
+  "AMGN": 470.77,
+  "ABBV": 298.24,
+  "ABNB": 188.595,
+  "MDT": 103.58,
+  "TGT": 161.11,
+  "PYPL": 59.39,
+  "MRK": 147.85,
   "MA": 659.37,
   "GILD": 168.235,
   "V": 425.7,
@@ -654,10 +654,10 @@
   "MRK": "yahoo"
  },
  "status": {
-  "note": "starting",
+  "note": "next decision after 15:30 ET on trading days",
   "decisions": [],
-  "last_run": "2026-11-13T23:10:50+00:00",
-  "market_open": false,
+  "last_run": "2026-11-16T16:00:39+00:00",
+  "market_open": true,
   "last_daily": null
  }
 }

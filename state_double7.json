@@ -16,7 +16,7 @@
   }
  },
  "last_prices": {
-  "PFE": 28.89
+  "PFE": 29.05
  },
  "trades": [
   {
@@ -51,10 +51,10 @@
   "PFE": "yahoo"
  },
  "status": {
-  "note": "starting",
+  "note": "next decision after 15:30 ET on trading days",
   "decisions": [],
-  "last_run": "2026-11-13T23:10:50+00:00",
-  "market_open": false,
+  "last_run": "2026-11-16T16:00:39+00:00",
+  "market_open": true,
   "last_daily": null
  }
 }
