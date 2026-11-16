@@ -143,16 +143,16 @@
   }
  },
  "last_prices": {
-  "KO": 99.42,
-  "JNJ": 284.25,
-  "CAH": 283.305,
-  "ABBV": 296.543,
-  "LLY": 1445.63,
-  "MCK": 1107.8,
-  "MO": 78.725,
-  "HUM": 458.295,
-  "BRK-B": 593.679,
-  "ADP": 314.39,
+  "KO": 99.325,
+  "JNJ": 284.795,
+  "CAH": 283.235,
+  "ABBV": 296.255,
+  "LLY": 1443.58,
+  "MCK": 1105.135,
+  "MO": 78.73,
+  "HUM": 459.775,
+  "BRK-B": 593.435,
+  "ADP": 316.07,
   "AAPL": 357.79,
   "CB": 374.57,
   "SWKS": 90.045,
@@ -468,7 +468,7 @@
  "status": {
   "note": "next decision after 15:30 ET on trading days",
   "decisions": [],
-  "last_run": "2026-11-16T17:09:35+00:00",
+  "last_run": "2026-11-16T18:13:01+00:00",
   "market_open": true,
   "last_daily": null
  }
