@@ -85,14 +85,14 @@
   "NVDA": 150.0,
   "ABBV": 295.46,
   "MU": 719.02,
-  "INTC": 55.442,
+  "INTC": 55.47,
   "AMD": 504.28,
   "AMAT": 350.25,
   "CRWD": 223.21,
   "LRCX": 210.83,
   "PANW": 316.09,
   "TXN": 294.21,
-  "FCX": 55.21
+  "FCX": 55.19
  },
  "trades": [
   {
@@ -916,7 +916,7 @@
  "status": {
   "note": "no signals today \u00b7 next rebalance in 20 trading days",
   "decisions": [],
-  "last_run": "2026-11-16T21:03:00+00:00",
+  "last_run": "2026-11-16T21:46:48+00:00",
   "market_open": false,
   "last_daily": "2026-11-16T21:03:20+00:00"
  }

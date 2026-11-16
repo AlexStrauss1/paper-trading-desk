@@ -133,9 +133,9 @@
   "TGT": 160.32,
   "AMGN": 462.32,
   "MSI": 534.16,
-  "VEEV": 299.437,
+  "VEEV": 299.28,
   "MAR": 425.7,
-  "TMO": 691.77,
+  "TMO": 691.33,
   "HLT": 373.83,
   "CSX": 52.03,
   "OKTA": 178.22
@@ -359,7 +359,9 @@
   "VEEV": "yahoo",
   "MAR": "yahoo",
   "TMO": "yahoo",
-  "HLT": "yahoo"
+  "HLT": "yahoo",
+  "CSX": "yahoo",
+  "OKTA": "yahoo"
  },
  "status": {
   "note": "3 action(s) at today's run",
@@ -380,7 +382,7 @@
     "decision": "BOUGHT: leader dip"
    }
   ],
-  "last_run": "2026-11-16T21:03:00+00:00",
+  "last_run": "2026-11-16T21:46:48+00:00",
   "market_open": false,
   "last_daily": "2026-11-16T21:03:20+00:00"
  }

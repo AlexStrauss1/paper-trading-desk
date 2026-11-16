@@ -128,14 +128,14 @@
   }
  },
  "last_prices": {
-  "PFE": 28.876,
+  "PFE": 28.86,
   "MRNA": 215.27,
-  "MRK": 144.52,
-  "TMO": 691.77,
-  "VEEV": 299.437,
+  "MRK": 144.46,
+  "TMO": 691.33,
+  "VEEV": 299.28,
   "ILMN": 198.0,
-  "DE": 654.0,
-  "ACN": 247.85,
+  "DE": 653.99,
+  "ACN": 247.7,
   "VRTX": 537.79,
   "DHR": 230.11,
   "RCL": 317.87,
@@ -411,7 +411,15 @@
  "halted": false,
  "last_daily_run": "2026-11-16",
  "price_sources": {
-  "PFE": "yahoo"
+  "PFE": "yahoo",
+  "MRNA": "yahoo",
+  "MRK": "yahoo",
+  "TMO": "yahoo",
+  "VEEV": "yahoo",
+  "ILMN": "yahoo",
+  "DE": "yahoo",
+  "ACN": "yahoo",
+  "VRTX": "yahoo"
  },
  "status": {
   "note": "9 action(s) at today's run",
@@ -462,7 +470,7 @@
     "decision": "more signals, out of cash: DHR, RCL, GM, MMM, MSFT, CCL, AMZN, CVNA\u2026"
    }
   ],
-  "last_run": "2026-11-16T21:03:00+00:00",
+  "last_run": "2026-11-16T21:46:48+00:00",
   "market_open": false,
   "last_daily": "2026-11-16T21:03:20+00:00"
  }
