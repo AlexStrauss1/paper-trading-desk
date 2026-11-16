@@ -18,7 +18,7 @@ import os
 # wider windows for schedulers that may start a few to 30 minutes late (set before importing server)
 os.environ.setdefault("DAILY_RUN_AT", "15:30")
 os.environ.setdefault("DAILY_RUN_UNTIL", "23:59")
-os.environ.setdefault("GAP_SCAN_UNTIL", "10:15")
+os.environ.setdefault("GAP_SCAN_UNTIL", "10:30")
 os.environ.setdefault("DAY_FLATTEN_AT", "15:30")
 
 import json  # noqa: E402

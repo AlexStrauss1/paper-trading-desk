@@ -5,11 +5,13 @@ name: Paper trading desk
 
 on:
   schedule:
-    # 13:00-21:45 UTC covers 9:30 am-4:00 pm New York in both summer (EDT) and winter (EST) time.
-    # GitHub may start scheduled runs late; run_once.py's time windows allow for that.
-    - cron: "*/15 13-21 * * 1-5"
+    # Times are UTC; 13:00-21:59 UTC covers 9:30 am-4:00 pm New York in both summer and winter time.
+    # Off-peak minutes on purpose: GitHub delays/skips jobs scheduled at :00/:15/:30/:45 the most.
+    - cron: "7,22,37,52 13-21 * * 1-5"
+    # extra runs around the open so the gap-fade gets several chances in its 9:31-10:30 am window
+    - cron: "3,11,18,26,33,41,48,56 13-15 * * 1-5"
     # one late run after the close, in case the 3:30-4:00 pm runs were delayed or skipped
-    - cron: "30 22 * * 1-5"
+    - cron: "37 22 * * 1-5"
   workflow_dispatch: {}   # "Run workflow" button in the Actions tab
 
 permissions:
