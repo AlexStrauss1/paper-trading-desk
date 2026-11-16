@@ -73,11 +73,11 @@
   }
  },
  "last_prices": {
-  "MRNA": 215.71,
-  "TRV": 402.63,
-  "TGT": 161.1,
-  "MRK": 146.48,
-  "ABBV": 296.255,
+  "MRNA": 215.11,
+  "TRV": 402.0,
+  "TGT": 160.41,
+  "MRK": 146.035,
+  "ABBV": 295.4,
   "AMGN": 466.335,
   "GILD": 168.37,
   "KDP": 36.565,
@@ -514,7 +514,7 @@
  "status": {
   "note": "next decision after 15:30 ET on trading days",
   "decisions": [],
-  "last_run": "2026-11-16T18:13:01+00:00",
+  "last_run": "2026-11-16T19:15:07+00:00",
   "market_open": true,
   "last_daily": null
  }
