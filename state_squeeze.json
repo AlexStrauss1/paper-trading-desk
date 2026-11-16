@@ -1,21 +1,64 @@
 {
- "cash": 10000.0,
- "positions": {},
- "last_prices": {},
- "trades": [],
- "events": [],
+ "cash": 9000.0006865,
+ "positions": {
+  "PCG": {
+   "qty": 73.0193,
+   "avg_price": 13.695,
+   "opened": "2026-11-16T21:03:20+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "squeeze breakout",
+   "entry_date": "2026-11-16",
+   "max_hold": 20,
+   "meta": null,
+   "trail": null,
+   "tp": null,
+   "sl": 12.6
+  }
+ },
+ "last_prices": {
+  "PCG": 13.695
+ },
+ "trades": [
+  {
+   "time": "2026-11-16T21:03:20+00:00",
+   "ticker": "PCG",
+   "side": "buy",
+   "qty": 73.0193,
+   "price": 13.695,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "squeeze breakout"
+  }
+ ],
+ "events": [
+  {
+   "time": "2026-11-16T21:03:20+00:00",
+   "ticker": "PCG",
+   "action": "buy",
+   "price": 13.695,
+   "source": "auto",
+   "result": "filled buy 73.0193 @ 13.695 (squeeze breakout)"
+  }
+ ],
  "day": {
-  "date": "2026-11-13",
+  "date": "2026-11-16",
   "start_equity": 10000.0,
-  "trades": 0
+  "trades": 1
  },
  "halted": false,
- "last_daily_run": "2026-11-13",
+ "last_daily_run": "2026-11-16",
  "status": {
-  "note": "next decision after 15:30 ET on trading days",
-  "decisions": [],
-  "last_run": "2026-11-16T20:09:21+00:00",
-  "market_open": true,
-  "last_daily": null
+  "note": "1 action(s) at today's run",
+  "decisions": [
+   {
+    "ticker": "PCG",
+    "info": "13.70",
+    "decision": "BOUGHT: squeeze breakout"
+   }
+  ],
+  "last_run": "2026-11-16T21:03:00+00:00",
+  "market_open": false,
+  "last_daily": "2026-11-16T21:03:20+00:00"
  }
 }

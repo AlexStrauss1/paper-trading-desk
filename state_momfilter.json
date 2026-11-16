@@ -143,16 +143,16 @@
   }
  },
  "last_prices": {
-  "MRNA": 216.55,
-  "MU": 725.945,
-  "LITE": 548.35,
-  "DELL": 321.195,
-  "MRVL": 146.99,
-  "VLO": 369.88,
-  "HPE": 46.4,
-  "INTC": 55.705,
-  "MPC": 402.15,
-  "OKTA": 178.73
+  "MRNA": 215.27,
+  "MU": 719.02,
+  "LITE": 546.0,
+  "DELL": 320.59,
+  "MRVL": 145.36,
+  "VLO": 369.78,
+  "HPE": 46.58,
+  "INTC": 55.442,
+  "MPC": 402.32,
+  "OKTA": 178.22
  },
  "trades": [
   {
@@ -344,7 +344,7 @@
   "trades": 10
  },
  "halted": false,
- "last_daily_run": "2026-11-13",
+ "last_daily_run": "2026-11-16",
  "last_rebalance_date": "2026-11-13",
  "price_sources": {
   "MRNA": "yahoo",
@@ -359,10 +359,10 @@
   "OKTA": "yahoo"
  },
  "status": {
-  "note": "next decision after 15:30 ET on trading days",
+  "note": "no signals today \u00b7 next rebalance in 20 trading days",
   "decisions": [],
-  "last_run": "2026-11-16T20:09:21+00:00",
-  "market_open": true,
-  "last_daily": null
+  "last_run": "2026-11-16T21:03:00+00:00",
+  "market_open": false,
+  "last_daily": "2026-11-16T21:03:20+00:00"
  }
 }

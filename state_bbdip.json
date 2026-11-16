@@ -10,12 +10,12 @@
   "trades": 0
  },
  "halted": false,
- "last_daily_run": "2026-11-13",
+ "last_daily_run": "2026-11-16",
  "status": {
-  "note": "next decision after 15:30 ET on trading days",
+  "note": "no signals today",
   "decisions": [],
-  "last_run": "2026-11-16T20:09:21+00:00",
-  "market_open": true,
-  "last_daily": null
+  "last_run": "2026-11-16T21:03:00+00:00",
+  "market_open": false,
+  "last_daily": "2026-11-16T21:03:21+00:00"
  }
 }

@@ -1,5 +1,5 @@
 {
- "cash": 8000.203214499999,
+ "cash": 7753.015406499999,
  "positions": {
   "MRNA": {
    "qty": 1.1147,
@@ -32,20 +32,6 @@
   "AMGN": {
    "qty": 0.536,
    "avg_price": 466.335,
-   "opened": "2026-11-13T19:41:45+00:00",
-   "side": "long",
-   "source": "auto",
-   "reason": "leader dip",
-   "entry_date": "2026-11-13",
-   "max_hold": 10,
-   "meta": null,
-   "trail": null,
-   "tp": null,
-   "sl": null
-  },
-  "MSI": {
-   "qty": 0.472,
-   "avg_price": 529.58,
    "opened": "2026-11-13T19:41:45+00:00",
    "side": "long",
    "source": "auto",
@@ -112,17 +98,47 @@
    "trail": null,
    "tp": null,
    "sl": null
+  },
+  "CSX": {
+   "qty": 4.7984,
+   "avg_price": 52.03,
+   "opened": "2026-11-16T21:03:20+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "leader dip",
+   "entry_date": "2026-11-16",
+   "max_hold": 10,
+   "meta": null,
+   "trail": null,
+   "tp": null,
+   "sl": null
+  },
+  "OKTA": {
+   "qty": 1.4008,
+   "avg_price": 178.22,
+   "opened": "2026-11-16T21:03:20+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "leader dip",
+   "entry_date": "2026-11-16",
+   "max_hold": 10,
+   "meta": null,
+   "trail": null,
+   "tp": null,
+   "sl": null
   }
  },
  "last_prices": {
-  "MRNA": 216.55,
-  "TGT": 159.65,
-  "AMGN": 463.94,
-  "MSI": 532.9,
-  "VEEV": 300.035,
-  "MAR": 426.15,
-  "TMO": 692.38,
-  "HLT": 374.11
+  "MRNA": 215.27,
+  "TGT": 160.32,
+  "AMGN": 462.32,
+  "MSI": 534.16,
+  "VEEV": 299.437,
+  "MAR": 425.7,
+  "TMO": 691.77,
+  "HLT": 373.83,
+  "CSX": 52.03,
+  "OKTA": 178.22
  },
  "trades": [
   {
@@ -204,6 +220,38 @@
    "broker": "sim",
    "source": "auto",
    "reason": "leader dip"
+  },
+  {
+   "time": "2026-11-16T21:03:20+00:00",
+   "ticker": "MSI",
+   "side": "sell",
+   "qty": 0.472,
+   "price": 534.16,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "bounced",
+   "pnl": 2.16,
+   "pnl_pct": 0.86
+  },
+  {
+   "time": "2026-11-16T21:03:20+00:00",
+   "ticker": "CSX",
+   "side": "buy",
+   "qty": 4.7984,
+   "price": 52.03,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "leader dip"
+  },
+  {
+   "time": "2026-11-16T21:03:20+00:00",
+   "ticker": "OKTA",
+   "side": "buy",
+   "qty": 1.4008,
+   "price": 178.22,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "leader dip"
   }
  ],
  "events": [
@@ -270,15 +318,39 @@
    "price": 372.86,
    "source": "auto",
    "result": "filled buy 0.6704 @ 372.86 (leader dip)"
+  },
+  {
+   "time": "2026-11-16T21:03:20+00:00",
+   "ticker": "MSI",
+   "action": "sell",
+   "price": 534.16,
+   "source": "auto",
+   "result": "filled sell 0.472 @ 534.16 (bounced)"
+  },
+  {
+   "time": "2026-11-16T21:03:20+00:00",
+   "ticker": "CSX",
+   "action": "buy",
+   "price": 52.03,
+   "source": "auto",
+   "result": "filled buy 4.7984 @ 52.03 (leader dip)"
+  },
+  {
+   "time": "2026-11-16T21:03:20+00:00",
+   "ticker": "OKTA",
+   "action": "buy",
+   "price": 178.22,
+   "source": "auto",
+   "result": "filled buy 1.4008 @ 178.22 (leader dip)"
   }
  ],
  "day": {
-  "date": "2026-11-13",
-  "start_equity": 10000.0,
-  "trades": 8
+  "date": "2026-11-16",
+  "start_equity": 9986.627303899999,
+  "trades": 3
  },
  "halted": false,
- "last_daily_run": "2026-11-13",
+ "last_daily_run": "2026-11-16",
  "price_sources": {
   "MRNA": "yahoo",
   "TGT": "yahoo",
@@ -290,10 +362,26 @@
   "HLT": "yahoo"
  },
  "status": {
-  "note": "next decision after 15:30 ET on trading days",
-  "decisions": [],
-  "last_run": "2026-11-16T20:09:21+00:00",
-  "market_open": true,
-  "last_daily": null
+  "note": "3 action(s) at today's run",
+  "decisions": [
+   {
+    "ticker": "MSI",
+    "info": "534.16",
+    "decision": "CLOSED: bounced"
+   },
+   {
+    "ticker": "CSX",
+    "info": "52.03",
+    "decision": "BOUGHT: leader dip"
+   },
+   {
+    "ticker": "OKTA",
+    "info": "178.22",
+    "decision": "BOUGHT: leader dip"
+   }
+  ],
+  "last_run": "2026-11-16T21:03:00+00:00",
+  "market_open": false,
+  "last_daily": "2026-11-16T21:03:20+00:00"
  }
 }

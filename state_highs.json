@@ -1,5 +1,5 @@
 {
- "cash": 1000.1333495000006,
+ "cash": 0.04145250000055967,
  "positions": {
   "ABBV": {
    "qty": 3.3849,
@@ -117,18 +117,85 @@
    "meta": null,
    "tp": null,
    "sl": null
+  },
+  "CAH": {
+   "qty": 0.8822,
+   "avg_price": 283.89,
+   "opened": "2026-11-16T21:03:20+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "new 52w high",
+   "entry_date": "2026-11-16",
+   "max_hold": 60,
+   "meta": null,
+   "trail": null,
+   "tp": null,
+   "sl": null
+  },
+  "HUM": {
+   "qty": 0.5428,
+   "avg_price": 461.33,
+   "opened": "2026-11-16T21:03:20+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "new 52w high",
+   "entry_date": "2026-11-16",
+   "max_hold": 60,
+   "meta": null,
+   "trail": null,
+   "tp": null,
+   "sl": null
+  },
+  "MCK": {
+   "qty": 0.2265,
+   "avg_price": 1105.4,
+   "opened": "2026-11-16T21:03:20+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "new 52w high",
+   "entry_date": "2026-11-16",
+   "max_hold": 60,
+   "meta": null,
+   "trail": null,
+   "tp": null,
+   "sl": null
+  },
+  "BRK-B": {
+   "qty": 0.4197,
+   "avg_price": 592.95,
+   "opened": "2026-11-16T21:03:20+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "new 52w high",
+   "entry_date": "2026-11-16",
+   "max_hold": 60,
+   "meta": null,
+   "trail": null,
+   "tp": null,
+   "sl": null
   }
  },
  "last_prices": {
-  "ABBV": 294.62,
-  "LLY": 1436.405,
-  "KO": 99.295,
-  "JNJ": 283.21,
-  "MO": 78.54,
-  "AAPL": 352.02,
-  "PG": 172.73,
-  "CL": 101.535,
-  "COST": 1110.85
+  "ABBV": 294.63,
+  "LLY": 1434.38,
+  "KO": 99.6,
+  "JNJ": 282.77,
+  "MO": 78.91,
+  "AAPL": 352.78,
+  "PG": 173.14,
+  "CL": 100.98,
+  "COST": 1113.74,
+  "CAH": 283.89,
+  "HUM": 461.33,
+  "MCK": 1105.4,
+  "BRK-B": 592.95,
+  "CB": 381.39,
+  "ADP": 313.43,
+  "WM": 244.33,
+  "PGR": 237.37,
+  "ELV": 446.47,
+  "DUK": 130.58,
+  "CME": 319.37
  },
  "trades": [
   {
@@ -220,6 +287,46 @@
    "broker": "sim",
    "source": "auto",
    "reason": "new 52w high"
+  },
+  {
+   "time": "2026-11-16T21:03:20+00:00",
+   "ticker": "CAH",
+   "side": "buy",
+   "qty": 0.8822,
+   "price": 283.89,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "new 52w high"
+  },
+  {
+   "time": "2026-11-16T21:03:20+00:00",
+   "ticker": "HUM",
+   "side": "buy",
+   "qty": 0.5428,
+   "price": 461.33,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "new 52w high"
+  },
+  {
+   "time": "2026-11-16T21:03:20+00:00",
+   "ticker": "MCK",
+   "side": "buy",
+   "qty": 0.2265,
+   "price": 1105.4,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "new 52w high"
+  },
+  {
+   "time": "2026-11-16T21:03:20+00:00",
+   "ticker": "BRK-B",
+   "side": "buy",
+   "qty": 0.4197,
+   "price": 592.95,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "new 52w high"
   }
  ],
  "events": [
@@ -294,15 +401,103 @@
    "price": 1102.115,
    "source": "auto",
    "result": "filled buy 0.9073 @ 1102.115 (new 52w high)"
+  },
+  {
+   "time": "2026-11-16T21:03:20+00:00",
+   "ticker": "CAH",
+   "action": "buy",
+   "price": 283.89,
+   "source": "auto",
+   "result": "filled buy 0.8822 @ 283.89 (new 52w high)"
+  },
+  {
+   "time": "2026-11-16T21:03:20+00:00",
+   "ticker": "HUM",
+   "action": "buy",
+   "price": 461.33,
+   "source": "auto",
+   "result": "filled buy 0.5428 @ 461.33 (new 52w high)"
+  },
+  {
+   "time": "2026-11-16T21:03:20+00:00",
+   "ticker": "MCK",
+   "action": "buy",
+   "price": 1105.4,
+   "source": "auto",
+   "result": "filled buy 0.2265 @ 1105.4 (new 52w high)"
+  },
+  {
+   "time": "2026-11-16T21:03:20+00:00",
+   "ticker": "BRK-B",
+   "action": "buy",
+   "price": 592.95,
+   "source": "auto",
+   "result": "filled buy 0.4197 @ 592.95 (new 52w high)"
+  },
+  {
+   "time": "2026-11-16T21:03:20+00:00",
+   "ticker": "CB",
+   "action": "buy",
+   "price": 381.39,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-16T21:03:20+00:00",
+   "ticker": "ADP",
+   "action": "buy",
+   "price": 313.43,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-16T21:03:20+00:00",
+   "ticker": "WM",
+   "action": "buy",
+   "price": 244.33,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-16T21:03:20+00:00",
+   "ticker": "PGR",
+   "action": "buy",
+   "price": 237.37,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-16T21:03:20+00:00",
+   "ticker": "ELV",
+   "action": "buy",
+   "price": 446.47,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-16T21:03:20+00:00",
+   "ticker": "DUK",
+   "action": "buy",
+   "price": 130.58,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-16T21:03:20+00:00",
+   "ticker": "CME",
+   "action": "buy",
+   "price": 319.37,
+   "source": "auto",
+   "result": "rejected: not enough cash"
   }
  ],
  "day": {
-  "date": "2026-11-13",
-  "start_equity": 10000.0,
-  "trades": 9
+  "date": "2026-11-16",
+  "start_equity": 10017.9787185,
+  "trades": 4
  },
  "halted": false,
- "last_daily_run": "2026-11-13",
+ "last_daily_run": "2026-11-16",
  "price_sources": {
   "ABBV": "yahoo",
   "LLY": "yahoo",
@@ -315,10 +510,36 @@
   "COST": "yahoo"
  },
  "status": {
-  "note": "next decision after 15:30 ET on trading days",
-  "decisions": [],
-  "last_run": "2026-11-16T20:09:21+00:00",
-  "market_open": true,
-  "last_daily": null
+  "note": "5 action(s) at today's run",
+  "decisions": [
+   {
+    "ticker": "CAH",
+    "info": "283.89",
+    "decision": "BOUGHT: new 52w high"
+   },
+   {
+    "ticker": "HUM",
+    "info": "461.33",
+    "decision": "BOUGHT: new 52w high"
+   },
+   {
+    "ticker": "MCK",
+    "info": "1105.40",
+    "decision": "BOUGHT: new 52w high"
+   },
+   {
+    "ticker": "BRK-B",
+    "info": "592.95",
+    "decision": "BOUGHT: new 52w high"
+   },
+   {
+    "ticker": "+7",
+    "info": "",
+    "decision": "more signals, out of cash: CB, ADP, WM, PGR, ELV, DUK, CME"
+   }
+  ],
+  "last_run": "2026-11-16T21:03:00+00:00",
+  "market_open": false,
+  "last_daily": "2026-11-16T21:03:20+00:00"
  }
 }
