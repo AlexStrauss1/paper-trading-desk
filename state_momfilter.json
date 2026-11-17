@@ -146,12 +146,12 @@
   "MRNA": 206.8,
   "MU": 712.42,
   "LITE": 559.97,
-  "DELL": 322.91,
+  "DELL": 322.79,
   "MRVL": 148.74,
-  "VLO": 363.893,
-  "HPE": 46.08,
+  "VLO": 363.77,
+  "HPE": 46.09,
   "INTC": 55.17,
-  "MPC": 395.64,
+  "MPC": 395.61,
   "OKTA": 174.54
  },
  "trades": [
@@ -361,7 +361,7 @@
  "status": {
   "note": "no signals today \u00b7 next rebalance in 19 trading days",
   "decisions": [],
-  "last_run": "2026-11-17T21:10:32+00:00",
+  "last_run": "2026-11-17T22:08:34+00:00",
   "market_open": false,
   "last_daily": "2026-11-17T21:10:47+00:00"
  }

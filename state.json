@@ -76,7 +76,7 @@
   }
  },
  "last_prices": {
-  "TGT": 159.5,
+  "TGT": 159.53,
   "MRK": 147.23,
   "V": 425.81,
   "MA": 659.7,
@@ -92,7 +92,7 @@
   "LRCX": 210.69,
   "PANW": 309.29,
   "TXN": 295.86,
-  "FCX": 55.345
+  "FCX": 55.3
  },
  "trades": [
   {
@@ -916,7 +916,7 @@
  "status": {
   "note": "no signals today \u00b7 next rebalance in 19 trading days",
   "decisions": [],
-  "last_run": "2026-11-17T21:10:32+00:00",
+  "last_run": "2026-11-17T22:08:34+00:00",
   "market_open": false,
   "last_daily": "2026-11-17T21:10:47+00:00"
  }

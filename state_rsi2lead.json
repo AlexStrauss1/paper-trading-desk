@@ -284,26 +284,26 @@
  },
  "last_prices": {
   "MRNA": 206.8,
-  "TGT": 159.5,
+  "TGT": 159.53,
   "AMGN": 457.93,
   "MSI": 534.16,
-  "VEEV": 288.46,
+  "VEEV": 288.41,
   "MAR": 422.74,
-  "TMO": 686.88,
+  "TMO": 686.79,
   "HLT": 370.53,
   "CSX": 51.14,
   "OKTA": 174.54,
-  "MPC": 395.64,
-  "PSX": 256.92,
-  "TRV": 397.585,
-  "VLO": 363.893,
-  "ABBV": 292.86,
-  "JNJ": 278.83,
-  "BRK-B": 587.05,
-  "LLY": 1415.43,
-  "MRK": 143.4,
+  "MPC": 395.61,
+  "PSX": 256.93,
+  "TRV": 397.58,
+  "VLO": 363.77,
+  "ABBV": 292.82,
+  "JNJ": 278.7,
+  "BRK-B": 586.76,
+  "LLY": 1415.55,
+  "MRK": 143.37,
   "KDP": 34.79,
-  "V": 416.975
+  "V": 416.77
  },
  "trades": [
   {
@@ -724,7 +724,18 @@
   "TMO": "yahoo",
   "HLT": "yahoo",
   "CSX": "yahoo",
-  "OKTA": "yahoo"
+  "OKTA": "yahoo",
+  "MPC": "yahoo",
+  "PSX": "yahoo",
+  "TRV": "yahoo",
+  "VLO": "yahoo",
+  "ABBV": "yahoo",
+  "JNJ": "yahoo",
+  "BRK-B": "yahoo",
+  "LLY": "yahoo",
+  "MRK": "yahoo",
+  "KDP": "yahoo",
+  "V": "yahoo"
  },
  "status": {
   "note": "11 action(s) at today's run",
@@ -785,7 +796,7 @@
     "decision": "BOUGHT: leader dip"
    }
   ],
-  "last_run": "2026-11-17T21:10:32+00:00",
+  "last_run": "2026-11-17T22:08:34+00:00",
   "market_open": false,
   "last_daily": "2026-11-17T21:10:47+00:00"
  }
