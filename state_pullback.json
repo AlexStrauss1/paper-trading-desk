@@ -18,7 +18,7 @@
  },
  "last_prices": {
   "MRNA": 206.653,
-  "VEEV": 293.65
+  "VEEV": 290.905
  },
  "trades": [
   {
@@ -94,7 +94,7 @@
  "status": {
   "note": "next decision after 15:30 ET on trading days",
   "decisions": [],
-  "last_run": "2026-11-17T19:19:29+00:00",
+  "last_run": "2026-11-17T20:18:45+00:00",
   "market_open": true,
   "last_daily": "2026-11-16T21:03:20+00:00"
  }
