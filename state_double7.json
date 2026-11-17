@@ -422,7 +422,7 @@
   "VRTX": "yahoo"
  },
  "status": {
-  "note": "9 action(s) at today's run",
+  "note": "next decision after 15:30 ET on trading days",
   "decisions": [
    {
     "ticker": "MRNA",
@@ -470,7 +470,7 @@
     "decision": "more signals, out of cash: DHR, RCL, GM, MMM, MSFT, CCL, AMZN, CVNA\u2026"
    }
   ],
-  "last_run": "2026-11-16T23:20:31+00:00",
+  "last_run": "2026-11-17T14:06:15+00:00",
   "market_open": false,
   "last_daily": "2026-11-16T21:03:20+00:00"
  }
