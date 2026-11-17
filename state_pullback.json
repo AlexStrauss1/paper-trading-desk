@@ -1,20 +1,6 @@
 {
- "cash": 6000.008909,
+ "cash": 7842.981693600001,
  "positions": {
-  "MRNA": {
-   "qty": 8.9182,
-   "avg_price": 224.26,
-   "opened": "2026-11-13T19:41:45+00:00",
-   "side": "long",
-   "source": "auto",
-   "reason": "leader pullback",
-   "entry_date": "2026-11-13",
-   "max_hold": 15,
-   "meta": null,
-   "trail": null,
-   "tp": null,
-   "sl": 208.56
-  },
   "VEEV": {
    "qty": 6.6179,
    "avg_price": 302.21,
@@ -31,8 +17,8 @@
   }
  },
  "last_prices": {
-  "MRNA": 215.27,
-  "VEEV": 299.28
+  "MRNA": 206.653,
+  "VEEV": 296.475
  },
  "trades": [
   {
@@ -54,6 +40,18 @@
    "broker": "sim",
    "source": "auto",
    "reason": "leader pullback"
+  },
+  {
+   "time": "2026-11-17T14:55:24+00:00",
+   "ticker": "MRNA",
+   "side": "sell",
+   "qty": 8.9182,
+   "price": 206.653,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "stop 208.56 [yahoo price]",
+   "pnl": -157.02,
+   "pnl_pct": -7.85
   }
  ],
  "events": [
@@ -72,12 +70,20 @@
    "price": 302.21,
    "source": "auto",
    "result": "filled buy 6.6179 @ 302.21 (leader pullback)"
+  },
+  {
+   "time": "2026-11-17T14:55:24+00:00",
+   "ticker": "MRNA",
+   "action": "sell",
+   "price": 206.653,
+   "source": "auto",
+   "result": "filled sell 8.9182 @ 206.653 (stop 208.56 [yahoo price])"
   }
  ],
  "day": {
-  "date": "2026-11-13",
-  "start_equity": 10000.0,
-  "trades": 2
+  "date": "2026-11-17",
+  "start_equity": 9805.0235961,
+  "trades": 1
  },
  "halted": false,
  "last_daily_run": "2026-11-16",
@@ -88,8 +94,8 @@
  "status": {
   "note": "next decision after 15:30 ET on trading days",
   "decisions": [],
-  "last_run": "2026-11-17T14:15:19+00:00",
-  "market_open": false,
+  "last_run": "2026-11-17T14:55:24+00:00",
+  "market_open": true,
   "last_daily": "2026-11-16T21:03:20+00:00"
  }
 }
