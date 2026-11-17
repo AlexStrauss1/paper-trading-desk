@@ -53,11 +53,11 @@
   }
  },
  "last_prices": {
-  "FN": 313.694,
-  "COHR": 206.1,
-  "NKE": 37.255,
-  "LITE": 545.842,
-  "MRVL": 144.69,
+  "FN": 315.19,
+  "COHR": 207.95,
+  "NKE": 36.07,
+  "LITE": 554.3,
+  "MRVL": 145.88,
   "MCHP": 60.26,
   "CIEN": 260.125,
   "CSCO": 95.49,
@@ -314,7 +314,7 @@
     "decision": "short exposure would exceed 100% of equity"
    }
   ],
-  "last_run": "2026-11-17T18:14:25+00:00",
+  "last_run": "2026-11-17T19:19:29+00:00",
   "market_open": true,
   "last_daily": null
  },
