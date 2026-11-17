@@ -20,7 +20,7 @@
   }
  },
  "last_prices": {
-  "NVDA": 155.46
+  "NVDA": 154.22
  },
  "trades": [
   {
@@ -57,7 +57,7 @@
  "status": {
   "note": "next decision after 15:30 ET on trading days",
   "decisions": [],
-  "last_run": "2026-11-17T14:55:24+00:00",
+  "last_run": "2026-11-17T15:08:02+00:00",
   "market_open": true,
   "last_daily": "2026-11-16T21:03:21+00:00"
  }
