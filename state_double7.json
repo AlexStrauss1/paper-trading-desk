@@ -128,15 +128,15 @@
   }
  },
  "last_prices": {
-  "PFE": 28.545,
-  "MRNA": 208.35,
+  "PFE": 28.49,
+  "MRNA": 204.9,
   "MRK": 144.03,
-  "TMO": 691.66,
-  "VEEV": 293.73,
-  "ILMN": 200.4,
-  "DE": 654.0,
-  "ACN": 241.852,
-  "VRTX": 534.62,
+  "TMO": 690.015,
+  "VEEV": 293.539,
+  "ILMN": 200.56,
+  "DE": 650.34,
+  "ACN": 240.885,
+  "VRTX": 537.44,
   "DHR": 230.11,
   "RCL": 317.87,
   "GM": 83.67,
@@ -470,7 +470,7 @@
     "decision": "more signals, out of cash: DHR, RCL, GM, MMM, MSFT, CCL, AMZN, CVNA\u2026"
    }
   ],
-  "last_run": "2026-11-17T17:19:44+00:00",
+  "last_run": "2026-11-17T18:14:25+00:00",
   "market_open": true,
   "last_daily": "2026-11-16T21:03:20+00:00"
  }
