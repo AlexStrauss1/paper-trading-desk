@@ -73,11 +73,11 @@
   }
  },
  "last_prices": {
-  "MRNA": 208.43,
-  "TRV": 402.02,
-  "TGT": 159.63,
-  "MRK": 143.205,
-  "ABBV": 292.5,
+  "MRNA": 207.41,
+  "TRV": 401.88,
+  "TGT": 158.6,
+  "MRK": 144.61,
+  "ABBV": 293.675,
   "AMGN": 462.32,
   "GILD": 167.58,
   "KDP": 35.58,
@@ -748,7 +748,7 @@
     "decision": "more signals, out of cash: JNJ, AMGN, GILD, V, TMO, CSX, VEEV, ADP\u2026"
    }
   ],
-  "last_run": "2026-11-17T15:08:02+00:00",
+  "last_run": "2026-11-17T15:41:47+00:00",
   "market_open": true,
   "last_daily": "2026-11-16T21:03:20+00:00"
  }
