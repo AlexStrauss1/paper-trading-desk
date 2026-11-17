@@ -133,16 +133,16 @@
   }
  },
  "last_prices": {
-  "TMO": 689.91,
-  "ACN": 239.41,
-  "LLY": 1418.04,
-  "AMGN": 457.76,
-  "ABBV": 292.84,
-  "ABNB": 182.92,
-  "MDT": 102.935,
-  "TGT": 157.07,
-  "PYPL": 58.53,
-  "MRK": 143.85,
+  "TMO": 690.08,
+  "ACN": 239.51,
+  "LLY": 1416.975,
+  "AMGN": 455.83,
+  "ABBV": 292.915,
+  "ABNB": 182.08,
+  "MDT": 102.83,
+  "TGT": 157.54,
+  "PYPL": 58.525,
+  "MRK": 143.265,
   "MA": 661.93,
   "GILD": 167.58,
   "V": 426.55,
@@ -1255,7 +1255,7 @@
     "decision": "more signals, out of cash: MRNA, VEEV, REGN, HUM, WDAY, MCK, CAH, ADP\u2026"
    }
   ],
-  "last_run": "2026-11-17T16:12:25+00:00",
+  "last_run": "2026-11-17T16:41:16+00:00",
   "market_open": true,
   "last_daily": "2026-11-16T21:03:20+00:00"
  }
