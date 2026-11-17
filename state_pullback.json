@@ -1,5 +1,5 @@
 {
- "cash": 7842.981693600001,
+ "cash": 5892.5888536,
  "positions": {
   "VEEV": {
    "qty": 6.6179,
@@ -14,11 +14,25 @@
    "trail": null,
    "tp": null,
    "sl": 281.06
+  },
+  "MRNA": {
+   "qty": 9.4313,
+   "avg_price": 206.8,
+   "opened": "2026-11-17T21:10:47+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "leader pullback",
+   "entry_date": "2026-11-17",
+   "max_hold": 15,
+   "meta": null,
+   "trail": null,
+   "tp": null,
+   "sl": 192.32
   }
  },
  "last_prices": {
-  "MRNA": 206.653,
-  "VEEV": 290.905
+  "MRNA": 206.8,
+  "VEEV": 288.46
  },
  "trades": [
   {
@@ -52,6 +66,16 @@
    "reason": "stop 208.56 [yahoo price]",
    "pnl": -157.02,
    "pnl_pct": -7.85
+  },
+  {
+   "time": "2026-11-17T21:10:47+00:00",
+   "ticker": "MRNA",
+   "side": "buy",
+   "qty": 9.4313,
+   "price": 206.8,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "leader pullback"
   }
  ],
  "events": [
@@ -78,24 +102,38 @@
    "price": 206.653,
    "source": "auto",
    "result": "filled sell 8.9182 @ 206.653 (stop 208.56 [yahoo price])"
+  },
+  {
+   "time": "2026-11-17T21:10:47+00:00",
+   "ticker": "MRNA",
+   "action": "buy",
+   "price": 206.8,
+   "source": "auto",
+   "result": "filled buy 9.4313 @ 206.8 (leader pullback)"
   }
  ],
  "day": {
   "date": "2026-11-17",
   "start_equity": 9805.0235961,
-  "trades": 1
+  "trades": 2
  },
  "halted": false,
- "last_daily_run": "2026-11-16",
+ "last_daily_run": "2026-11-17",
  "price_sources": {
   "MRNA": "yahoo",
   "VEEV": "yahoo"
  },
  "status": {
-  "note": "next decision after 15:30 ET on trading days",
-  "decisions": [],
-  "last_run": "2026-11-17T20:18:45+00:00",
-  "market_open": true,
-  "last_daily": "2026-11-16T21:03:20+00:00"
+  "note": "1 action(s) at today's run",
+  "decisions": [
+   {
+    "ticker": "MRNA",
+    "info": "206.80",
+    "decision": "BOUGHT: leader pullback"
+   }
+  ],
+  "last_run": "2026-11-17T21:10:32+00:00",
+  "market_open": false,
+  "last_daily": "2026-11-17T21:10:47+00:00"
  }
 }

@@ -176,19 +176,19 @@
   }
  },
  "last_prices": {
-  "ABBV": 291.96,
-  "LLY": 1402.65,
-  "KO": 99.03,
-  "JNJ": 278.645,
-  "MO": 77.94,
-  "AAPL": 350.61,
-  "PG": 171.865,
-  "CL": 99.71,
-  "COST": 1111.315,
-  "CAH": 280.51,
-  "HUM": 440.39,
-  "MCK": 1087.95,
-  "BRK-B": 590.48,
+  "ABBV": 292.86,
+  "LLY": 1415.43,
+  "KO": 98.8,
+  "JNJ": 278.83,
+  "MO": 77.46,
+  "AAPL": 351.91,
+  "PG": 171.8,
+  "CL": 99.62,
+  "COST": 1110.08,
+  "CAH": 279.235,
+  "HUM": 443.43,
+  "MCK": 1091.52,
+  "BRK-B": 587.05,
   "CB": 381.39,
   "ADP": 313.43,
   "WM": 244.33,
@@ -497,7 +497,7 @@
   "trades": 4
  },
  "halted": false,
- "last_daily_run": "2026-11-16",
+ "last_daily_run": "2026-11-17",
  "price_sources": {
   "ABBV": "yahoo",
   "LLY": "yahoo",
@@ -514,36 +514,10 @@
   "BRK-B": "yahoo"
  },
  "status": {
-  "note": "next decision after 15:30 ET on trading days",
-  "decisions": [
-   {
-    "ticker": "CAH",
-    "info": "283.89",
-    "decision": "BOUGHT: new 52w high"
-   },
-   {
-    "ticker": "HUM",
-    "info": "461.33",
-    "decision": "BOUGHT: new 52w high"
-   },
-   {
-    "ticker": "MCK",
-    "info": "1105.40",
-    "decision": "BOUGHT: new 52w high"
-   },
-   {
-    "ticker": "BRK-B",
-    "info": "592.95",
-    "decision": "BOUGHT: new 52w high"
-   },
-   {
-    "ticker": "+7",
-    "info": "",
-    "decision": "more signals, out of cash: CB, ADP, WM, PGR, ELV, DUK, CME"
-   }
-  ],
-  "last_run": "2026-11-17T20:18:45+00:00",
-  "market_open": true,
-  "last_daily": "2026-11-16T21:03:20+00:00"
+  "note": "no signals today",
+  "decisions": [],
+  "last_run": "2026-11-17T21:10:32+00:00",
+  "market_open": false,
+  "last_daily": "2026-11-17T21:10:47+00:00"
  }
 }

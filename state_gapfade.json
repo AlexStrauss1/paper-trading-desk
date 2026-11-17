@@ -1,63 +1,12 @@
 {
- "cash": 19999.923387000003,
- "positions": {
-  "FN": {
-   "qty": 6.3091,
-   "avg_price": 317.0,
-   "opened": "2026-11-17T14:55:30+00:00",
-   "side": "short",
-   "source": "auto",
-   "reason": "gap-up +5.9% below 200-day avg",
-   "entry_date": "2026-11-17",
-   "sl": 338.98
-  },
-  "COHR": {
-   "qty": 9.6218,
-   "avg_price": 207.86,
-   "opened": "2026-11-17T14:55:30+00:00",
-   "side": "short",
-   "source": "auto",
-   "reason": "gap-up +5.6% below 200-day avg",
-   "entry_date": "2026-11-17",
-   "sl": 221.36
-  },
-  "NKE": {
-   "qty": 50.4604,
-   "avg_price": 39.635,
-   "opened": "2026-11-17T14:55:30+00:00",
-   "side": "short",
-   "source": "auto",
-   "reason": "gap-up +4.7% below 200-day avg",
-   "entry_date": "2026-11-17",
-   "sl": 41.29
-  },
-  "LITE": {
-   "qty": 3.5998,
-   "avg_price": 555.575,
-   "opened": "2026-11-17T14:55:30+00:00",
-   "side": "short",
-   "source": "auto",
-   "reason": "gap-up +3.9% below 200-day avg",
-   "entry_date": "2026-11-17",
-   "sl": 584.35
-  },
-  "MRVL": {
-   "qty": 13.58,
-   "avg_price": 147.275,
-   "opened": "2026-11-17T14:55:30+00:00",
-   "side": "short",
-   "source": "auto",
-   "reason": "gap-up +3.3% below 200-day avg",
-   "entry_date": "2026-11-17",
-   "sl": 154.7
-  }
- },
+ "cash": 10139.679396500003,
+ "positions": {},
  "last_prices": {
-  "FN": 313.095,
-  "COHR": 208.114,
-  "NKE": 35.485,
-  "LITE": 554.15,
-  "MRVL": 145.72,
+  "FN": 314.775,
+  "COHR": 210.94,
+  "NKE": 35.85,
+  "LITE": 559.97,
+  "MRVL": 148.74,
   "MCHP": 60.26,
   "CIEN": 260.125,
   "CSCO": 95.49,
@@ -118,6 +67,66 @@
    "broker": "sim",
    "source": "auto",
    "reason": "gap-up +3.3% below 200-day avg"
+  },
+  {
+   "time": "2026-11-17T21:10:32+00:00",
+   "ticker": "FN",
+   "side": "cover",
+   "qty": 6.3091,
+   "price": 314.775,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "end of day",
+   "pnl": 14.04,
+   "pnl_pct": 0.7
+  },
+  {
+   "time": "2026-11-17T21:10:32+00:00",
+   "ticker": "COHR",
+   "side": "cover",
+   "qty": 9.6218,
+   "price": 210.94,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "end of day",
+   "pnl": -29.64,
+   "pnl_pct": -1.48
+  },
+  {
+   "time": "2026-11-17T21:10:32+00:00",
+   "ticker": "NKE",
+   "side": "cover",
+   "qty": 50.4604,
+   "price": 35.85,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "end of day",
+   "pnl": 190.99,
+   "pnl_pct": 9.55
+  },
+  {
+   "time": "2026-11-17T21:10:32+00:00",
+   "ticker": "LITE",
+   "side": "cover",
+   "qty": 3.5998,
+   "price": 559.97,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "end of day",
+   "pnl": -15.82,
+   "pnl_pct": -0.79
+  },
+  {
+   "time": "2026-11-17T21:10:32+00:00",
+   "ticker": "MRVL",
+   "side": "cover",
+   "qty": 13.58,
+   "price": 148.74,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "end of day",
+   "pnl": -19.89,
+   "pnl_pct": -0.99
   }
  ],
  "events": [
@@ -232,16 +241,56 @@
    "price": 108.36,
    "source": "auto",
    "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-17T21:10:32+00:00",
+   "ticker": "FN",
+   "action": "cover",
+   "price": 314.775,
+   "source": "auto",
+   "result": "filled cover 6.3091 @ 314.775 (end of day)"
+  },
+  {
+   "time": "2026-11-17T21:10:32+00:00",
+   "ticker": "COHR",
+   "action": "cover",
+   "price": 210.94,
+   "source": "auto",
+   "result": "filled cover 9.6218 @ 210.94 (end of day)"
+  },
+  {
+   "time": "2026-11-17T21:10:32+00:00",
+   "ticker": "NKE",
+   "action": "cover",
+   "price": 35.85,
+   "source": "auto",
+   "result": "filled cover 50.4604 @ 35.85 (end of day)"
+  },
+  {
+   "time": "2026-11-17T21:10:32+00:00",
+   "ticker": "LITE",
+   "action": "cover",
+   "price": 559.97,
+   "source": "auto",
+   "result": "filled cover 3.5998 @ 559.97 (end of day)"
+  },
+  {
+   "time": "2026-11-17T21:10:32+00:00",
+   "ticker": "MRVL",
+   "action": "cover",
+   "price": 148.74,
+   "source": "auto",
+   "result": "filled cover 13.58 @ 148.74 (end of day)"
   }
  ],
  "day": {
   "date": "2026-11-17",
   "start_equity": 10000.0,
-  "trades": 5
+  "trades": 10
  },
  "halted": false,
  "status": {
-  "note": "scanned 106 downtrending stocks: 14 gap-ups \u2265 2%",
+  "note": "market closed",
   "decisions": [
    {
     "ticker": "FN",
@@ -314,8 +363,8 @@
     "decision": "short exposure would exceed 100% of equity"
    }
   ],
-  "last_run": "2026-11-17T20:18:45+00:00",
-  "market_open": true,
+  "last_run": "2026-11-17T21:10:32+00:00",
+  "market_open": false,
   "last_daily": null
  },
  "gap_scan_date": "2026-11-17",
