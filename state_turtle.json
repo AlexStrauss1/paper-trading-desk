@@ -1,5 +1,5 @@
 {
- "cash": 0.31434200000080637,
+ "cash": 0.011762000000885564,
  "positions": {
   "KO": {
    "qty": 10.0796,
@@ -32,20 +32,6 @@
   "CAH": {
    "qty": 3.5597,
    "avg_price": 280.92,
-   "opened": "2026-11-13T19:41:45+00:00",
-   "side": "long",
-   "source": "auto",
-   "reason": "20-day high",
-   "entry_date": "2026-11-13",
-   "max_hold": null,
-   "meta": null,
-   "trail": null,
-   "tp": null,
-   "sl": null
-  },
-  "ABBV": {
-   "qty": 3.3814,
-   "avg_price": 295.73,
    "opened": "2026-11-13T19:41:45+00:00",
    "side": "long",
    "source": "auto",
@@ -99,20 +85,6 @@
    "tp": null,
    "sl": null
   },
-  "HUM": {
-   "qty": 2.2221,
-   "avg_price": 450.02,
-   "opened": "2026-11-13T19:41:45+00:00",
-   "side": "long",
-   "source": "auto",
-   "reason": "20-day high",
-   "entry_date": "2026-11-13",
-   "max_hold": null,
-   "meta": null,
-   "trail": null,
-   "tp": null,
-   "sl": null
-  },
   "BRK-B": {
    "qty": 1.6918,
    "avg_price": 591.06,
@@ -140,19 +112,47 @@
    "trail": null,
    "tp": null,
    "sl": null
+  },
+  "TGT": {
+   "qty": 5.8011,
+   "avg_price": 165.96,
+   "opened": "2026-11-18T21:08:29+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "20-day high",
+   "entry_date": "2026-11-18",
+   "max_hold": null,
+   "meta": null,
+   "trail": null,
+   "tp": null,
+   "sl": null
+  },
+  "DIS": {
+   "qty": 7.0379,
+   "avg_price": 122.37,
+   "opened": "2026-11-18T21:08:29+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "20-day high",
+   "entry_date": "2026-11-18",
+   "max_hold": null,
+   "meta": null,
+   "trail": null,
+   "tp": null,
+   "sl": null
   }
  },
  "last_prices": {
-  "KO": 97.905,
-  "JNJ": 273.3,
-  "CAH": 278.665,
-  "ABBV": 285.66,
-  "LLY": 1385.495,
-  "MCK": 1079.665,
+  "KO": 98.04,
+  "JNJ": 272.72,
+  "CAH": 278.35,
+  "ABBV": 285.96,
+  "LLY": 1382.315,
+  "MCK": 1084.025,
   "MO": 76.25,
-  "HUM": 395.01,
-  "BRK-B": 574.2,
-  "ADP": 306.74,
+  "HUM": 385.55,
+  "BRK-B": 574.27,
+  "ADP": 305.57,
   "AAPL": 357.79,
   "CB": 381.39,
   "SWKS": 90.045,
@@ -171,9 +171,12 @@
   "HCA": 511.735,
   "DUK": 130.58,
   "SO": 94.65,
-  "ORLY": 92.7,
+  "ORLY": 93.37,
   "APP": 415.22,
-  "PCG": 13.695
+  "PCG": 13.7,
+  "TGT": 165.96,
+  "DIS": 122.37,
+  "CMG": 36.93
  },
  "trades": [
   {
@@ -272,6 +275,50 @@
    "side": "buy",
    "qty": 3.2324,
    "price": 309.36,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "20-day high"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "ABBV",
+   "side": "sell",
+   "qty": 3.3814,
+   "price": 285.96,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "10-day low",
+   "pnl": -33.04,
+   "pnl_pct": -3.3
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "HUM",
+   "side": "sell",
+   "qty": 2.2221,
+   "price": 385.55,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "10-day low",
+   "pnl": -143.26,
+   "pnl_pct": -14.33
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "TGT",
+   "side": "buy",
+   "qty": 5.8011,
+   "price": 165.96,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "20-day high"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "DIS",
+   "side": "buy",
+   "qty": 7.0379,
+   "price": 122.37,
    "broker": "sim",
    "source": "auto",
    "reason": "20-day high"
@@ -597,15 +644,71 @@
    "price": 70.89,
    "source": "auto",
    "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "ABBV",
+   "action": "sell",
+   "price": 285.96,
+   "source": "auto",
+   "result": "filled sell 3.3814 @ 285.96 (10-day low)"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "HUM",
+   "action": "sell",
+   "price": 385.55,
+   "source": "auto",
+   "result": "filled sell 2.2221 @ 385.55 (10-day low)"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "TGT",
+   "action": "buy",
+   "price": 165.96,
+   "source": "auto",
+   "result": "filled buy 5.8011 @ 165.96 (20-day high)"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "DIS",
+   "action": "buy",
+   "price": 122.37,
+   "source": "auto",
+   "result": "filled buy 7.0379 @ 122.37 (20-day high)"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "CMG",
+   "action": "buy",
+   "price": 36.93,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "ORLY",
+   "action": "buy",
+   "price": 93.37,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "PCG",
+   "action": "buy",
+   "price": 13.7,
+   "source": "auto",
+   "result": "rejected: not enough cash"
   }
  ],
  "day": {
-  "date": "2026-11-17",
-  "start_equity": 9887.254683500001,
-  "trades": 0
+  "date": "2026-11-18",
+  "start_equity": 9627.670692000002,
+  "trades": 4
  },
  "halted": false,
- "last_daily_run": "2026-11-17",
+ "last_daily_run": "2026-11-18",
  "price_sources": {
   "KO": "yahoo",
   "JNJ": "yahoo",
@@ -619,16 +722,36 @@
   "ADP": "yahoo"
  },
  "status": {
-  "note": "next decision after 15:30 ET on trading days",
+  "note": "5 action(s) at today's run",
   "decisions": [
    {
-    "ticker": "+1",
+    "ticker": "ABBV",
+    "info": "285.96",
+    "decision": "CLOSED: 10-day low"
+   },
+   {
+    "ticker": "HUM",
+    "info": "385.55",
+    "decision": "CLOSED: 10-day low"
+   },
+   {
+    "ticker": "TGT",
+    "info": "165.96",
+    "decision": "BOUGHT: 20-day high"
+   },
+   {
+    "ticker": "DIS",
+    "info": "122.37",
+    "decision": "BOUGHT: 20-day high"
+   },
+   {
+    "ticker": "+3",
     "info": "",
-    "decision": "more signals, out of cash: KR"
+    "decision": "more signals, out of cash: CMG, ORLY, PCG"
    }
   ],
-  "last_run": "2026-11-18T20:12:58+00:00",
-  "market_open": true,
-  "last_daily": "2026-11-17T21:10:47+00:00"
+  "last_run": "2026-11-18T21:08:12+00:00",
+  "market_open": false,
+  "last_daily": "2026-11-18T21:08:29+00:00"
  }
 }

@@ -1,73 +1,22 @@
 {
- "cash": 20279.250199000002,
- "positions": {
-  "BE": {
-   "qty": 11.5627,
-   "avg_price": 175.385,
-   "opened": "2026-11-18T14:59:46+00:00",
-   "side": "short",
-   "source": "auto",
-   "reason": "gap-up +4.0% below 200-day avg",
-   "entry_date": "2026-11-18",
-   "sl": 185.88
-  },
-  "COHR": {
-   "qty": 9.4732,
-   "avg_price": 214.07,
-   "opened": "2026-11-18T14:59:46+00:00",
-   "side": "short",
-   "source": "auto",
-   "reason": "gap-up +3.9% below 200-day avg",
-   "entry_date": "2026-11-18",
-   "sl": 225.75
-  },
-  "STX": {
-   "qty": 3.9881,
-   "avg_price": 508.49,
-   "opened": "2026-11-18T14:59:46+00:00",
-   "side": "short",
-   "source": "auto",
-   "reason": "gap-up +3.2% below 200-day avg",
-   "entry_date": "2026-11-18",
-   "sl": 536.4
-  },
-  "LITE": {
-   "qty": 3.6305,
-   "avg_price": 558.57,
-   "opened": "2026-11-18T14:59:46+00:00",
-   "side": "short",
-   "source": "auto",
-   "reason": "gap-up +3.2% below 200-day avg",
-   "entry_date": "2026-11-18",
-   "sl": 595.27
-  },
-  "WDC": {
-   "qty": 7.0518,
-   "avg_price": 287.575,
-   "opened": "2026-11-18T14:59:46+00:00",
-   "side": "short",
-   "source": "auto",
-   "reason": "gap-up +2.9% below 200-day avg",
-   "entry_date": "2026-11-18",
-   "sl": 300.43
-  }
- },
+ "cash": 10199.347228900002,
+ "positions": {},
  "last_prices": {
   "FN": 314.775,
-  "COHR": 211.895,
+  "COHR": 212.6,
   "NKE": 35.85,
-  "LITE": 548.135,
+  "LITE": 551.07,
   "MRVL": 148.315,
   "MCHP": 60.26,
   "CIEN": 260.125,
   "CSCO": 95.49,
   "DELL": 319.01,
-  "STX": 509.59,
+  "STX": 515.9,
   "FIX": 1098.035,
   "HL": 12.79,
-  "BE": 170.45,
+  "BE": 170.853,
   "GLW": 109.205,
-  "WDC": 285.82,
+  "WDC": 288.19,
   "ROST": 228.27,
   "SMTC": 106.92,
   "NVDA": 154.73,
@@ -238,6 +187,66 @@
    "broker": "sim",
    "source": "auto",
    "reason": "gap-up +2.9% below 200-day avg"
+  },
+  {
+   "time": "2026-11-18T21:08:12+00:00",
+   "ticker": "BE",
+   "side": "cover",
+   "qty": 11.5627,
+   "price": 170.853,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "end of day",
+   "pnl": 52.4,
+   "pnl_pct": 2.58
+  },
+  {
+   "time": "2026-11-18T21:08:12+00:00",
+   "ticker": "COHR",
+   "side": "cover",
+   "qty": 9.4732,
+   "price": 212.6,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "end of day",
+   "pnl": 13.93,
+   "pnl_pct": 0.69
+  },
+  {
+   "time": "2026-11-18T21:08:12+00:00",
+   "ticker": "STX",
+   "side": "cover",
+   "qty": 3.9881,
+   "price": 515.9,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "end of day",
+   "pnl": -29.55,
+   "pnl_pct": -1.46
+  },
+  {
+   "time": "2026-11-18T21:08:12+00:00",
+   "ticker": "LITE",
+   "side": "cover",
+   "qty": 3.6305,
+   "price": 551.07,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "end of day",
+   "pnl": 27.23,
+   "pnl_pct": 1.34
+  },
+  {
+   "time": "2026-11-18T21:08:12+00:00",
+   "ticker": "WDC",
+   "side": "cover",
+   "qty": 7.0518,
+   "price": 288.19,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "end of day",
+   "pnl": -4.34,
+   "pnl_pct": -0.21
   }
  ],
  "events": [
@@ -520,16 +529,56 @@
    "price": 146.1,
    "source": "auto",
    "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-18T21:08:12+00:00",
+   "ticker": "BE",
+   "action": "cover",
+   "price": 170.853,
+   "source": "auto",
+   "result": "filled cover 11.5627 @ 170.853 (end of day)"
+  },
+  {
+   "time": "2026-11-18T21:08:12+00:00",
+   "ticker": "COHR",
+   "action": "cover",
+   "price": 212.6,
+   "source": "auto",
+   "result": "filled cover 9.4732 @ 212.6 (end of day)"
+  },
+  {
+   "time": "2026-11-18T21:08:12+00:00",
+   "ticker": "STX",
+   "action": "cover",
+   "price": 515.9,
+   "source": "auto",
+   "result": "filled cover 3.9881 @ 515.9 (end of day)"
+  },
+  {
+   "time": "2026-11-18T21:08:12+00:00",
+   "ticker": "LITE",
+   "action": "cover",
+   "price": 551.07,
+   "source": "auto",
+   "result": "filled cover 3.6305 @ 551.07 (end of day)"
+  },
+  {
+   "time": "2026-11-18T21:08:12+00:00",
+   "ticker": "WDC",
+   "action": "cover",
+   "price": 288.19,
+   "source": "auto",
+   "result": "filled cover 7.0518 @ 288.19 (end of day)"
   }
  ],
  "day": {
   "date": "2026-11-18",
   "start_equity": 10139.679396500003,
-  "trades": 5
+  "trades": 10
  },
  "halted": false,
  "status": {
-  "note": "scanned 115 downtrending stocks: 18 gap-ups \u2265 2%",
+  "note": "market closed",
   "decisions": [
    {
     "ticker": "TJX",
@@ -622,8 +671,8 @@
     "decision": "short exposure would exceed 100% of equity"
    }
   ],
-  "last_run": "2026-11-18T20:12:59+00:00",
-  "market_open": true,
+  "last_run": "2026-11-18T21:08:12+00:00",
+  "market_open": false,
   "last_daily": null
  },
  "gap_scan_date": "2026-11-18",

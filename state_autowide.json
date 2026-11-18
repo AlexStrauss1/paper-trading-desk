@@ -73,57 +73,63 @@
   }
  },
  "last_prices": {
-  "MRNA": 198.71,
-  "TRV": 392.16,
-  "TGT": 168.45,
-  "MRK": 137.86,
-  "ABBV": 285.66,
-  "AMGN": 457.93,
-  "GILD": 170.26,
-  "KDP": 34.79,
-  "MO": 77.46,
+  "MRNA": 196.79,
+  "TRV": 391.6,
+  "TGT": 165.96,
+  "MRK": 137.75,
+  "ABBV": 285.96,
+  "AMGN": 443.89,
+  "GILD": 168.98,
+  "KDP": 35.01,
+  "MO": 76.25,
   "VEEV": 299.437,
   "HUM": 443.43,
-  "V": 416.975,
-  "TMO": 686.88,
-  "CSX": 51.14,
-  "HLT": 370.53,
-  "ADP": 313.43,
-  "ABNB": 180.94,
-  "AAPL": 351.91,
-  "CB": 375.63,
+  "V": 415.1,
+  "TMO": 692.825,
+  "CSX": 51.33,
+  "HLT": 373.03,
+  "ADP": 305.57,
+  "ABNB": 180.21,
+  "AAPL": 352.45,
+  "CB": 370.98,
   "COP": 139.545,
   "CVX": 216.31,
-  "MA": 645.51,
+  "MA": 643.235,
   "EOG": 154.93,
   "SWKS": 85.93,
   "ACN": 239.29,
-  "UNP": 297.11,
+  "UNP": 300.93,
   "DE": 671.32,
-  "MRSH": 206.085,
-  "CL": 99.51,
-  "EBAY": 118.59,
-  "PTC": 195.64,
+  "MRSH": 205.39,
+  "CL": 98.815,
+  "EBAY": 121.46,
+  "PTC": 195.85,
   "WELL": 243.79,
-  "ALL": 270.42,
+  "ALL": 266.64,
   "XOM": 169.955,
   "ROST": 231.67,
   "BNY": 149.77,
   "PFE": 28.876,
-  "VRTX": 537.79,
-  "LIN": 515.11,
-  "MDLZ": 67.195,
-  "FDX": 320.02,
-  "JNJ": 278.83,
-  "DAL": 84.31,
+  "VRTX": 536.45,
+  "LIN": 512.16,
+  "MDLZ": 66.565,
+  "FDX": 318.27,
+  "JNJ": 272.72,
+  "DAL": 84.91,
   "USB": 60.45,
-  "WM": 244.33,
-  "LLY": 1415.43,
-  "TXN": 295.86,
-  "UPS": 110.32,
+  "WM": 241.125,
+  "LLY": 1382.315,
+  "TXN": 292.43,
+  "UPS": 111.02,
   "HCA": 501.19,
-  "MDT": 102.28,
-  "PGR": 234.61
+  "MDT": 100.69,
+  "PGR": 234.61,
+  "REGN": 945.53,
+  "BRK-B": 574.27,
+  "ANET": 193.965,
+  "WMT": 127.36,
+  "RCL": 320.64,
+  "SBUX": 109.11
  },
  "trades": [
   {
@@ -1001,15 +1007,303 @@
    "price": 234.61,
    "source": "auto",
    "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "GILD",
+   "action": "buy",
+   "price": 168.98,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "REGN",
+   "action": "buy",
+   "price": 945.53,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "HLT",
+   "action": "buy",
+   "price": 373.03,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "V",
+   "action": "buy",
+   "price": 415.1,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "JNJ",
+   "action": "buy",
+   "price": 272.72,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "TMO",
+   "action": "buy",
+   "price": 692.825,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "CSX",
+   "action": "buy",
+   "price": 51.33,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "BRK-B",
+   "action": "buy",
+   "price": 574.27,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "LLY",
+   "action": "buy",
+   "price": 1382.315,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "AAPL",
+   "action": "buy",
+   "price": 352.45,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "MO",
+   "action": "buy",
+   "price": 76.25,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "KDP",
+   "action": "buy",
+   "price": 35.01,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "AMGN",
+   "action": "buy",
+   "price": 443.89,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "MA",
+   "action": "buy",
+   "price": 643.235,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "CB",
+   "action": "buy",
+   "price": 370.98,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "ADP",
+   "action": "buy",
+   "price": 305.57,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "EBAY",
+   "action": "buy",
+   "price": 121.46,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "UNP",
+   "action": "buy",
+   "price": 300.93,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "ABNB",
+   "action": "buy",
+   "price": 180.21,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "ANET",
+   "action": "buy",
+   "price": 193.965,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "PTC",
+   "action": "buy",
+   "price": 195.85,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "CL",
+   "action": "buy",
+   "price": 98.815,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "ALL",
+   "action": "buy",
+   "price": 266.64,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "MRSH",
+   "action": "buy",
+   "price": 205.39,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "TXN",
+   "action": "buy",
+   "price": 292.43,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "DAL",
+   "action": "buy",
+   "price": 84.91,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "UPS",
+   "action": "buy",
+   "price": 111.02,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "WMT",
+   "action": "buy",
+   "price": 127.36,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "RCL",
+   "action": "buy",
+   "price": 320.64,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "MDLZ",
+   "action": "buy",
+   "price": 66.565,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "VRTX",
+   "action": "buy",
+   "price": 536.45,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "LIN",
+   "action": "buy",
+   "price": 512.16,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "FDX",
+   "action": "buy",
+   "price": 318.27,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "WM",
+   "action": "buy",
+   "price": 241.125,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "SBUX",
+   "action": "buy",
+   "price": 109.11,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "MDT",
+   "action": "buy",
+   "price": 100.69,
+   "source": "auto",
+   "result": "rejected: not enough cash"
   }
  ],
  "day": {
-  "date": "2026-11-17",
-  "start_equity": 9728.679798,
+  "date": "2026-11-18",
+  "start_equity": 9566.712969999999,
   "trades": 0
  },
  "halted": false,
- "last_daily_run": "2026-11-17",
+ "last_daily_run": "2026-11-18",
  "price_sources": {
   "MRNA": "yahoo",
   "TRV": "yahoo",
@@ -1018,16 +1312,16 @@
   "ABBV": "yahoo"
  },
  "status": {
-  "note": "next decision after 15:30 ET on trading days",
+  "note": "1 action(s) at today's run",
   "decisions": [
    {
-    "ticker": "+34",
+    "ticker": "+36",
     "info": "",
-    "decision": "more signals, out of cash: GILD, JNJ, HUM, AMGN, MO, V, HLT, LLY\u2026"
+    "decision": "more signals, out of cash: GILD, REGN, HLT, V, JNJ, TMO, CSX, BRK-B\u2026"
    }
   ],
-  "last_run": "2026-11-18T20:12:58+00:00",
-  "market_open": true,
-  "last_daily": "2026-11-17T21:10:47+00:00"
+  "last_run": "2026-11-18T21:08:12+00:00",
+  "market_open": false,
+  "last_daily": "2026-11-18T21:08:29+00:00"
  }
 }

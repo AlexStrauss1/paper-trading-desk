@@ -1,5 +1,5 @@
 {
- "cash": 0.04145250000055967,
+ "cash": 0.004107500000543496,
  "positions": {
   "ABBV": {
    "qty": 3.3849,
@@ -132,20 +132,6 @@
    "tp": null,
    "sl": null
   },
-  "HUM": {
-   "qty": 0.5428,
-   "avg_price": 461.33,
-   "opened": "2026-11-16T21:03:20+00:00",
-   "side": "long",
-   "source": "auto",
-   "reason": "new 52w high",
-   "entry_date": "2026-11-16",
-   "max_hold": 60,
-   "meta": null,
-   "trail": null,
-   "tp": null,
-   "sl": null
-  },
   "MCK": {
    "qty": 0.2265,
    "avg_price": 1105.4,
@@ -173,29 +159,44 @@
    "trail": null,
    "tp": null,
    "sl": null
+  },
+  "DIS": {
+   "qty": 1.7105,
+   "avg_price": 122.37,
+   "opened": "2026-11-18T21:08:29+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "new 52w high",
+   "entry_date": "2026-11-18",
+   "max_hold": 60,
+   "meta": null,
+   "trail": null,
+   "tp": null,
+   "sl": null
   }
  },
  "last_prices": {
-  "ABBV": 285.66,
-  "LLY": 1385.495,
-  "KO": 97.905,
-  "JNJ": 273.3,
+  "ABBV": 285.96,
+  "LLY": 1382.315,
+  "KO": 98.04,
+  "JNJ": 272.72,
   "MO": 76.25,
-  "AAPL": 352.385,
-  "PG": 169.955,
-  "CL": 98.655,
-  "COST": 1104.53,
-  "CAH": 278.665,
-  "HUM": 395.01,
-  "MCK": 1079.665,
-  "BRK-B": 574.2,
+  "AAPL": 352.45,
+  "PG": 170.29,
+  "CL": 98.815,
+  "COST": 1096.62,
+  "CAH": 278.35,
+  "HUM": 385.55,
+  "MCK": 1084.025,
+  "BRK-B": 574.27,
   "CB": 381.39,
   "ADP": 313.43,
   "WM": 244.33,
   "PGR": 237.37,
   "ELV": 446.47,
   "DUK": 130.58,
-  "CME": 319.37
+  "CME": 319.37,
+  "DIS": 122.37
  },
  "trades": [
   {
@@ -324,6 +325,28 @@
    "side": "buy",
    "qty": 0.4197,
    "price": 592.95,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "new 52w high"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "HUM",
+   "side": "sell",
+   "qty": 0.5428,
+   "price": 385.55,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "trailing stop",
+   "pnl": -41.13,
+   "pnl_pct": -16.43
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "DIS",
+   "side": "buy",
+   "qty": 1.7105,
+   "price": 122.37,
    "broker": "sim",
    "source": "auto",
    "reason": "new 52w high"
@@ -489,15 +512,31 @@
    "price": 319.37,
    "source": "auto",
    "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "HUM",
+   "action": "sell",
+   "price": 385.55,
+   "source": "auto",
+   "result": "filled sell 0.5428 @ 385.55 (trailing stop)"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "DIS",
+   "action": "buy",
+   "price": 122.37,
+   "source": "auto",
+   "result": "filled buy 1.7105 @ 122.37 (new 52w high)"
   }
  ],
  "day": {
-  "date": "2026-11-16",
-  "start_equity": 10017.9787185,
-  "trades": 4
+  "date": "2026-11-18",
+  "start_equity": 9754.187805000001,
+  "trades": 2
  },
  "halted": false,
- "last_daily_run": "2026-11-17",
+ "last_daily_run": "2026-11-18",
  "price_sources": {
   "ABBV": "yahoo",
   "LLY": "yahoo",
@@ -514,10 +553,21 @@
   "BRK-B": "yahoo"
  },
  "status": {
-  "note": "next decision after 15:30 ET on trading days",
-  "decisions": [],
-  "last_run": "2026-11-18T20:12:58+00:00",
-  "market_open": true,
-  "last_daily": "2026-11-17T21:10:47+00:00"
+  "note": "2 action(s) at today's run",
+  "decisions": [
+   {
+    "ticker": "HUM",
+    "info": "385.55",
+    "decision": "CLOSED: trailing stop"
+   },
+   {
+    "ticker": "DIS",
+    "info": "122.37",
+    "decision": "BOUGHT: new 52w high"
+   }
+  ],
+  "last_run": "2026-11-18T21:08:12+00:00",
+  "market_open": false,
+  "last_daily": "2026-11-18T21:08:29+00:00"
  }
 }

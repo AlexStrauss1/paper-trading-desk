@@ -1,23 +1,9 @@
 {
- "cash": 5017.091322499999,
+ "cash": 4072.540393999998,
  "positions": {
   "MRNA": {
    "qty": 1.1147,
    "avg_price": 224.26,
-   "opened": "2026-11-13T19:41:45+00:00",
-   "side": "long",
-   "source": "auto",
-   "reason": "leader dip",
-   "entry_date": "2026-11-13",
-   "max_hold": 10,
-   "meta": null,
-   "trail": null,
-   "tp": null,
-   "sl": null
-  },
-  "TGT": {
-   "qty": 1.5545,
-   "avg_price": 160.815,
    "opened": "2026-11-13T19:41:45+00:00",
    "side": "long",
    "source": "auto",
@@ -57,20 +43,6 @@
    "tp": null,
    "sl": null
   },
-  "MAR": {
-   "qty": 0.5911,
-   "avg_price": 422.9,
-   "opened": "2026-11-13T19:41:45+00:00",
-   "side": "long",
-   "source": "auto",
-   "reason": "leader dip",
-   "entry_date": "2026-11-13",
-   "max_hold": 10,
-   "meta": null,
-   "trail": null,
-   "tp": null,
-   "sl": null
-  },
   "TMO": {
    "qty": 0.3576,
    "avg_price": 699.05,
@@ -85,37 +57,9 @@
    "tp": null,
    "sl": null
   },
-  "HLT": {
-   "qty": 0.6704,
-   "avg_price": 372.86,
-   "opened": "2026-11-13T19:41:45+00:00",
-   "side": "long",
-   "source": "auto",
-   "reason": "leader dip",
-   "entry_date": "2026-11-13",
-   "max_hold": 10,
-   "meta": null,
-   "trail": null,
-   "tp": null,
-   "sl": null
-  },
   "CSX": {
    "qty": 4.7984,
    "avg_price": 52.03,
-   "opened": "2026-11-16T21:03:20+00:00",
-   "side": "long",
-   "source": "auto",
-   "reason": "leader dip",
-   "entry_date": "2026-11-16",
-   "max_hold": 10,
-   "meta": null,
-   "trail": null,
-   "tp": null,
-   "sl": null
-  },
-  "OKTA": {
-   "qty": 1.4008,
-   "avg_price": 178.22,
    "opened": "2026-11-16T21:03:20+00:00",
    "side": "long",
    "source": "auto",
@@ -280,30 +224,149 @@
    "trail": null,
    "tp": null,
    "sl": null
+  },
+  "CAH": {
+   "qty": 0.8885,
+   "avg_price": 278.35,
+   "opened": "2026-11-18T21:08:29+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "leader dip",
+   "entry_date": "2026-11-18",
+   "max_hold": 10,
+   "meta": null,
+   "trail": null,
+   "tp": null,
+   "sl": null
+  },
+  "KO": {
+   "qty": 2.5225,
+   "avg_price": 98.04,
+   "opened": "2026-11-18T21:08:29+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "leader dip",
+   "entry_date": "2026-11-18",
+   "max_hold": 10,
+   "meta": null,
+   "trail": null,
+   "tp": null,
+   "sl": null
+  },
+  "MCK": {
+   "qty": 0.2281,
+   "avg_price": 1084.025,
+   "opened": "2026-11-18T21:08:29+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "leader dip",
+   "entry_date": "2026-11-18",
+   "max_hold": 10,
+   "meta": null,
+   "trail": null,
+   "tp": null,
+   "sl": null
+  },
+  "MSI": {
+   "qty": 0.4718,
+   "avg_price": 524.19,
+   "opened": "2026-11-18T21:08:29+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "leader dip",
+   "entry_date": "2026-11-18",
+   "max_hold": 10,
+   "meta": null,
+   "trail": null,
+   "tp": null,
+   "sl": null
+  },
+  "PG": {
+   "qty": 1.4523,
+   "avg_price": 170.29,
+   "opened": "2026-11-18T21:08:29+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "leader dip",
+   "entry_date": "2026-11-18",
+   "max_hold": 10,
+   "meta": null,
+   "trail": null,
+   "tp": null,
+   "sl": null
+  },
+  "MO": {
+   "qty": 3.2434,
+   "avg_price": 76.25,
+   "opened": "2026-11-18T21:08:29+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "leader dip",
+   "entry_date": "2026-11-18",
+   "max_hold": 10,
+   "meta": null,
+   "trail": null,
+   "tp": null,
+   "sl": null
+  },
+  "MA": {
+   "qty": 0.3844,
+   "avg_price": 643.235,
+   "opened": "2026-11-18T21:08:29+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "leader dip",
+   "entry_date": "2026-11-18",
+   "max_hold": 10,
+   "meta": null,
+   "trail": null,
+   "tp": null,
+   "sl": null
+  },
+  "CB": {
+   "qty": 0.6666,
+   "avg_price": 370.98,
+   "opened": "2026-11-18T21:08:29+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "leader dip",
+   "entry_date": "2026-11-18",
+   "max_hold": 10,
+   "meta": null,
+   "trail": null,
+   "tp": null,
+   "sl": null
   }
  },
  "last_prices": {
-  "MRNA": 198.71,
-  "TGT": 168.45,
-  "AMGN": 443.68,
-  "MSI": 534.16,
-  "VEEV": 279.01,
-  "MAR": 426.35,
-  "TMO": 690.01,
-  "HLT": 373.345,
-  "CSX": 51.325,
-  "OKTA": 193.565,
-  "MPC": 372.955,
-  "PSX": 244.78,
-  "TRV": 392.16,
-  "VLO": 343.39,
-  "ABBV": 285.66,
-  "JNJ": 273.3,
-  "BRK-B": 574.2,
-  "LLY": 1385.495,
-  "MRK": 137.86,
-  "KDP": 34.855,
-  "V": 415.99
+  "MRNA": 196.79,
+  "TGT": 165.96,
+  "AMGN": 443.89,
+  "MSI": 524.19,
+  "VEEV": 277.24,
+  "MAR": 425.9,
+  "TMO": 692.825,
+  "HLT": 373.03,
+  "CSX": 51.33,
+  "OKTA": 195.61,
+  "MPC": 373.86,
+  "PSX": 244.74,
+  "TRV": 391.6,
+  "VLO": 343.73,
+  "ABBV": 285.96,
+  "JNJ": 272.72,
+  "BRK-B": 574.27,
+  "LLY": 1382.315,
+  "MRK": 137.75,
+  "KDP": 35.01,
+  "V": 415.1,
+  "CAH": 278.35,
+  "KO": 98.04,
+  "MCK": 1084.025,
+  "PG": 170.29,
+  "MO": 76.25,
+  "MA": 643.235,
+  "CB": 370.98
  },
  "trades": [
   {
@@ -527,6 +590,134 @@
    "broker": "sim",
    "source": "auto",
    "reason": "leader dip"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "TGT",
+   "side": "sell",
+   "qty": 1.5545,
+   "price": 165.96,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "bounced",
+   "pnl": 8.0,
+   "pnl_pct": 3.2
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "MAR",
+   "side": "sell",
+   "qty": 0.5911,
+   "price": 425.9,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "bounced",
+   "pnl": 1.77,
+   "pnl_pct": 0.71
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "HLT",
+   "side": "sell",
+   "qty": 0.6704,
+   "price": 373.03,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "bounced",
+   "pnl": 0.11,
+   "pnl_pct": 0.05
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "OKTA",
+   "side": "sell",
+   "qty": 1.4008,
+   "price": 195.61,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "bounced",
+   "pnl": 24.36,
+   "pnl_pct": 9.76
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "CAH",
+   "side": "buy",
+   "qty": 0.8885,
+   "price": 278.35,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "leader dip"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "KO",
+   "side": "buy",
+   "qty": 2.5225,
+   "price": 98.04,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "leader dip"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "MCK",
+   "side": "buy",
+   "qty": 0.2281,
+   "price": 1084.025,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "leader dip"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "MSI",
+   "side": "buy",
+   "qty": 0.4718,
+   "price": 524.19,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "leader dip"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "PG",
+   "side": "buy",
+   "qty": 1.4523,
+   "price": 170.29,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "leader dip"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "MO",
+   "side": "buy",
+   "qty": 3.2434,
+   "price": 76.25,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "leader dip"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "MA",
+   "side": "buy",
+   "qty": 0.3844,
+   "price": 643.235,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "leader dip"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "CB",
+   "side": "buy",
+   "qty": 0.6666,
+   "price": 370.98,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "leader dip"
   }
  ],
  "events": [
@@ -705,15 +896,111 @@
    "price": 416.975,
    "source": "auto",
    "result": "filled buy 0.5965 @ 416.975 (leader dip)"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "TGT",
+   "action": "sell",
+   "price": 165.96,
+   "source": "auto",
+   "result": "filled sell 1.5545 @ 165.96 (bounced)"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "MAR",
+   "action": "sell",
+   "price": 425.9,
+   "source": "auto",
+   "result": "filled sell 0.5911 @ 425.9 (bounced)"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "HLT",
+   "action": "sell",
+   "price": 373.03,
+   "source": "auto",
+   "result": "filled sell 0.6704 @ 373.03 (bounced)"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "OKTA",
+   "action": "sell",
+   "price": 195.61,
+   "source": "auto",
+   "result": "filled sell 1.4008 @ 195.61 (bounced)"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "CAH",
+   "action": "buy",
+   "price": 278.35,
+   "source": "auto",
+   "result": "filled buy 0.8885 @ 278.35 (leader dip)"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "KO",
+   "action": "buy",
+   "price": 98.04,
+   "source": "auto",
+   "result": "filled buy 2.5225 @ 98.04 (leader dip)"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "MCK",
+   "action": "buy",
+   "price": 1084.025,
+   "source": "auto",
+   "result": "filled buy 0.2281 @ 1084.025 (leader dip)"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "MSI",
+   "action": "buy",
+   "price": 524.19,
+   "source": "auto",
+   "result": "filled buy 0.4718 @ 524.19 (leader dip)"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "PG",
+   "action": "buy",
+   "price": 170.29,
+   "source": "auto",
+   "result": "filled buy 1.4523 @ 170.29 (leader dip)"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "MO",
+   "action": "buy",
+   "price": 76.25,
+   "source": "auto",
+   "result": "filled buy 3.2434 @ 76.25 (leader dip)"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "MA",
+   "action": "buy",
+   "price": 643.235,
+   "source": "auto",
+   "result": "filled buy 0.3844 @ 643.235 (leader dip)"
+  },
+  {
+   "time": "2026-11-18T21:08:29+00:00",
+   "ticker": "CB",
+   "action": "buy",
+   "price": 370.98,
+   "source": "auto",
+   "result": "filled buy 0.6666 @ 370.98 (leader dip)"
   }
  ],
  "day": {
-  "date": "2026-11-17",
-  "start_equity": 9949.341730499998,
-  "trades": 11
+  "date": "2026-11-18",
+  "start_equity": 9892.618443,
+  "trades": 12
  },
  "halted": false,
- "last_daily_run": "2026-11-17",
+ "last_daily_run": "2026-11-18",
  "price_sources": {
   "MRNA": "yahoo",
   "TGT": "yahoo",
@@ -738,66 +1025,71 @@
   "V": "yahoo"
  },
  "status": {
-  "note": "next decision after 15:30 ET on trading days",
+  "note": "12 action(s) at today's run",
   "decisions": [
    {
-    "ticker": "MPC",
-    "info": "395.64",
+    "ticker": "TGT",
+    "info": "165.96",
+    "decision": "CLOSED: bounced"
+   },
+   {
+    "ticker": "MAR",
+    "info": "425.90",
+    "decision": "CLOSED: bounced"
+   },
+   {
+    "ticker": "HLT",
+    "info": "373.03",
+    "decision": "CLOSED: bounced"
+   },
+   {
+    "ticker": "OKTA",
+    "info": "195.61",
+    "decision": "CLOSED: bounced"
+   },
+   {
+    "ticker": "CAH",
+    "info": "278.35",
     "decision": "BOUGHT: leader dip"
    },
    {
-    "ticker": "PSX",
-    "info": "256.92",
+    "ticker": "KO",
+    "info": "98.04",
     "decision": "BOUGHT: leader dip"
    },
    {
-    "ticker": "TRV",
-    "info": "397.58",
+    "ticker": "MCK",
+    "info": "1084.03",
     "decision": "BOUGHT: leader dip"
    },
    {
-    "ticker": "VLO",
-    "info": "363.89",
+    "ticker": "MSI",
+    "info": "524.19",
     "decision": "BOUGHT: leader dip"
    },
    {
-    "ticker": "ABBV",
-    "info": "292.86",
+    "ticker": "PG",
+    "info": "170.29",
     "decision": "BOUGHT: leader dip"
    },
    {
-    "ticker": "JNJ",
-    "info": "278.83",
+    "ticker": "MO",
+    "info": "76.25",
     "decision": "BOUGHT: leader dip"
    },
    {
-    "ticker": "BRK-B",
-    "info": "587.05",
+    "ticker": "MA",
+    "info": "643.24",
     "decision": "BOUGHT: leader dip"
    },
    {
-    "ticker": "LLY",
-    "info": "1415.43",
-    "decision": "BOUGHT: leader dip"
-   },
-   {
-    "ticker": "MRK",
-    "info": "143.40",
-    "decision": "BOUGHT: leader dip"
-   },
-   {
-    "ticker": "KDP",
-    "info": "34.79",
-    "decision": "BOUGHT: leader dip"
-   },
-   {
-    "ticker": "V",
-    "info": "416.98",
+    "ticker": "CB",
+    "info": "370.98",
     "decision": "BOUGHT: leader dip"
    }
   ],
-  "last_run": "2026-11-18T20:12:58+00:00",
-  "market_open": true,
-  "last_daily": "2026-11-17T21:10:47+00:00"
+  "last_run": "2026-11-18T21:08:12+00:00",
+  "market_open": false,
+  "last_daily": "2026-11-18T21:08:29+00:00"
  }
 }

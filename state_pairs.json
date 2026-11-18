@@ -1,5 +1,5 @@
 {
- "cash": 8000.010547,
+ "cash": 6028.350845499999,
  "positions": {
   "NVDA": {
    "qty": 12.3099,
@@ -17,10 +17,28 @@
    "trail": null,
    "tp": null,
    "sl": 149.47
+  },
+  "HD": {
+   "qty": 5.8391,
+   "avg_price": 337.665,
+   "opened": "2026-11-18T21:08:31+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "HD lags LOW",
+   "entry_date": "2026-11-18",
+   "max_hold": 20,
+   "meta": [
+    "HD",
+    "LOW"
+   ],
+   "trail": null,
+   "tp": null,
+   "sl": 310.65
   }
  },
  "last_prices": {
-  "NVDA": 151.105
+  "NVDA": 150.96,
+  "HD": 337.665
  },
  "trades": [
   {
@@ -32,6 +50,16 @@
    "broker": "sim",
    "source": "auto",
    "reason": "NVDA lags AMD"
+  },
+  {
+   "time": "2026-11-18T21:08:31+00:00",
+   "ticker": "HD",
+   "side": "buy",
+   "qty": 5.8391,
+   "price": 337.665,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "HD lags LOW"
   }
  ],
  "events": [
@@ -42,23 +70,37 @@
    "price": 162.47,
    "source": "auto",
    "result": "filled buy 12.3099 @ 162.47 (NVDA lags AMD)"
+  },
+  {
+   "time": "2026-11-18T21:08:31+00:00",
+   "ticker": "HD",
+   "action": "buy",
+   "price": 337.665,
+   "source": "auto",
+   "result": "filled buy 5.8391 @ 337.665 (HD lags LOW)"
   }
  ],
  "day": {
-  "date": "2026-11-13",
-  "start_equity": 10000.0,
+  "date": "2026-11-18",
+  "start_equity": 9858.313051000001,
   "trades": 1
  },
  "halted": false,
- "last_daily_run": "2026-11-17",
+ "last_daily_run": "2026-11-18",
  "price_sources": {
   "NVDA": "yahoo"
  },
  "status": {
-  "note": "next decision after 15:30 ET on trading days",
-  "decisions": [],
-  "last_run": "2026-11-18T20:12:58+00:00",
-  "market_open": true,
-  "last_daily": "2026-11-17T21:10:49+00:00"
+  "note": "1 action(s) at today's run",
+  "decisions": [
+   {
+    "ticker": "HD",
+    "info": "337.67",
+    "decision": "BOUGHT: HD lags LOW"
+   }
+  ],
+  "last_run": "2026-11-18T21:08:12+00:00",
+  "market_open": false,
+  "last_daily": "2026-11-18T21:08:31+00:00"
  }
 }
