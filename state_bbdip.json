@@ -87,12 +87,12 @@
   }
  },
  "last_prices": {
-  "VEEV": 285.21,
-  "WDAY": 180.11,
-  "PFE": 28.315,
-  "DHR": 227.085,
-  "PATH": 11.895,
-  "UNH": 378.02
+  "VEEV": 286.905,
+  "WDAY": 180.205,
+  "PFE": 28.345,
+  "DHR": 227.72,
+  "PATH": 11.985,
+  "UNH": 373.35
  },
  "trades": [
   {
@@ -247,7 +247,7 @@
     "decision": "BOUGHT: below lower band"
    }
   ],
-  "last_run": "2026-11-18T14:59:39+00:00",
+  "last_run": "2026-11-18T15:12:54+00:00",
   "market_open": true,
   "last_daily": "2026-11-17T21:10:49+00:00"
  },
