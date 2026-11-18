@@ -17,7 +17,7 @@
   }
  },
  "last_prices": {
-  "MRNA": 201.635,
+  "MRNA": 199.34,
   "VEEV": 279.095
  },
  "trades": [
@@ -138,7 +138,7 @@
     "decision": "BOUGHT: leader pullback"
    }
   ],
-  "last_run": "2026-11-18T18:08:56+00:00",
+  "last_run": "2026-11-18T19:14:07+00:00",
   "market_open": true,
   "last_daily": "2026-11-17T21:10:47+00:00"
  }

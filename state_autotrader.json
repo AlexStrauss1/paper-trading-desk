@@ -1,5 +1,5 @@
 {
- "cash": 0.0415519999994558,
+ "cash": 1867.2913319999996,
  "positions": {
   "MRNA": {
    "qty": 8.9182,
@@ -43,20 +43,6 @@
    "tp": 182.65,
    "sl": 149.9
   },
-  "MRK": {
-   "qty": 13.5652,
-   "avg_price": 147.435,
-   "opened": "2026-11-13T19:41:45+00:00",
-   "side": "long",
-   "source": "auto",
-   "reason": "momentum",
-   "entry_date": "2026-11-13",
-   "max_hold": 21,
-   "meta": null,
-   "trail": 0.08469435973028662,
-   "tp": 166.17,
-   "sl": 138.07
-  },
   "ABBV": {
    "qty": 6.7629,
    "avg_price": 295.73,
@@ -73,11 +59,11 @@
   }
  },
  "last_prices": {
-  "MRNA": 201.635,
-  "TRV": 390.25,
-  "TGT": 171.18,
-  "MRK": 138.92,
-  "ABBV": 288.08,
+  "MRNA": 199.34,
+  "TRV": 390.98,
+  "TGT": 169.72,
+  "MRK": 137.65,
+  "ABBV": 286.585,
   "AMGN": 457.93,
   "GILD": 170.26,
   "KDP": 34.79,
@@ -175,6 +161,18 @@
    "broker": "sim",
    "source": "auto",
    "reason": "momentum"
+  },
+  {
+   "time": "2026-11-18T19:14:07+00:00",
+   "ticker": "MRK",
+   "side": "sell",
+   "qty": 13.5652,
+   "price": 137.65,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "stop 138.07 [yahoo price]",
+   "pnl": -132.74,
+   "pnl_pct": -6.64
   }
  ],
  "events": [
@@ -1001,12 +999,20 @@
    "price": 234.61,
    "source": "auto",
    "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-18T19:14:07+00:00",
+   "ticker": "MRK",
+   "action": "sell",
+   "price": 137.65,
+   "source": "auto",
+   "result": "filled sell 13.5652 @ 137.65 (stop 138.07 [yahoo price])"
   }
  ],
  "day": {
-  "date": "2026-11-17",
-  "start_equity": 9728.679798,
-  "trades": 0
+  "date": "2026-11-18",
+  "start_equity": 9636.0066245,
+  "trades": 1
  },
  "halted": false,
  "last_daily_run": "2026-11-17",
@@ -1026,7 +1032,7 @@
     "decision": "more signals, out of cash: GILD, JNJ, HUM, AMGN, MO, V, HLT, LLY\u2026"
    }
   ],
-  "last_run": "2026-11-18T18:08:56+00:00",
+  "last_run": "2026-11-18T19:14:07+00:00",
   "market_open": true,
   "last_daily": "2026-11-17T21:10:47+00:00"
  }
