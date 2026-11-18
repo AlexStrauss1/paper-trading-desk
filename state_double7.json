@@ -128,15 +128,15 @@
   }
  },
  "last_prices": {
-  "PFE": 28.08,
-  "MRNA": 199.34,
-  "MRK": 137.65,
-  "TMO": 690.91,
-  "VEEV": 277.805,
-  "ILMN": 210.02,
-  "DE": 643.85,
-  "ACN": 230.65,
-  "VRTX": 537.965,
+  "PFE": 28.11,
+  "MRNA": 198.71,
+  "MRK": 137.86,
+  "TMO": 690.01,
+  "VEEV": 279.01,
+  "ILMN": 209.7,
+  "DE": 645.82,
+  "ACN": 229.98,
+  "VRTX": 537.915,
   "DHR": 225.7,
   "RCL": 307.455,
   "GM": 83.67,
@@ -927,7 +927,7 @@
     "decision": "more signals, out of cash: OKTA, TGT, ABBV, JNJ, MSI, AMGN, V, HLT\u2026"
    }
   ],
-  "last_run": "2026-11-18T19:14:07+00:00",
+  "last_run": "2026-11-18T20:12:58+00:00",
   "market_open": true,
   "last_daily": "2026-11-17T21:10:47+00:00"
  }
