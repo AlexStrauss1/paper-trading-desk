@@ -143,16 +143,16 @@
   }
  },
  "last_prices": {
-  "MRNA": 202.04,
-  "MU": 690.582,
-  "LITE": 546.84,
-  "DELL": 311.75,
-  "MRVL": 143.845,
-  "VLO": 346.88,
-  "HPE": 45.6,
-  "INTC": 53.85,
-  "MPC": 376.948,
-  "OKTA": 184.0
+  "MRNA": 204.23,
+  "MU": 704.54,
+  "LITE": 550.725,
+  "DELL": 313.235,
+  "MRVL": 144.67,
+  "VLO": 345.88,
+  "HPE": 45.91,
+  "INTC": 54.24,
+  "MPC": 377.6,
+  "OKTA": 187.35
  },
  "trades": [
   {
@@ -361,7 +361,7 @@
  "status": {
   "note": "next decision after 15:30 ET on trading days",
   "decisions": [],
-  "last_run": "2026-11-18T16:48:37+00:00",
+  "last_run": "2026-11-18T17:19:44+00:00",
   "market_open": true,
   "last_daily": "2026-11-17T21:10:47+00:00"
  }
