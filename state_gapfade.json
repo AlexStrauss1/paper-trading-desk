@@ -1,21 +1,82 @@
 {
- "cash": 10139.679396500003,
- "positions": {},
+ "cash": 20279.250199000002,
+ "positions": {
+  "BE": {
+   "qty": 11.5627,
+   "avg_price": 175.385,
+   "opened": "2026-11-18T14:59:46+00:00",
+   "side": "short",
+   "source": "auto",
+   "reason": "gap-up +4.0% below 200-day avg",
+   "entry_date": "2026-11-18",
+   "sl": 185.88
+  },
+  "COHR": {
+   "qty": 9.4732,
+   "avg_price": 214.07,
+   "opened": "2026-11-18T14:59:46+00:00",
+   "side": "short",
+   "source": "auto",
+   "reason": "gap-up +3.9% below 200-day avg",
+   "entry_date": "2026-11-18",
+   "sl": 225.75
+  },
+  "STX": {
+   "qty": 3.9881,
+   "avg_price": 508.49,
+   "opened": "2026-11-18T14:59:46+00:00",
+   "side": "short",
+   "source": "auto",
+   "reason": "gap-up +3.2% below 200-day avg",
+   "entry_date": "2026-11-18",
+   "sl": 536.4
+  },
+  "LITE": {
+   "qty": 3.6305,
+   "avg_price": 558.57,
+   "opened": "2026-11-18T14:59:46+00:00",
+   "side": "short",
+   "source": "auto",
+   "reason": "gap-up +3.2% below 200-day avg",
+   "entry_date": "2026-11-18",
+   "sl": 595.27
+  },
+  "WDC": {
+   "qty": 7.0518,
+   "avg_price": 287.575,
+   "opened": "2026-11-18T14:59:46+00:00",
+   "side": "short",
+   "source": "auto",
+   "reason": "gap-up +2.9% below 200-day avg",
+   "entry_date": "2026-11-18",
+   "sl": 300.43
+  }
+ },
  "last_prices": {
   "FN": 314.775,
-  "COHR": 210.94,
+  "COHR": 214.07,
   "NKE": 35.85,
-  "LITE": 559.97,
-  "MRVL": 148.74,
+  "LITE": 558.57,
+  "MRVL": 148.315,
   "MCHP": 60.26,
   "CIEN": 260.125,
   "CSCO": 95.49,
   "DELL": 319.01,
-  "STX": 507.842,
+  "STX": 508.49,
   "FIX": 1098.035,
   "HL": 12.79,
-  "BE": 173.97,
-  "GLW": 108.36
+  "BE": 175.385,
+  "GLW": 109.205,
+  "WDC": 287.575,
+  "ROST": 228.27,
+  "SMTC": 106.92,
+  "NVDA": 154.73,
+  "VRT": 194.475,
+  "TER": 238.65,
+  "AVGO": 348.85,
+  "SMCI": 24.684,
+  "ORCL": 115.82,
+  "KLAC": 146.1
  },
  "trades": [
   {
@@ -127,6 +188,56 @@
    "reason": "end of day",
    "pnl": -19.89,
    "pnl_pct": -0.99
+  },
+  {
+   "time": "2026-11-18T14:59:46+00:00",
+   "ticker": "BE",
+   "side": "short",
+   "qty": 11.5627,
+   "price": 175.385,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "gap-up +4.0% below 200-day avg"
+  },
+  {
+   "time": "2026-11-18T14:59:46+00:00",
+   "ticker": "COHR",
+   "side": "short",
+   "qty": 9.4732,
+   "price": 214.07,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "gap-up +3.9% below 200-day avg"
+  },
+  {
+   "time": "2026-11-18T14:59:46+00:00",
+   "ticker": "STX",
+   "side": "short",
+   "qty": 3.9881,
+   "price": 508.49,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "gap-up +3.2% below 200-day avg"
+  },
+  {
+   "time": "2026-11-18T14:59:46+00:00",
+   "ticker": "LITE",
+   "side": "short",
+   "qty": 3.6305,
+   "price": 558.57,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "gap-up +3.2% below 200-day avg"
+  },
+  {
+   "time": "2026-11-18T14:59:46+00:00",
+   "ticker": "WDC",
+   "side": "short",
+   "qty": 7.0518,
+   "price": 287.575,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "gap-up +2.9% below 200-day avg"
   }
  ],
  "events": [
@@ -281,93 +392,241 @@
    "price": 148.74,
    "source": "auto",
    "result": "filled cover 13.58 @ 148.74 (end of day)"
+  },
+  {
+   "time": "2026-11-18T14:59:46+00:00",
+   "ticker": "BE",
+   "action": "short",
+   "price": 175.385,
+   "source": "auto",
+   "result": "filled short 11.5627 @ 175.385 (gap-up +4.0% below 200-day avg)"
+  },
+  {
+   "time": "2026-11-18T14:59:46+00:00",
+   "ticker": "COHR",
+   "action": "short",
+   "price": 214.07,
+   "source": "auto",
+   "result": "filled short 9.4732 @ 214.07 (gap-up +3.9% below 200-day avg)"
+  },
+  {
+   "time": "2026-11-18T14:59:46+00:00",
+   "ticker": "STX",
+   "action": "short",
+   "price": 508.49,
+   "source": "auto",
+   "result": "filled short 3.9881 @ 508.49 (gap-up +3.2% below 200-day avg)"
+  },
+  {
+   "time": "2026-11-18T14:59:46+00:00",
+   "ticker": "LITE",
+   "action": "short",
+   "price": 558.57,
+   "source": "auto",
+   "result": "filled short 3.6305 @ 558.57 (gap-up +3.2% below 200-day avg)"
+  },
+  {
+   "time": "2026-11-18T14:59:46+00:00",
+   "ticker": "WDC",
+   "action": "short",
+   "price": 287.575,
+   "source": "auto",
+   "result": "filled short 7.0518 @ 287.575 (gap-up +2.9% below 200-day avg)"
+  },
+  {
+   "time": "2026-11-18T14:59:46+00:00",
+   "ticker": "ROST",
+   "action": "short",
+   "price": 228.27,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-18T14:59:46+00:00",
+   "ticker": "GLW",
+   "action": "short",
+   "price": 109.205,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-18T14:59:46+00:00",
+   "ticker": "SMTC",
+   "action": "short",
+   "price": 106.92,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-18T14:59:46+00:00",
+   "ticker": "NVDA",
+   "action": "short",
+   "price": 154.73,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-18T14:59:46+00:00",
+   "ticker": "VRT",
+   "action": "short",
+   "price": 194.475,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-18T14:59:46+00:00",
+   "ticker": "TER",
+   "action": "short",
+   "price": 238.65,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-18T14:59:46+00:00",
+   "ticker": "MRVL",
+   "action": "short",
+   "price": 148.315,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-18T14:59:46+00:00",
+   "ticker": "AVGO",
+   "action": "short",
+   "price": 348.85,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-18T14:59:46+00:00",
+   "ticker": "SMCI",
+   "action": "short",
+   "price": 24.684,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-18T14:59:46+00:00",
+   "ticker": "ORCL",
+   "action": "short",
+   "price": 115.82,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-18T14:59:46+00:00",
+   "ticker": "KLAC",
+   "action": "short",
+   "price": 146.1,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
   }
  ],
  "day": {
-  "date": "2026-11-17",
-  "start_equity": 10000.0,
-  "trades": 10
+  "date": "2026-11-18",
+  "start_equity": 10139.679396500003,
+  "trades": 5
  },
  "halted": false,
  "status": {
-  "note": "market closed",
+  "note": "scanned 115 downtrending stocks: 18 gap-ups \u2265 2%",
   "decisions": [
    {
-    "ticker": "FN",
-    "info": "gap +5.9%",
-    "decision": "SHORTED @ 317.00, stop 338.98"
+    "ticker": "TJX",
+    "info": "gap +5.5%",
+    "decision": "skipped: already above the stop"
    },
    {
-    "ticker": "COHR",
-    "info": "gap +5.6%",
-    "decision": "SHORTED @ 207.86, stop 221.36"
-   },
-   {
-    "ticker": "NKE",
-    "info": "gap +4.7%",
-    "decision": "SHORTED @ 39.63, stop 41.29"
-   },
-   {
-    "ticker": "LITE",
-    "info": "gap +3.9%",
-    "decision": "SHORTED @ 555.58, stop 584.35"
-   },
-   {
-    "ticker": "MRVL",
-    "info": "gap +3.3%",
-    "decision": "SHORTED @ 147.28, stop 154.7"
-   },
-   {
-    "ticker": "MCHP",
-    "info": "gap +2.7%",
-    "decision": "short exposure would exceed 100% of equity"
-   },
-   {
-    "ticker": "CIEN",
-    "info": "gap +2.5%",
-    "decision": "short exposure would exceed 100% of equity"
-   },
-   {
-    "ticker": "CSCO",
-    "info": "gap +2.4%",
-    "decision": "short exposure would exceed 100% of equity"
-   },
-   {
-    "ticker": "DELL",
-    "info": "gap +2.3%",
-    "decision": "short exposure would exceed 100% of equity"
-   },
-   {
-    "ticker": "STX",
-    "info": "gap +2.2%",
-    "decision": "short exposure would exceed 100% of equity"
-   },
-   {
-    "ticker": "FIX",
-    "info": "gap +2.1%",
-    "decision": "short exposure would exceed 100% of equity"
-   },
-   {
-    "ticker": "HL",
-    "info": "gap +2.1%",
-    "decision": "short exposure would exceed 100% of equity"
+    "ticker": "TTWO",
+    "info": "gap +4.3%",
+    "decision": "skipped: already above the stop"
    },
    {
     "ticker": "BE",
-    "info": "gap +2.1%",
+    "info": "gap +4.0%",
+    "decision": "SHORTED @ 175.38, stop 185.88"
+   },
+   {
+    "ticker": "COHR",
+    "info": "gap +3.9%",
+    "decision": "SHORTED @ 214.07, stop 225.75"
+   },
+   {
+    "ticker": "STX",
+    "info": "gap +3.2%",
+    "decision": "SHORTED @ 508.49, stop 536.4"
+   },
+   {
+    "ticker": "LITE",
+    "info": "gap +3.2%",
+    "decision": "SHORTED @ 558.57, stop 595.27"
+   },
+   {
+    "ticker": "WDC",
+    "info": "gap +2.9%",
+    "decision": "SHORTED @ 287.57, stop 300.43"
+   },
+   {
+    "ticker": "ROST",
+    "info": "gap +2.8%",
     "decision": "short exposure would exceed 100% of equity"
    },
    {
     "ticker": "GLW",
-    "info": "gap +2.0%",
+    "info": "gap +2.6%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "SMTC",
+    "info": "gap +2.4%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "NVDA",
+    "info": "gap +2.4%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "VRT",
+    "info": "gap +2.4%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "TER",
+    "info": "gap +2.2%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "MRVL",
+    "info": "gap +2.2%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "AVGO",
+    "info": "gap +2.1%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "SMCI",
+    "info": "gap +2.1%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "ORCL",
+    "info": "gap +2.1%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "KLAC",
+    "info": "gap +2.1%",
     "decision": "short exposure would exceed 100% of equity"
    }
   ],
-  "last_run": "2026-11-18T14:16:48+00:00",
-  "market_open": false,
+  "last_run": "2026-11-18T14:59:46+00:00",
+  "market_open": true,
   "last_daily": null
  },
- "gap_scan_date": "2026-11-17",
+ "gap_scan_date": "2026-11-18",
  "price_sources": {
   "FN": "yahoo",
   "COHR": "yahoo",
