@@ -359,9 +359,9 @@
   "OKTA": "yahoo"
  },
  "status": {
-  "note": "no signals today \u00b7 next rebalance in 19 trading days",
+  "note": "next decision after 15:30 ET on trading days",
   "decisions": [],
-  "last_run": "2026-11-17T23:27:02+00:00",
+  "last_run": "2026-11-18T14:10:08+00:00",
   "market_open": false,
   "last_daily": "2026-11-17T21:10:47+00:00"
  }

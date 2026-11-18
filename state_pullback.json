@@ -124,7 +124,7 @@
   "VEEV": "yahoo"
  },
  "status": {
-  "note": "1 action(s) at today's run",
+  "note": "next decision after 15:30 ET on trading days",
   "decisions": [
    {
     "ticker": "MRNA",
@@ -132,7 +132,7 @@
     "decision": "BOUGHT: leader pullback"
    }
   ],
-  "last_run": "2026-11-17T23:27:02+00:00",
+  "last_run": "2026-11-18T14:10:08+00:00",
   "market_open": false,
   "last_daily": "2026-11-17T21:10:47+00:00"
  }
