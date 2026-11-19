@@ -1,5 +1,5 @@
 {
- "cash": 7197.877738000001,
+ "cash": 5718.024841000001,
  "positions": {
   "WDAY": {
    "qty": 1.3676,
@@ -154,23 +154,112 @@
    "trail": null,
    "tp": null,
    "sl": 262.55
+  },
+  "VEEV": {
+   "qty": 0.9381,
+   "avg_price": 262.92,
+   "opened": "2026-11-19T21:22:52+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "below lower band",
+   "entry_date": "2026-11-19",
+   "max_hold": 10,
+   "meta": null,
+   "trail": null,
+   "tp": null,
+   "sl": 241.89
+  },
+  "SWKS": {
+   "qty": 3.1357,
+   "avg_price": 78.66,
+   "opened": "2026-11-19T21:22:52+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "below lower band",
+   "entry_date": "2026-11-19",
+   "max_hold": 10,
+   "meta": null,
+   "trail": null,
+   "tp": null,
+   "sl": 72.37
+  },
+  "PM": {
+   "qty": 1.323,
+   "avg_price": 186.43,
+   "opened": "2026-11-19T21:22:52+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "below lower band",
+   "entry_date": "2026-11-19",
+   "max_hold": 10,
+   "meta": null,
+   "trail": null,
+   "tp": null,
+   "sl": 171.52
+  },
+  "MSFT": {
+   "qty": 0.4949,
+   "avg_price": 498.3,
+   "opened": "2026-11-19T21:22:52+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "below lower band",
+   "entry_date": "2026-11-19",
+   "max_hold": 10,
+   "meta": null,
+   "trail": null,
+   "tp": null,
+   "sl": 458.44
+  },
+  "AMT": {
+   "qty": 1.3616,
+   "avg_price": 181.15,
+   "opened": "2026-11-19T21:22:52+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "below lower band",
+   "entry_date": "2026-11-19",
+   "max_hold": 10,
+   "meta": null,
+   "trail": null,
+   "tp": null,
+   "sl": 166.66
+  },
+  "DE": {
+   "qty": 0.3947,
+   "avg_price": 624.89,
+   "opened": "2026-11-19T21:22:52+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "below lower band",
+   "entry_date": "2026-11-19",
+   "max_hold": 10,
+   "meta": null,
+   "trail": null,
+   "tp": null,
+   "sl": 574.9
   }
  },
  "last_prices": {
-  "VEEV": 265.23,
-  "WDAY": 173.6,
-  "PFE": 27.528,
-  "DHR": 226.68,
+  "VEEV": 262.92,
+  "WDAY": 173.36,
+  "PFE": 27.54,
+  "DHR": 227.56,
   "PATH": 11.345,
   "UNH": 356.445,
-  "USB": 57.25,
-  "BMY": 58.225,
-  "ACN": 218.33,
-  "MRK": 132.355,
-  "JPM": 320.685,
-  "ELV": 391.9,
-  "HUM": 380.045,
-  "CI": 271.74
+  "USB": 57.26,
+  "BMY": 58.34,
+  "ACN": 218.58,
+  "MRK": 132.81,
+  "JPM": 320.22,
+  "ELV": 390.16,
+  "HUM": 380.0,
+  "CI": 273.04,
+  "SWKS": 78.66,
+  "PM": 186.43,
+  "MSFT": 498.3,
+  "AMT": 181.15,
+  "DE": 624.89
  },
  "trades": [
   {
@@ -348,6 +437,66 @@
    "reason": "stop 11.40 [yahoo price]",
    "pnl": -21.18,
    "pnl_pct": -8.47
+  },
+  {
+   "time": "2026-11-19T21:22:52+00:00",
+   "ticker": "VEEV",
+   "side": "buy",
+   "qty": 0.9381,
+   "price": 262.92,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "below lower band"
+  },
+  {
+   "time": "2026-11-19T21:22:52+00:00",
+   "ticker": "SWKS",
+   "side": "buy",
+   "qty": 3.1357,
+   "price": 78.66,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "below lower band"
+  },
+  {
+   "time": "2026-11-19T21:22:52+00:00",
+   "ticker": "PM",
+   "side": "buy",
+   "qty": 1.323,
+   "price": 186.43,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "below lower band"
+  },
+  {
+   "time": "2026-11-19T21:22:52+00:00",
+   "ticker": "MSFT",
+   "side": "buy",
+   "qty": 0.4949,
+   "price": 498.3,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "below lower band"
+  },
+  {
+   "time": "2026-11-19T21:22:52+00:00",
+   "ticker": "AMT",
+   "side": "buy",
+   "qty": 1.3616,
+   "price": 181.15,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "below lower band"
+  },
+  {
+   "time": "2026-11-19T21:22:52+00:00",
+   "ticker": "DE",
+   "side": "buy",
+   "qty": 0.3947,
+   "price": 624.89,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "below lower band"
   }
  ],
  "events": [
@@ -486,62 +635,100 @@
    "price": 11.345,
    "source": "auto",
    "result": "filled sell 20.1694 @ 11.345 (stop 11.40 [yahoo price])"
+  },
+  {
+   "time": "2026-11-19T21:22:52+00:00",
+   "ticker": "VEEV",
+   "action": "buy",
+   "price": 262.92,
+   "source": "auto",
+   "result": "filled buy 0.9381 @ 262.92 (below lower band)"
+  },
+  {
+   "time": "2026-11-19T21:22:52+00:00",
+   "ticker": "SWKS",
+   "action": "buy",
+   "price": 78.66,
+   "source": "auto",
+   "result": "filled buy 3.1357 @ 78.66 (below lower band)"
+  },
+  {
+   "time": "2026-11-19T21:22:52+00:00",
+   "ticker": "PM",
+   "action": "buy",
+   "price": 186.43,
+   "source": "auto",
+   "result": "filled buy 1.323 @ 186.43 (below lower band)"
+  },
+  {
+   "time": "2026-11-19T21:22:52+00:00",
+   "ticker": "MSFT",
+   "action": "buy",
+   "price": 498.3,
+   "source": "auto",
+   "result": "filled buy 0.4949 @ 498.3 (below lower band)"
+  },
+  {
+   "time": "2026-11-19T21:22:52+00:00",
+   "ticker": "AMT",
+   "action": "buy",
+   "price": 181.15,
+   "source": "auto",
+   "result": "filled buy 1.3616 @ 181.15 (below lower band)"
+  },
+  {
+   "time": "2026-11-19T21:22:52+00:00",
+   "ticker": "DE",
+   "action": "buy",
+   "price": 624.89,
+   "source": "auto",
+   "result": "filled buy 0.3947 @ 624.89 (below lower band)"
   }
  ],
  "day": {
   "date": "2026-11-19",
   "start_equity": 9872.272009,
-  "trades": 2
+  "trades": 8
  },
  "halted": false,
- "last_daily_run": "2026-11-18",
+ "last_daily_run": "2026-11-19",
  "status": {
-  "note": "next decision after 15:30 ET on trading days",
+  "note": "6 action(s) at today's run",
   "decisions": [
    {
-    "ticker": "USB",
-    "info": "58.27",
+    "ticker": "VEEV",
+    "info": "262.92",
     "decision": "BOUGHT: below lower band"
    },
    {
-    "ticker": "BMY",
-    "info": "59.56",
+    "ticker": "SWKS",
+    "info": "78.66",
     "decision": "BOUGHT: below lower band"
    },
    {
-    "ticker": "ACN",
-    "info": "227.46",
+    "ticker": "PM",
+    "info": "186.43",
     "decision": "BOUGHT: below lower band"
    },
    {
-    "ticker": "MRK",
-    "info": "137.75",
+    "ticker": "MSFT",
+    "info": "498.30",
     "decision": "BOUGHT: below lower band"
    },
    {
-    "ticker": "JPM",
-    "info": "324.13",
+    "ticker": "AMT",
+    "info": "181.15",
     "decision": "BOUGHT: below lower band"
    },
    {
-    "ticker": "ELV",
-    "info": "401.02",
-    "decision": "BOUGHT: below lower band"
-   },
-   {
-    "ticker": "HUM",
-    "info": "385.55",
-    "decision": "BOUGHT: below lower band"
-   },
-   {
-    "ticker": "CI",
-    "info": "285.38",
+    "ticker": "DE",
+    "info": "624.89",
     "decision": "BOUGHT: below lower band"
    }
   ],
-  "last_run": "2026-11-19T20:28:40+00:00",
-  "market_open": true,
-  "last_daily": "2026-11-18T21:08:31+00:00"
+  "last_run": "2026-11-19T21:22:32+00:00",
+  "market_open": false,
+  "last_daily": "2026-11-19T21:22:52+00:00"
  },
  "price_sources": {
   "VEEV": "yahoo",

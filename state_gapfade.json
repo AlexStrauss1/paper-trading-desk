@@ -1,57 +1,6 @@
 {
- "cash": 20398.634584900003,
- "positions": {
-  "WDC": {
-   "qty": 6.4854,
-   "avg_price": 314.53,
-   "opened": "2026-11-19T15:07:42+00:00",
-   "side": "short",
-   "source": "auto",
-   "reason": "gap-up +6.7% below 200-day avg",
-   "entry_date": "2026-11-19",
-   "sl": 316.74
-  },
-  "BE": {
-   "qty": 10.9646,
-   "avg_price": 186.04,
-   "opened": "2026-11-19T15:07:42+00:00",
-   "side": "short",
-   "source": "auto",
-   "reason": "gap-up +5.9% below 200-day avg",
-   "entry_date": "2026-11-19",
-   "sl": 186.43
-  },
-  "HOOD": {
-   "qty": 28.0432,
-   "avg_price": 72.74,
-   "opened": "2026-11-19T15:07:42+00:00",
-   "side": "short",
-   "source": "auto",
-   "reason": "gap-up +5.4% below 200-day avg",
-   "entry_date": "2026-11-19",
-   "sl": 75.06
-  },
-  "INTC": {
-   "qty": 34.4863,
-   "avg_price": 59.15,
-   "opened": "2026-11-19T15:07:42+00:00",
-   "side": "short",
-   "source": "auto",
-   "reason": "gap-up +5.3% below 200-day avg",
-   "entry_date": "2026-11-19",
-   "sl": 59.28
-  },
-  "CIEN": {
-   "qty": 7.1481,
-   "avg_price": 285.37,
-   "opened": "2026-11-19T15:07:42+00:00",
-   "side": "short",
-   "source": "auto",
-   "reason": "gap-up +5.0% below 200-day avg",
-   "entry_date": "2026-11-19",
-   "sl": 288.41
-  }
- },
+ "cash": 10906.590847900003,
+ "positions": {},
  "last_prices": {
   "FN": 314.775,
   "COHR": 212.6,
@@ -59,15 +8,15 @@
   "LITE": 583.36,
   "MRVL": 153.82,
   "MCHP": 62.2,
-  "CIEN": 265.155,
+  "CIEN": 262.63,
   "CSCO": 95.49,
   "DELL": 334.436,
   "STX": 515.9,
   "FIX": 1156.16,
   "HL": 12.79,
-  "BE": 169.475,
+  "BE": 168.11,
   "GLW": 113.625,
-  "WDC": 298.23,
+  "WDC": 296.78,
   "ROST": 228.27,
   "SMTC": 111.275,
   "NVDA": 155.9,
@@ -77,8 +26,8 @@
   "SMCI": 25.515,
   "ORCL": 116.84,
   "KLAC": 150.95,
-  "HOOD": 69.195,
-  "INTC": 55.84,
+  "HOOD": 68.65,
+  "INTC": 55.72,
   "MU": 756.09,
   "AMAT": 364.3,
   "LRCX": 221.47,
@@ -361,6 +310,66 @@
    "broker": "sim",
    "source": "auto",
    "reason": "gap-up +5.0% below 200-day avg"
+  },
+  {
+   "time": "2026-11-19T21:22:32+00:00",
+   "ticker": "WDC",
+   "side": "cover",
+   "qty": 6.4854,
+   "price": 296.78,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "end of day",
+   "pnl": 115.12,
+   "pnl_pct": 5.64
+  },
+  {
+   "time": "2026-11-19T21:22:32+00:00",
+   "ticker": "BE",
+   "side": "cover",
+   "qty": 10.9646,
+   "price": 168.11,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "end of day",
+   "pnl": 196.6,
+   "pnl_pct": 9.64
+  },
+  {
+   "time": "2026-11-19T21:22:32+00:00",
+   "ticker": "HOOD",
+   "side": "cover",
+   "qty": 28.0432,
+   "price": 68.65,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "end of day",
+   "pnl": 114.7,
+   "pnl_pct": 5.62
+  },
+  {
+   "time": "2026-11-19T21:22:32+00:00",
+   "ticker": "INTC",
+   "side": "cover",
+   "qty": 34.4863,
+   "price": 55.72,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "end of day",
+   "pnl": 118.29,
+   "pnl_pct": 5.8
+  },
+  {
+   "time": "2026-11-19T21:22:32+00:00",
+   "ticker": "CIEN",
+   "side": "cover",
+   "qty": 7.1481,
+   "price": 262.63,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "end of day",
+   "pnl": 162.55,
+   "pnl_pct": 7.97
   }
  ],
  "events": [
@@ -923,16 +932,56 @@
    "price": 155.9,
    "source": "auto",
    "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-19T21:22:32+00:00",
+   "ticker": "WDC",
+   "action": "cover",
+   "price": 296.78,
+   "source": "auto",
+   "result": "filled cover 6.4854 @ 296.78 (end of day)"
+  },
+  {
+   "time": "2026-11-19T21:22:32+00:00",
+   "ticker": "BE",
+   "action": "cover",
+   "price": 168.11,
+   "source": "auto",
+   "result": "filled cover 10.9646 @ 168.11 (end of day)"
+  },
+  {
+   "time": "2026-11-19T21:22:32+00:00",
+   "ticker": "HOOD",
+   "action": "cover",
+   "price": 68.65,
+   "source": "auto",
+   "result": "filled cover 28.0432 @ 68.65 (end of day)"
+  },
+  {
+   "time": "2026-11-19T21:22:32+00:00",
+   "ticker": "INTC",
+   "action": "cover",
+   "price": 55.72,
+   "source": "auto",
+   "result": "filled cover 34.4863 @ 55.72 (end of day)"
+  },
+  {
+   "time": "2026-11-19T21:22:32+00:00",
+   "ticker": "CIEN",
+   "action": "cover",
+   "price": 262.63,
+   "source": "auto",
+   "result": "filled cover 7.1481 @ 262.63 (end of day)"
   }
  ],
  "day": {
   "date": "2026-11-19",
   "start_equity": 10199.347228900002,
-  "trades": 5
+  "trades": 10
  },
  "halted": false,
  "status": {
-  "note": "scanned 115 downtrending stocks: 37 gap-ups \u2265 2%",
+  "note": "market closed",
   "decisions": [
    {
     "ticker": "COHR",
@@ -1120,8 +1169,8 @@
     "decision": "short exposure would exceed 100% of equity"
    }
   ],
-  "last_run": "2026-11-19T20:28:40+00:00",
-  "market_open": true,
+  "last_run": "2026-11-19T21:22:32+00:00",
+  "market_open": false,
   "last_daily": null
  },
  "gap_scan_date": "2026-11-19",

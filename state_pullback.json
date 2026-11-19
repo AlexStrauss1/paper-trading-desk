@@ -1,5 +1,5 @@
 {
- "cash": 1982.2880100999998,
+ "cash": 70.4557600999999,
  "positions": {
   "MRNA": {
    "qty": 9.4313,
@@ -56,14 +56,30 @@
    "trail": null,
    "tp": null,
    "sl": 253.63
+  },
+  "TMO": {
+   "qty": 2.7758,
+   "avg_price": 688.75,
+   "opened": "2026-11-19T21:22:50+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "leader pullback",
+   "entry_date": "2026-11-19",
+   "max_hold": 15,
+   "meta": null,
+   "trail": null,
+   "tp": null,
+   "sl": 640.54
   }
  },
  "last_prices": {
-  "MRNA": 198.5,
+  "MRNA": 199.33,
   "VEEV": 279.095,
-  "TRV": 390.77,
-  "ABBV": 282.53,
-  "JNJ": 266.12
+  "TRV": 390.61,
+  "ABBV": 283.54,
+  "JNJ": 267.14,
+  "TMO": 688.75,
+  "HLT": 362.3
  },
  "trades": [
   {
@@ -149,6 +165,16 @@
    "broker": "sim",
    "source": "auto",
    "reason": "leader pullback"
+  },
+  {
+   "time": "2026-11-19T21:22:50+00:00",
+   "ticker": "TMO",
+   "side": "buy",
+   "qty": 2.7758,
+   "price": 688.75,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "leader pullback"
   }
  ],
  "events": [
@@ -215,15 +241,31 @@
    "price": 272.72,
    "source": "auto",
    "result": "filled buy 7.0369 @ 272.72 (leader pullback)"
+  },
+  {
+   "time": "2026-11-19T21:22:50+00:00",
+   "ticker": "TMO",
+   "action": "buy",
+   "price": 688.75,
+   "source": "auto",
+   "result": "filled buy 2.7758 @ 688.75 (leader pullback)"
+  },
+  {
+   "time": "2026-11-19T21:22:50+00:00",
+   "ticker": "HLT",
+   "action": "buy",
+   "price": 362.3,
+   "source": "auto",
+   "result": "rejected: not enough cash"
   }
  ],
  "day": {
-  "date": "2026-11-18",
-  "start_equity": 9641.2918296,
-  "trades": 4
+  "date": "2026-11-19",
+  "start_equity": 9559.1942261,
+  "trades": 1
  },
  "halted": false,
- "last_daily_run": "2026-11-18",
+ "last_daily_run": "2026-11-19",
  "price_sources": {
   "MRNA": "yahoo",
   "VEEV": "yahoo",
@@ -232,26 +274,21 @@
   "JNJ": "yahoo"
  },
  "status": {
-  "note": "next decision after 15:30 ET on trading days",
+  "note": "2 action(s) at today's run",
   "decisions": [
    {
-    "ticker": "TRV",
-    "info": "391.60",
+    "ticker": "TMO",
+    "info": "688.75",
     "decision": "BOUGHT: leader pullback"
    },
    {
-    "ticker": "ABBV",
-    "info": "285.96",
-    "decision": "BOUGHT: leader pullback"
-   },
-   {
-    "ticker": "JNJ",
-    "info": "272.72",
-    "decision": "BOUGHT: leader pullback"
+    "ticker": "+1",
+    "info": "",
+    "decision": "more signals, out of cash: HLT"
    }
   ],
-  "last_run": "2026-11-19T20:28:40+00:00",
-  "market_open": true,
-  "last_daily": "2026-11-18T21:08:29+00:00"
+  "last_run": "2026-11-19T21:22:32+00:00",
+  "market_open": false,
+  "last_daily": "2026-11-19T21:22:50+00:00"
  }
 }

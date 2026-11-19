@@ -176,19 +176,19 @@
   }
  },
  "last_prices": {
-  "ABBV": 282.53,
-  "LLY": 1353.655,
-  "KO": 96.255,
-  "JNJ": 266.12,
-  "MO": 74.59,
-  "AAPL": 349.395,
-  "PG": 168.505,
-  "CL": 97.2,
-  "COST": 1091.71,
-  "CAH": 273.65,
+  "ABBV": 283.54,
+  "LLY": 1351.12,
+  "KO": 96.09,
+  "JNJ": 267.14,
+  "MO": 74.68,
+  "AAPL": 349.21,
+  "PG": 167.85,
+  "CL": 96.88,
+  "COST": 1093.83,
+  "CAH": 272.34,
   "HUM": 385.55,
-  "MCK": 1059.81,
-  "BRK-B": 571.36,
+  "MCK": 1062.16,
+  "BRK-B": 572.04,
   "CB": 381.39,
   "ADP": 313.43,
   "WM": 244.33,
@@ -196,7 +196,7 @@
   "ELV": 446.47,
   "DUK": 130.58,
   "CME": 319.37,
-  "DIS": 120.64
+  "DIS": 120.25
  },
  "trades": [
   {
@@ -536,7 +536,7 @@
   "trades": 2
  },
  "halted": false,
- "last_daily_run": "2026-11-18",
+ "last_daily_run": "2026-11-19",
  "price_sources": {
   "ABBV": "yahoo",
   "LLY": "yahoo",
@@ -554,21 +554,10 @@
   "DIS": "yahoo"
  },
  "status": {
-  "note": "next decision after 15:30 ET on trading days",
-  "decisions": [
-   {
-    "ticker": "HUM",
-    "info": "385.55",
-    "decision": "CLOSED: trailing stop"
-   },
-   {
-    "ticker": "DIS",
-    "info": "122.37",
-    "decision": "BOUGHT: new 52w high"
-   }
-  ],
-  "last_run": "2026-11-19T20:28:40+00:00",
-  "market_open": true,
-  "last_daily": "2026-11-18T21:08:29+00:00"
+  "note": "no signals today",
+  "decisions": [],
+  "last_run": "2026-11-19T21:22:32+00:00",
+  "market_open": false,
+  "last_daily": "2026-11-19T21:22:50+00:00"
  }
 }
