@@ -1,5 +1,5 @@
 {
- "cash": 226.633058800003,
+ "cash": 455.057606800003,
  "positions": {
   "TMO": {
    "qty": 1.4303,
@@ -53,20 +53,6 @@
    "trail": null,
    "tp": null,
    "sl": 425.33
-  },
-  "VEEV": {
-   "qty": 0.8328,
-   "avg_price": 299.437,
-   "opened": "2026-11-16T21:03:20+00:00",
-   "side": "long",
-   "source": "auto",
-   "reason": "3 down days",
-   "entry_date": "2026-11-16",
-   "max_hold": 7,
-   "meta": null,
-   "trail": null,
-   "tp": null,
-   "sl": 275.48
   },
   "DE": {
    "qty": 0.3813,
@@ -434,44 +420,44 @@
   }
  },
  "last_prices": {
-  "TMO": 697.08,
-  "MMM": 180.18,
+  "TMO": 700.015,
+  "MMM": 180.01,
   "SBUX": 108.72,
-  "LOW": 219.035,
+  "LOW": 218.86,
   "MRNA": 195.54,
-  "AMGN": 440.75,
-  "VEEV": 275.84,
+  "AMGN": 442.111,
+  "VEEV": 274.285,
   "ILMN": 210.01,
-  "DE": 631.34,
-  "VRTX": 531.99,
-  "HPE": 47.965,
-  "GM": 82.27,
-  "LMT": 574.66,
-  "URI": 1098.142,
+  "DE": 627.08,
+  "VRTX": 534.785,
+  "HPE": 47.51,
+  "GM": 82.165,
+  "LMT": 574.0,
+  "URI": 1092.005,
   "PANW": 339.92,
-  "SNOW": 295.8,
-  "VZ": 45.235,
-  "CCL": 28.315,
-  "NXPI": 261.4,
-  "TEL": 217.185,
-  "TWLO": 200.04,
-  "PLTR": 166.295,
-  "CSX": 50.69,
+  "SNOW": 292.37,
+  "VZ": 45.125,
+  "CCL": 28.265,
+  "NXPI": 258.935,
+  "TEL": 216.82,
+  "TWLO": 197.22,
+  "PLTR": 162.554,
+  "CSX": 50.755,
   "CRWD": 237.03,
-  "SWKS": 81.785,
-  "NTAP": 178.405,
+  "SWKS": 81.08,
+  "NTAP": 177.0,
   "AMD": 530.14,
   "ANET": 193.965,
-  "EQIX": 1044.2,
-  "P": 112.255,
-  "MPC": 371.005,
-  "TRV": 387.53,
-  "PSX": 244.56,
-  "VLO": 342.495,
-  "ABBV": 282.143,
-  "JNJ": 266.15,
-  "BRK-B": 568.845,
-  "LLY": 1366.725,
+  "EQIX": 1039.39,
+  "P": 113.164,
+  "MPC": 370.485,
+  "TRV": 388.23,
+  "PSX": 244.12,
+  "VLO": 341.497,
+  "ABBV": 283.465,
+  "JNJ": 266.89,
+  "BRK-B": 569.4,
+  "LLY": 1369.045,
   "MRK": 137.75,
   "ABNB": 180.21,
   "COP": 134.39,
@@ -959,6 +945,18 @@
    "reason": "stop 198.05 [yahoo price]",
    "pnl": -22.86,
    "pnl_pct": -9.17
+  },
+  {
+   "time": "2026-11-19T15:18:31+00:00",
+   "ticker": "VEEV",
+   "side": "sell",
+   "qty": 0.8328,
+   "price": 274.285,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "stop 275.48 [yahoo price]",
+   "pnl": -20.95,
+   "pnl_pct": -8.4
   }
  ],
  "events": [
@@ -1497,12 +1495,20 @@
    "price": 195.54,
    "source": "auto",
    "result": "filled sell 1.1584 @ 195.54 (stop 198.05 [yahoo price])"
+  },
+  {
+   "time": "2026-11-19T15:18:31+00:00",
+   "ticker": "VEEV",
+   "action": "sell",
+   "price": 274.285,
+   "source": "auto",
+   "result": "filled sell 0.8328 @ 274.285 (stop 275.48 [yahoo price])"
   }
  ],
  "day": {
   "date": "2026-11-19",
   "start_equity": 9984.138530100003,
-  "trades": 1
+  "trades": 2
  },
  "halted": false,
  "last_daily_run": "2026-11-18",
@@ -1620,7 +1626,7 @@
     "decision": "more signals, out of cash: MRK, ABNB, COP, BNY, LIN, CVX, EOG, PFE\u2026"
    }
   ],
-  "last_run": "2026-11-19T15:07:31+00:00",
+  "last_run": "2026-11-19T15:18:31+00:00",
   "market_open": true,
   "last_daily": "2026-11-18T21:08:29+00:00"
  }

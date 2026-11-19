@@ -59,15 +59,15 @@
   "LITE": 583.36,
   "MRVL": 153.82,
   "MCHP": 62.2,
-  "CIEN": 285.37,
+  "CIEN": 281.545,
   "CSCO": 95.49,
   "DELL": 334.436,
   "STX": 515.9,
   "FIX": 1156.16,
   "HL": 12.79,
-  "BE": 186.04,
+  "BE": 181.925,
   "GLW": 113.625,
-  "WDC": 314.53,
+  "WDC": 308.76,
   "ROST": 228.27,
   "SMTC": 111.275,
   "NVDA": 155.9,
@@ -77,8 +77,8 @@
   "SMCI": 25.515,
   "ORCL": 116.84,
   "KLAC": 150.95,
-  "HOOD": 72.74,
-  "INTC": 59.15,
+  "HOOD": 71.82,
+  "INTC": 57.99,
   "MU": 756.09,
   "AMAT": 364.3,
   "LRCX": 221.47,
@@ -1120,7 +1120,7 @@
     "decision": "short exposure would exceed 100% of equity"
    }
   ],
-  "last_run": "2026-11-19T15:07:42+00:00",
+  "last_run": "2026-11-19T15:18:31+00:00",
   "market_open": true,
   "last_daily": null
  },
@@ -1133,6 +1133,9 @@
   "MRVL": "yahoo",
   "BE": "yahoo",
   "STX": "yahoo",
-  "WDC": "yahoo"
+  "WDC": "yahoo",
+  "HOOD": "yahoo",
+  "INTC": "yahoo",
+  "CIEN": "yahoo"
  }
 }
