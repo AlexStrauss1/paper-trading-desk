@@ -1,5 +1,5 @@
 {
- "cash": 0.11952280000298288,
+ "cash": 226.633058800003,
  "positions": {
   "TMO": {
    "qty": 1.4303,
@@ -39,20 +39,6 @@
    "meta": null,
    "tp": null,
    "sl": 209.08
-  },
-  "MRNA": {
-   "qty": 1.1584,
-   "avg_price": 215.27,
-   "opened": "2026-11-16T21:03:20+00:00",
-   "side": "long",
-   "source": "auto",
-   "reason": "3 down days",
-   "entry_date": "2026-11-16",
-   "max_hold": 7,
-   "meta": null,
-   "trail": null,
-   "tp": null,
-   "sl": 198.05
   },
   "AMGN": {
    "qty": 0.5394,
@@ -448,44 +434,44 @@
   }
  },
  "last_prices": {
-  "TMO": 692.74,
-  "MMM": 181.05,
+  "TMO": 697.08,
+  "MMM": 180.18,
   "SBUX": 108.72,
-  "LOW": 222.78,
-  "MRNA": 196.79,
-  "AMGN": 443.89,
-  "VEEV": 277.2,
+  "LOW": 219.035,
+  "MRNA": 195.54,
+  "AMGN": 440.75,
+  "VEEV": 275.84,
   "ILMN": 210.01,
-  "DE": 644.75,
-  "VRTX": 536.45,
-  "HPE": 45.78,
-  "GM": 82.13,
-  "LMT": 578.19,
-  "URI": 1088.32,
+  "DE": 631.34,
+  "VRTX": 531.99,
+  "HPE": 47.965,
+  "GM": 82.27,
+  "LMT": 574.66,
+  "URI": 1098.142,
   "PANW": 339.92,
-  "SNOW": 279.62,
-  "VZ": 46.13,
-  "CCL": 28.97,
-  "NXPI": 252.47,
-  "TEL": 212.09,
-  "TWLO": 195.93,
-  "PLTR": 156.67,
-  "CSX": 51.33,
+  "SNOW": 295.8,
+  "VZ": 45.235,
+  "CCL": 28.315,
+  "NXPI": 261.4,
+  "TEL": 217.185,
+  "TWLO": 200.04,
+  "PLTR": 166.295,
+  "CSX": 50.69,
   "CRWD": 237.03,
-  "SWKS": 82.43,
-  "NTAP": 172.19,
+  "SWKS": 81.785,
+  "NTAP": 178.405,
   "AMD": 530.14,
   "ANET": 193.965,
-  "EQIX": 1036.5,
-  "P": 100.74,
-  "MPC": 373.86,
-  "TRV": 391.58,
-  "PSX": 244.83,
-  "VLO": 343.7,
-  "ABBV": 286.01,
-  "JNJ": 272.7,
-  "BRK-B": 574.62,
-  "LLY": 1382.75,
+  "EQIX": 1044.2,
+  "P": 112.255,
+  "MPC": 371.005,
+  "TRV": 387.53,
+  "PSX": 244.56,
+  "VLO": 342.495,
+  "ABBV": 282.143,
+  "JNJ": 266.15,
+  "BRK-B": 568.845,
+  "LLY": 1366.725,
   "MRK": 137.75,
   "ABNB": 180.21,
   "COP": 134.39,
@@ -961,6 +947,18 @@
    "broker": "sim",
    "source": "auto",
    "reason": "3 down days"
+  },
+  {
+   "time": "2026-11-19T15:07:31+00:00",
+   "ticker": "MRNA",
+   "side": "sell",
+   "qty": 1.1584,
+   "price": 195.54,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "stop 198.05 [yahoo price]",
+   "pnl": -22.86,
+   "pnl_pct": -9.17
   }
  ],
  "events": [
@@ -1491,12 +1489,20 @@
    "price": 104.49,
    "source": "auto",
    "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-19T15:07:31+00:00",
+   "ticker": "MRNA",
+   "action": "sell",
+   "price": 195.54,
+   "source": "auto",
+   "result": "filled sell 1.1584 @ 195.54 (stop 198.05 [yahoo price])"
   }
  ],
  "day": {
-  "date": "2026-11-18",
-  "start_equity": 9944.084911800002,
-  "trades": 13
+  "date": "2026-11-19",
+  "start_equity": 9984.138530100003,
+  "trades": 1
  },
  "halted": false,
  "last_daily_run": "2026-11-18",
@@ -1614,8 +1620,8 @@
     "decision": "more signals, out of cash: MRK, ABNB, COP, BNY, LIN, CVX, EOG, PFE\u2026"
    }
   ],
-  "last_run": "2026-11-19T14:20:35+00:00",
-  "market_open": false,
+  "last_run": "2026-11-19T15:07:31+00:00",
+  "market_open": true,
   "last_daily": "2026-11-18T21:08:29+00:00"
  }
 }
