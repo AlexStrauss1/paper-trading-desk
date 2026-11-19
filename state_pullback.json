@@ -59,11 +59,11 @@
   }
  },
  "last_prices": {
-  "MRNA": 201.537,
+  "MRNA": 200.62,
   "VEEV": 279.095,
-  "TRV": 388.99,
-  "ABBV": 282.57,
-  "JNJ": 266.535
+  "TRV": 390.57,
+  "ABBV": 283.43,
+  "JNJ": 266.605
  },
  "trades": [
   {
@@ -250,7 +250,7 @@
     "decision": "BOUGHT: leader pullback"
    }
   ],
-  "last_run": "2026-11-19T18:23:13+00:00",
+  "last_run": "2026-11-19T19:35:15+00:00",
   "market_open": true,
   "last_daily": "2026-11-18T21:08:29+00:00"
  }

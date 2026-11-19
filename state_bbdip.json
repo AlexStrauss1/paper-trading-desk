@@ -1,20 +1,6 @@
 {
- "cash": 6739.207577000001,
+ "cash": 7197.877738000001,
  "positions": {
-  "VEEV": {
-   "qty": 0.8666,
-   "avg_price": 288.46,
-   "opened": "2026-11-17T21:10:49+00:00",
-   "side": "long",
-   "source": "auto",
-   "reason": "below lower band",
-   "entry_date": "2026-11-17",
-   "max_hold": 10,
-   "meta": null,
-   "trail": null,
-   "tp": null,
-   "sl": 265.38
-  },
   "WDAY": {
    "qty": 1.3676,
    "avg_price": 182.8,
@@ -56,20 +42,6 @@
    "trail": null,
    "tp": null,
    "sl": 207.64
-  },
-  "PATH": {
-   "qty": 20.1694,
-   "avg_price": 12.395,
-   "opened": "2026-11-17T21:10:49+00:00",
-   "side": "long",
-   "source": "auto",
-   "reason": "below lower band",
-   "entry_date": "2026-11-17",
-   "max_hold": 10,
-   "meta": null,
-   "trail": null,
-   "tp": null,
-   "sl": 11.4
   },
   "USB": {
    "qty": 4.2679,
@@ -185,20 +157,20 @@
   }
  },
  "last_prices": {
-  "VEEV": 267.365,
-  "WDAY": 174.94,
-  "PFE": 27.595,
-  "DHR": 226.582,
-  "PATH": 11.502,
+  "VEEV": 265.23,
+  "WDAY": 174.16,
+  "PFE": 27.665,
+  "DHR": 227.78,
+  "PATH": 11.345,
   "UNH": 356.445,
-  "USB": 57.31,
-  "BMY": 58.51,
-  "ACN": 217.97,
-  "MRK": 132.49,
-  "JPM": 320.04,
-  "ELV": 392.05,
-  "HUM": 380.245,
-  "CI": 274.55
+  "USB": 57.355,
+  "BMY": 58.45,
+  "ACN": 219.01,
+  "MRK": 132.47,
+  "JPM": 321.005,
+  "ELV": 390.635,
+  "HUM": 381.27,
+  "CI": 274.31
  },
  "trades": [
   {
@@ -352,6 +324,30 @@
    "broker": "sim",
    "source": "auto",
    "reason": "below lower band"
+  },
+  {
+   "time": "2026-11-19T19:35:15+00:00",
+   "ticker": "VEEV",
+   "side": "sell",
+   "qty": 0.8666,
+   "price": 265.23,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "stop 265.38 [yahoo price]",
+   "pnl": -20.13,
+   "pnl_pct": -8.05
+  },
+  {
+   "time": "2026-11-19T19:35:15+00:00",
+   "ticker": "PATH",
+   "side": "sell",
+   "qty": 20.1694,
+   "price": 11.345,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "stop 11.40 [yahoo price]",
+   "pnl": -21.18,
+   "pnl_pct": -8.47
   }
  ],
  "events": [
@@ -474,12 +470,28 @@
    "price": 285.38,
    "source": "auto",
    "result": "filled buy 0.8714 @ 285.38 (below lower band)"
+  },
+  {
+   "time": "2026-11-19T19:35:15+00:00",
+   "ticker": "VEEV",
+   "action": "sell",
+   "price": 265.23,
+   "source": "auto",
+   "result": "filled sell 0.8666 @ 265.23 (stop 265.38 [yahoo price])"
+  },
+  {
+   "time": "2026-11-19T19:35:15+00:00",
+   "ticker": "PATH",
+   "action": "sell",
+   "price": 11.345,
+   "source": "auto",
+   "result": "filled sell 20.1694 @ 11.345 (stop 11.40 [yahoo price])"
   }
  ],
  "day": {
-  "date": "2026-11-18",
-  "start_equity": 9955.208461800003,
-  "trades": 9
+  "date": "2026-11-19",
+  "start_equity": 9872.272009,
+  "trades": 2
  },
  "halted": false,
  "last_daily_run": "2026-11-18",
@@ -527,7 +539,7 @@
     "decision": "BOUGHT: below lower band"
    }
   ],
-  "last_run": "2026-11-19T18:23:13+00:00",
+  "last_run": "2026-11-19T19:35:15+00:00",
   "market_open": true,
   "last_daily": "2026-11-18T21:08:31+00:00"
  },
