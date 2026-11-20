@@ -1,6 +1,17 @@
 {
- "cash": 10906.590847900003,
- "positions": {},
+ "cash": 13087.891235900002,
+ "positions": {
+  "UNH": {
+   "qty": 6.3554,
+   "avg_price": 343.22,
+   "opened": "2026-11-20T14:58:30+00:00",
+   "side": "short",
+   "source": "auto",
+   "reason": "gap-up +2.9% below 200-day avg",
+   "entry_date": "2026-11-20",
+   "sl": 350.14
+  }
+ },
  "last_prices": {
   "FN": 314.775,
   "COHR": 212.6,
@@ -38,7 +49,8 @@
   "COIN": 114.24,
   "ON": 69.99,
   "CDNS": 318.8,
-  "KEYS": 298.525
+  "KEYS": 298.525,
+  "UNH": 343.22
  },
  "trades": [
   {
@@ -370,6 +382,16 @@
    "reason": "end of day",
    "pnl": 162.55,
    "pnl_pct": 7.97
+  },
+  {
+   "time": "2026-11-20T14:58:30+00:00",
+   "ticker": "UNH",
+   "side": "short",
+   "qty": 6.3554,
+   "price": 343.22,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "gap-up +2.9% below 200-day avg"
   }
  ],
  "events": [
@@ -972,208 +994,36 @@
    "price": 262.63,
    "source": "auto",
    "result": "filled cover 7.1481 @ 262.63 (end of day)"
+  },
+  {
+   "time": "2026-11-20T14:58:30+00:00",
+   "ticker": "UNH",
+   "action": "short",
+   "price": 343.22,
+   "source": "auto",
+   "result": "filled short 6.3554 @ 343.22 (gap-up +2.9% below 200-day avg)"
   }
  ],
  "day": {
-  "date": "2026-11-19",
-  "start_equity": 10199.347228900002,
-  "trades": 10
+  "date": "2026-11-20",
+  "start_equity": 10906.590847900003,
+  "trades": 1
  },
  "halted": false,
  "status": {
-  "note": "market closed",
+  "note": "scanned 130 downtrending stocks: 1 gap-ups \u2265 2%",
   "decisions": [
    {
-    "ticker": "COHR",
-    "info": "gap +8.3%",
-    "decision": "skipped: already above the stop"
-   },
-   {
-    "ticker": "WDC",
-    "info": "gap +6.7%",
-    "decision": "SHORTED @ 314.53, stop 316.74"
-   },
-   {
-    "ticker": "STX",
-    "info": "gap +6.0%",
-    "decision": "skipped: already above the stop"
-   },
-   {
-    "ticker": "BE",
-    "info": "gap +5.9%",
-    "decision": "SHORTED @ 186.04, stop 186.43"
-   },
-   {
-    "ticker": "HOOD",
-    "info": "gap +5.4%",
-    "decision": "SHORTED @ 72.74, stop 75.06"
-   },
-   {
-    "ticker": "INTC",
-    "info": "gap +5.3%",
-    "decision": "SHORTED @ 59.15, stop 59.28"
-   },
-   {
-    "ticker": "CIEN",
-    "info": "gap +5.0%",
-    "decision": "SHORTED @ 285.37, stop 288.41"
-   },
-   {
-    "ticker": "MU",
-    "info": "gap +5.0%",
-    "decision": "short exposure would exceed 100% of equity"
-   },
-   {
-    "ticker": "DELL",
-    "info": "gap +4.5%",
-    "decision": "short exposure would exceed 100% of equity"
-   },
-   {
-    "ticker": "AMAT",
-    "info": "gap +4.4%",
-    "decision": "short exposure would exceed 100% of equity"
-   },
-   {
-    "ticker": "LRCX",
-    "info": "gap +4.4%",
-    "decision": "short exposure would exceed 100% of equity"
-   },
-   {
-    "ticker": "FLEX",
-    "info": "gap +4.3%",
-    "decision": "skipped: already above the stop"
-   },
-   {
-    "ticker": "KLAC",
-    "info": "gap +4.3%",
-    "decision": "short exposure would exceed 100% of equity"
-   },
-   {
-    "ticker": "DDOG",
-    "info": "gap +4.2%",
-    "decision": "skipped: already above the stop"
-   },
-   {
-    "ticker": "SMTC",
-    "info": "gap +4.2%",
-    "decision": "short exposure would exceed 100% of equity"
-   },
-   {
-    "ticker": "GOOGL",
-    "info": "gap +4.1%",
-    "decision": "short exposure would exceed 100% of equity"
-   },
-   {
-    "ticker": "GOOG",
-    "info": "gap +4.1%",
-    "decision": "short exposure would exceed 100% of equity"
-   },
-   {
-    "ticker": "LITE",
-    "info": "gap +4.1%",
-    "decision": "short exposure would exceed 100% of equity"
-   },
-   {
-    "ticker": "MRVL",
-    "info": "gap +3.9%",
-    "decision": "short exposure would exceed 100% of equity"
-   },
-   {
-    "ticker": "SMCI",
-    "info": "gap +3.8%",
-    "decision": "short exposure would exceed 100% of equity"
-   },
-   {
-    "ticker": "MPWR",
-    "info": "gap +3.7%",
-    "decision": "short exposure would exceed 100% of equity"
-   },
-   {
-    "ticker": "SNPS",
-    "info": "gap +3.6%",
-    "decision": "short exposure would exceed 100% of equity"
-   },
-   {
-    "ticker": "GLW",
-    "info": "gap +3.4%",
-    "decision": "short exposure would exceed 100% of equity"
-   },
-   {
-    "ticker": "TER",
-    "info": "gap +3.4%",
-    "decision": "short exposure would exceed 100% of equity"
-   },
-   {
-    "ticker": "FN",
-    "info": "gap +3.2%",
-    "decision": "skipped: already above the stop"
-   },
-   {
-    "ticker": "COIN",
-    "info": "gap +3.2%",
-    "decision": "short exposure would exceed 100% of equity"
-   },
-   {
-    "ticker": "FIX",
-    "info": "gap +3.0%",
-    "decision": "short exposure would exceed 100% of equity"
-   },
-   {
-    "ticker": "ON",
-    "info": "gap +3.0%",
-    "decision": "short exposure would exceed 100% of equity"
-   },
-   {
-    "ticker": "MCHP",
+    "ticker": "UNH",
     "info": "gap +2.9%",
-    "decision": "short exposure would exceed 100% of equity"
-   },
-   {
-    "ticker": "VRT",
-    "info": "gap +2.6%",
-    "decision": "short exposure would exceed 100% of equity"
-   },
-   {
-    "ticker": "QCOM",
-    "info": "gap +2.6%",
-    "decision": "skipped: already above the stop"
-   },
-   {
-    "ticker": "CDNS",
-    "info": "gap +2.6%",
-    "decision": "short exposure would exceed 100% of equity"
-   },
-   {
-    "ticker": "AVGO",
-    "info": "gap +2.5%",
-    "decision": "short exposure would exceed 100% of equity"
-   },
-   {
-    "ticker": "KEYS",
-    "info": "gap +2.5%",
-    "decision": "short exposure would exceed 100% of equity"
-   },
-   {
-    "ticker": "ORCL",
-    "info": "gap +2.4%",
-    "decision": "short exposure would exceed 100% of equity"
-   },
-   {
-    "ticker": "AXON",
-    "info": "gap +2.4%",
-    "decision": "skipped: already above the stop"
-   },
-   {
-    "ticker": "NVDA",
-    "info": "gap +2.2%",
-    "decision": "short exposure would exceed 100% of equity"
+    "decision": "SHORTED @ 343.22, stop 350.14"
    }
   ],
-  "last_run": "2026-11-20T14:16:45+00:00",
-  "market_open": false,
+  "last_run": "2026-11-20T14:58:30+00:00",
+  "market_open": true,
   "last_daily": null
  },
- "gap_scan_date": "2026-11-19",
+ "gap_scan_date": "2026-11-20",
  "price_sources": {
   "FN": "yahoo",
   "COHR": "yahoo",

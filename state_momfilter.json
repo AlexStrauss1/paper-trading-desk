@@ -471,8 +471,8 @@
     "decision": "CLOSED: market below 200-day"
    }
   ],
-  "last_run": "2026-11-20T14:16:45+00:00",
-  "market_open": false,
+  "last_run": "2026-11-20T14:58:16+00:00",
+  "market_open": true,
   "last_daily": "2026-11-19T21:22:50+00:00"
  }
 }
