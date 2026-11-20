@@ -353,33 +353,33 @@
   }
  },
  "last_prices": {
-  "VEEV": 265.48,
-  "WDAY": 174.66,
+  "VEEV": 266.22,
+  "WDAY": 174.52,
   "PFE": 27.4,
-  "DHR": 220.44,
+  "DHR": 220.36,
   "PATH": 11.345,
   "UNH": 356.445,
-  "USB": 55.975,
-  "BMY": 58.751,
-  "ACN": 221.04,
-  "MRK": 133.37,
-  "JPM": 309.97,
-  "ELV": 394.01,
-  "HUM": 389.82,
-  "CI": 270.79,
-  "SWKS": 73.9,
-  "PM": 183.83,
+  "USB": 56.05,
+  "BMY": 58.8,
+  "ACN": 221.17,
+  "MRK": 133.72,
+  "JPM": 310.53,
+  "ELV": 394.48,
+  "HUM": 390.0,
+  "CI": 270.9,
+  "SWKS": 73.91,
+  "PM": 184.09,
   "MSFT": 484.52,
-  "AMT": 183.83,
-  "DE": 608.6,
-  "BNY": 141.03,
-  "PYPL": 53.3,
-  "UNP": 286.925,
+  "AMT": 184.21,
+  "DE": 609.25,
+  "BNY": 141.24,
+  "PYPL": 53.29,
+  "UNP": 287.29,
   "CSX": 49.1,
-  "BLK": 1098.75,
+  "BLK": 1101.72,
   "AMGN": 435.64,
   "EBAY": 115.59,
-  "TMO": 668.94
+  "TMO": 669.54
  },
  "trades": [
   {
@@ -1000,7 +1000,7 @@
     "decision": "BOUGHT: below lower band"
    }
   ],
-  "last_run": "2026-11-20T21:04:22+00:00",
+  "last_run": "2026-11-20T21:48:53+00:00",
   "market_open": false,
   "last_daily": "2026-11-20T21:04:49+00:00"
  },
@@ -1023,6 +1023,14 @@
   "PM": "yahoo",
   "MSFT": "yahoo",
   "AMT": "yahoo",
-  "DE": "yahoo"
+  "DE": "yahoo",
+  "BNY": "yahoo",
+  "PYPL": "yahoo",
+  "UNP": "yahoo",
+  "CSX": "yahoo",
+  "BLK": "yahoo",
+  "AMGN": "yahoo",
+  "EBAY": "yahoo",
+  "TMO": "yahoo"
  }
 }
