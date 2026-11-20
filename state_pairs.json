@@ -37,8 +37,8 @@
   }
  },
  "last_prices": {
-  "NVDA": 135.41,
-  "HD": 343.48
+  "NVDA": 134.985,
+  "HD": 343.31
  },
  "trades": [
   {
@@ -138,7 +138,7 @@
     "decision": "BOUGHT: NVDA lags AMD"
    }
   ],
-  "last_run": "2026-11-20T17:14:07+00:00",
+  "last_run": "2026-11-20T18:11:17+00:00",
   "market_open": true,
   "last_daily": "2026-11-19T21:22:52+00:00"
  }
