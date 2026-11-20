@@ -1,5 +1,5 @@
 {
- "cash": 5718.024841000001,
+ "cash": 3751.6865150000012,
  "positions": {
   "WDAY": {
    "qty": 1.3676,
@@ -238,28 +238,148 @@
    "trail": null,
    "tp": null,
    "sl": 574.9
+  },
+  "BNY": {
+   "qty": 1.7429,
+   "avg_price": 141.03,
+   "opened": "2026-11-20T21:04:49+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "below lower band",
+   "entry_date": "2026-11-20",
+   "max_hold": 10,
+   "meta": null,
+   "trail": null,
+   "tp": null,
+   "sl": 129.75
+  },
+  "PYPL": {
+   "qty": 4.6117,
+   "avg_price": 53.3,
+   "opened": "2026-11-20T21:04:49+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "below lower band",
+   "entry_date": "2026-11-20",
+   "max_hold": 10,
+   "meta": null,
+   "trail": null,
+   "tp": null,
+   "sl": 49.04
+  },
+  "UNP": {
+   "qty": 0.8566,
+   "avg_price": 286.925,
+   "opened": "2026-11-20T21:04:49+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "below lower band",
+   "entry_date": "2026-11-20",
+   "max_hold": 10,
+   "meta": null,
+   "trail": null,
+   "tp": null,
+   "sl": 263.97
+  },
+  "CSX": {
+   "qty": 5.0062,
+   "avg_price": 49.1,
+   "opened": "2026-11-20T21:04:49+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "below lower band",
+   "entry_date": "2026-11-20",
+   "max_hold": 10,
+   "meta": null,
+   "trail": null,
+   "tp": null,
+   "sl": 45.17
+  },
+  "BLK": {
+   "qty": 0.2237,
+   "avg_price": 1098.75,
+   "opened": "2026-11-20T21:04:49+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "below lower band",
+   "entry_date": "2026-11-20",
+   "max_hold": 10,
+   "meta": null,
+   "trail": null,
+   "tp": null,
+   "sl": 1010.85
+  },
+  "AMGN": {
+   "qty": 0.5642,
+   "avg_price": 435.64,
+   "opened": "2026-11-20T21:04:49+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "below lower band",
+   "entry_date": "2026-11-20",
+   "max_hold": 10,
+   "meta": null,
+   "trail": null,
+   "tp": null,
+   "sl": 400.79
+  },
+  "EBAY": {
+   "qty": 2.1265,
+   "avg_price": 115.59,
+   "opened": "2026-11-20T21:04:49+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "below lower band",
+   "entry_date": "2026-11-20",
+   "max_hold": 10,
+   "meta": null,
+   "trail": null,
+   "tp": null,
+   "sl": 106.34
+  },
+  "TMO": {
+   "qty": 0.3674,
+   "avg_price": 668.94,
+   "opened": "2026-11-20T21:04:49+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "below lower band",
+   "entry_date": "2026-11-20",
+   "max_hold": 10,
+   "meta": null,
+   "trail": null,
+   "tp": null,
+   "sl": 615.42
   }
  },
  "last_prices": {
-  "VEEV": 263.8,
-  "WDAY": 177.045,
-  "PFE": 27.585,
-  "DHR": 222.01,
+  "VEEV": 265.48,
+  "WDAY": 174.66,
+  "PFE": 27.4,
+  "DHR": 220.44,
   "PATH": 11.345,
   "UNH": 356.445,
-  "USB": 56.86,
-  "BMY": 59.23,
-  "ACN": 223.055,
-  "MRK": 134.735,
-  "JPM": 311.6,
-  "ELV": 399.355,
-  "HUM": 392.845,
-  "CI": 274.82,
-  "SWKS": 76.02,
-  "PM": 184.93,
-  "MSFT": 486.6,
-  "AMT": 185.03,
-  "DE": 608.71
+  "USB": 55.975,
+  "BMY": 58.751,
+  "ACN": 221.04,
+  "MRK": 133.37,
+  "JPM": 309.97,
+  "ELV": 394.01,
+  "HUM": 389.82,
+  "CI": 270.79,
+  "SWKS": 73.9,
+  "PM": 183.83,
+  "MSFT": 484.52,
+  "AMT": 183.83,
+  "DE": 608.6,
+  "BNY": 141.03,
+  "PYPL": 53.3,
+  "UNP": 286.925,
+  "CSX": 49.1,
+  "BLK": 1098.75,
+  "AMGN": 435.64,
+  "EBAY": 115.59,
+  "TMO": 668.94
  },
  "trades": [
   {
@@ -497,6 +617,86 @@
    "broker": "sim",
    "source": "auto",
    "reason": "below lower band"
+  },
+  {
+   "time": "2026-11-20T21:04:49+00:00",
+   "ticker": "BNY",
+   "side": "buy",
+   "qty": 1.7429,
+   "price": 141.03,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "below lower band"
+  },
+  {
+   "time": "2026-11-20T21:04:49+00:00",
+   "ticker": "PYPL",
+   "side": "buy",
+   "qty": 4.6117,
+   "price": 53.3,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "below lower band"
+  },
+  {
+   "time": "2026-11-20T21:04:49+00:00",
+   "ticker": "UNP",
+   "side": "buy",
+   "qty": 0.8566,
+   "price": 286.925,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "below lower band"
+  },
+  {
+   "time": "2026-11-20T21:04:49+00:00",
+   "ticker": "CSX",
+   "side": "buy",
+   "qty": 5.0062,
+   "price": 49.1,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "below lower band"
+  },
+  {
+   "time": "2026-11-20T21:04:49+00:00",
+   "ticker": "BLK",
+   "side": "buy",
+   "qty": 0.2237,
+   "price": 1098.75,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "below lower band"
+  },
+  {
+   "time": "2026-11-20T21:04:49+00:00",
+   "ticker": "AMGN",
+   "side": "buy",
+   "qty": 0.5642,
+   "price": 435.64,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "below lower band"
+  },
+  {
+   "time": "2026-11-20T21:04:49+00:00",
+   "ticker": "EBAY",
+   "side": "buy",
+   "qty": 2.1265,
+   "price": 115.59,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "below lower band"
+  },
+  {
+   "time": "2026-11-20T21:04:49+00:00",
+   "ticker": "TMO",
+   "side": "buy",
+   "qty": 0.3674,
+   "price": 668.94,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "below lower band"
   }
  ],
  "events": [
@@ -683,52 +883,126 @@
    "price": 624.89,
    "source": "auto",
    "result": "filled buy 0.3947 @ 624.89 (below lower band)"
+  },
+  {
+   "time": "2026-11-20T21:04:49+00:00",
+   "ticker": "BNY",
+   "action": "buy",
+   "price": 141.03,
+   "source": "auto",
+   "result": "filled buy 1.7429 @ 141.03 (below lower band)"
+  },
+  {
+   "time": "2026-11-20T21:04:49+00:00",
+   "ticker": "PYPL",
+   "action": "buy",
+   "price": 53.3,
+   "source": "auto",
+   "result": "filled buy 4.6117 @ 53.3 (below lower band)"
+  },
+  {
+   "time": "2026-11-20T21:04:49+00:00",
+   "ticker": "UNP",
+   "action": "buy",
+   "price": 286.925,
+   "source": "auto",
+   "result": "filled buy 0.8566 @ 286.925 (below lower band)"
+  },
+  {
+   "time": "2026-11-20T21:04:49+00:00",
+   "ticker": "CSX",
+   "action": "buy",
+   "price": 49.1,
+   "source": "auto",
+   "result": "filled buy 5.0062 @ 49.1 (below lower band)"
+  },
+  {
+   "time": "2026-11-20T21:04:49+00:00",
+   "ticker": "BLK",
+   "action": "buy",
+   "price": 1098.75,
+   "source": "auto",
+   "result": "filled buy 0.2237 @ 1098.75 (below lower band)"
+  },
+  {
+   "time": "2026-11-20T21:04:49+00:00",
+   "ticker": "AMGN",
+   "action": "buy",
+   "price": 435.64,
+   "source": "auto",
+   "result": "filled buy 0.5642 @ 435.64 (below lower band)"
+  },
+  {
+   "time": "2026-11-20T21:04:49+00:00",
+   "ticker": "EBAY",
+   "action": "buy",
+   "price": 115.59,
+   "source": "auto",
+   "result": "filled buy 2.1265 @ 115.59 (below lower band)"
+  },
+  {
+   "time": "2026-11-20T21:04:49+00:00",
+   "ticker": "TMO",
+   "action": "buy",
+   "price": 668.94,
+   "source": "auto",
+   "result": "filled buy 0.3674 @ 668.94 (below lower band)"
   }
  ],
  "day": {
-  "date": "2026-11-19",
-  "start_equity": 9872.272009,
+  "date": "2026-11-20",
+  "start_equity": 9832.219309,
   "trades": 8
  },
  "halted": false,
- "last_daily_run": "2026-11-19",
+ "last_daily_run": "2026-11-20",
  "status": {
-  "note": "next decision after 15:30 ET on trading days",
+  "note": "8 action(s) at today's run",
   "decisions": [
    {
-    "ticker": "VEEV",
-    "info": "262.92",
+    "ticker": "BNY",
+    "info": "141.03",
     "decision": "BOUGHT: below lower band"
    },
    {
-    "ticker": "SWKS",
-    "info": "78.66",
+    "ticker": "PYPL",
+    "info": "53.30",
     "decision": "BOUGHT: below lower band"
    },
    {
-    "ticker": "PM",
-    "info": "186.43",
+    "ticker": "UNP",
+    "info": "286.93",
     "decision": "BOUGHT: below lower band"
    },
    {
-    "ticker": "MSFT",
-    "info": "498.30",
+    "ticker": "CSX",
+    "info": "49.10",
     "decision": "BOUGHT: below lower band"
    },
    {
-    "ticker": "AMT",
-    "info": "181.15",
+    "ticker": "BLK",
+    "info": "1098.75",
     "decision": "BOUGHT: below lower band"
    },
    {
-    "ticker": "DE",
-    "info": "624.89",
+    "ticker": "AMGN",
+    "info": "435.64",
+    "decision": "BOUGHT: below lower band"
+   },
+   {
+    "ticker": "EBAY",
+    "info": "115.59",
+    "decision": "BOUGHT: below lower band"
+   },
+   {
+    "ticker": "TMO",
+    "info": "668.94",
     "decision": "BOUGHT: below lower band"
    }
   ],
-  "last_run": "2026-11-20T20:14:29+00:00",
-  "market_open": true,
-  "last_daily": "2026-11-19T21:22:52+00:00"
+  "last_run": "2026-11-20T21:04:22+00:00",
+  "market_open": false,
+  "last_daily": "2026-11-20T21:04:49+00:00"
  },
  "price_sources": {
   "VEEV": "yahoo",

@@ -403,7 +403,7 @@
   "trades": 10
  },
  "halted": false,
- "last_daily_run": "2026-11-19",
+ "last_daily_run": "2026-11-20",
  "last_rebalance_date": "2026-11-13",
  "price_sources": {
   "MRNA": "yahoo",
@@ -418,61 +418,10 @@
   "OKTA": "yahoo"
  },
  "status": {
-  "note": "next decision after 15:30 ET on trading days",
-  "decisions": [
-   {
-    "ticker": "MRNA",
-    "info": "199.33",
-    "decision": "CLOSED: market below 200-day"
-   },
-   {
-    "ticker": "MU",
-    "info": "690.44",
-    "decision": "CLOSED: market below 200-day"
-   },
-   {
-    "ticker": "LITE",
-    "info": "535.15",
-    "decision": "CLOSED: market below 200-day"
-   },
-   {
-    "ticker": "DELL",
-    "info": "312.54",
-    "decision": "CLOSED: market below 200-day"
-   },
-   {
-    "ticker": "MRVL",
-    "info": "138.47",
-    "decision": "CLOSED: market below 200-day"
-   },
-   {
-    "ticker": "VLO",
-    "info": "338.46",
-    "decision": "CLOSED: market below 200-day"
-   },
-   {
-    "ticker": "HPE",
-    "info": "45.49",
-    "decision": "CLOSED: market below 200-day"
-   },
-   {
-    "ticker": "INTC",
-    "info": "55.72",
-    "decision": "CLOSED: market below 200-day"
-   },
-   {
-    "ticker": "MPC",
-    "info": "367.93",
-    "decision": "CLOSED: market below 200-day"
-   },
-   {
-    "ticker": "OKTA",
-    "info": "206.85",
-    "decision": "CLOSED: market below 200-day"
-   }
-  ],
-  "last_run": "2026-11-20T20:14:29+00:00",
-  "market_open": true,
-  "last_daily": "2026-11-19T21:22:50+00:00"
+  "note": "no signals today \u00b7 next rebalance in 16 trading days",
+  "decisions": [],
+  "last_run": "2026-11-20T21:04:22+00:00",
+  "market_open": false,
+  "last_daily": "2026-11-20T21:04:47+00:00"
  }
 }

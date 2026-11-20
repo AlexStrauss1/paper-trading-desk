@@ -1,5 +1,5 @@
 {
- "cash": 3092.9358289999977,
+ "cash": 2359.0422339999977,
  "positions": {
   "MRNA": {
    "qty": 1.1147,
@@ -392,41 +392,84 @@
    "trail": null,
    "tp": null,
    "sl": null
+  },
+  "MAR": {
+   "qty": 0.6016,
+   "avg_price": 406.64,
+   "opened": "2026-11-20T21:04:47+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "leader dip",
+   "entry_date": "2026-11-20",
+   "max_hold": 10,
+   "meta": null,
+   "trail": null,
+   "tp": null,
+   "sl": null
+  },
+  "HLT": {
+   "qty": 0.6867,
+   "avg_price": 356.25,
+   "opened": "2026-11-20T21:04:47+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "leader dip",
+   "entry_date": "2026-11-20",
+   "max_hold": 10,
+   "meta": null,
+   "trail": null,
+   "tp": null,
+   "sl": null
+  },
+  "AAPL": {
+   "qty": 0.7141,
+   "avg_price": 342.56,
+   "opened": "2026-11-20T21:04:47+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "leader dip",
+   "entry_date": "2026-11-20",
+   "max_hold": 10,
+   "meta": null,
+   "trail": null,
+   "tp": null,
+   "sl": null
   }
  },
  "last_prices": {
-  "MRNA": 195.465,
+  "MRNA": 195.0,
   "TGT": 165.96,
-  "AMGN": 438.675,
-  "MSI": 520.61,
-  "VEEV": 263.8,
-  "MAR": 425.9,
-  "TMO": 673.726,
-  "HLT": 373.03,
-  "CSX": 49.625,
+  "AMGN": 435.64,
+  "MSI": 519.29,
+  "VEEV": 265.48,
+  "MAR": 406.64,
+  "TMO": 668.78,
+  "HLT": 356.25,
+  "CSX": 49.1,
   "OKTA": 195.61,
-  "MPC": 369.39,
-  "PSX": 240.645,
-  "TRV": 396.24,
-  "VLO": 337.23,
-  "ABBV": 288.68,
-  "JNJ": 271.72,
-  "BRK-B": 570.58,
-  "LLY": 1353.89,
-  "MRK": 134.735,
-  "KDP": 35.055,
-  "V": 405.34,
-  "CAH": 274.59,
-  "KO": 97.385,
-  "MCK": 1078.48,
-  "PG": 170.6,
-  "MO": 75.075,
-  "MA": 629.251,
-  "CB": 373.81,
-  "GILD": 168.19,
-  "REGN": 923.79,
-  "ADP": 303.79,
-  "ALL": 269.71
+  "MPC": 367.12,
+  "PSX": 239.0,
+  "TRV": 393.18,
+  "VLO": 333.945,
+  "ABBV": 286.01,
+  "JNJ": 270.21,
+  "BRK-B": 568.25,
+  "LLY": 1344.7,
+  "MRK": 133.37,
+  "KDP": 34.84,
+  "V": 401.81,
+  "CAH": 272.34,
+  "KO": 96.95,
+  "MCK": 1067.95,
+  "PG": 169.28,
+  "MO": 74.79,
+  "MA": 624.92,
+  "CB": 371.31,
+  "GILD": 166.43,
+  "REGN": 920.69,
+  "ADP": 301.71,
+  "ALL": 266.78,
+  "AAPL": 342.56
  },
  "trades": [
   {
@@ -818,6 +861,36 @@
    "broker": "sim",
    "source": "auto",
    "reason": "leader dip"
+  },
+  {
+   "time": "2026-11-20T21:04:47+00:00",
+   "ticker": "MAR",
+   "side": "buy",
+   "qty": 0.6016,
+   "price": 406.64,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "leader dip"
+  },
+  {
+   "time": "2026-11-20T21:04:47+00:00",
+   "ticker": "HLT",
+   "side": "buy",
+   "qty": 0.6867,
+   "price": 356.25,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "leader dip"
+  },
+  {
+   "time": "2026-11-20T21:04:47+00:00",
+   "ticker": "AAPL",
+   "side": "buy",
+   "qty": 0.7141,
+   "price": 342.56,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "leader dip"
   }
  ],
  "events": [
@@ -1124,15 +1197,39 @@
    "price": 266.77,
    "source": "auto",
    "result": "filled buy 0.9181 @ 266.77 (leader dip)"
+  },
+  {
+   "time": "2026-11-20T21:04:47+00:00",
+   "ticker": "MAR",
+   "action": "buy",
+   "price": 406.64,
+   "source": "auto",
+   "result": "filled buy 0.6016 @ 406.64 (leader dip)"
+  },
+  {
+   "time": "2026-11-20T21:04:47+00:00",
+   "ticker": "HLT",
+   "action": "buy",
+   "price": 356.25,
+   "source": "auto",
+   "result": "filled buy 0.6867 @ 356.25 (leader dip)"
+  },
+  {
+   "time": "2026-11-20T21:04:47+00:00",
+   "ticker": "AAPL",
+   "action": "buy",
+   "price": 342.56,
+   "source": "auto",
+   "result": "filled buy 0.7141 @ 342.56 (leader dip)"
   }
  ],
  "day": {
-  "date": "2026-11-19",
-  "start_equity": 9797.090054999997,
-  "trades": 4
+  "date": "2026-11-20",
+  "start_equity": 9786.076692499997,
+  "trades": 3
  },
  "halted": false,
- "last_daily_run": "2026-11-19",
+ "last_daily_run": "2026-11-20",
  "price_sources": {
   "MRNA": "yahoo",
   "TGT": "yahoo",
@@ -1168,31 +1265,26 @@
   "ALL": "yahoo"
  },
  "status": {
-  "note": "next decision after 15:30 ET on trading days",
+  "note": "3 action(s) at today's run",
   "decisions": [
    {
-    "ticker": "GILD",
-    "info": "166.53",
+    "ticker": "MAR",
+    "info": "406.64",
     "decision": "BOUGHT: leader dip"
    },
    {
-    "ticker": "REGN",
-    "info": "923.34",
+    "ticker": "HLT",
+    "info": "356.25",
     "decision": "BOUGHT: leader dip"
    },
    {
-    "ticker": "ADP",
-    "info": "301.19",
-    "decision": "BOUGHT: leader dip"
-   },
-   {
-    "ticker": "ALL",
-    "info": "266.77",
+    "ticker": "AAPL",
+    "info": "342.56",
     "decision": "BOUGHT: leader dip"
    }
   ],
-  "last_run": "2026-11-20T20:14:29+00:00",
-  "market_open": true,
-  "last_daily": "2026-11-19T21:22:50+00:00"
+  "last_run": "2026-11-20T21:04:22+00:00",
+  "market_open": false,
+  "last_daily": "2026-11-20T21:04:47+00:00"
  }
 }
