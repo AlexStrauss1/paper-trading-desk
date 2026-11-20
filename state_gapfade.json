@@ -50,7 +50,7 @@
   "ON": 69.99,
   "CDNS": 318.8,
   "KEYS": 298.525,
-  "UNH": 346.325
+  "UNH": 345.755
  },
  "trades": [
   {
@@ -1019,7 +1019,7 @@
     "decision": "SHORTED @ 343.22, stop 350.14"
    }
   ],
-  "last_run": "2026-11-20T16:42:24+00:00",
+  "last_run": "2026-11-20T17:14:07+00:00",
   "market_open": true,
   "last_daily": null
  },
