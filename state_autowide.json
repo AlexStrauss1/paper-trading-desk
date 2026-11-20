@@ -73,11 +73,11 @@
   }
  },
  "last_prices": {
-  "MRNA": 209.23,
-  "TRV": 398.55,
-  "TGT": 170.83,
-  "MRK": 136.725,
-  "ABBV": 289.8,
+  "MRNA": 205.215,
+  "TRV": 401.312,
+  "TGT": 169.55,
+  "MRK": 135.985,
+  "ABBV": 288.92,
   "AMGN": 438.82,
   "GILD": 166.53,
   "KDP": 34.41,
@@ -1647,7 +1647,7 @@
     "decision": "more signals, out of cash: OKTA, KO, MCK, MSI, MAR, GILD, BRK-B, REGN\u2026"
    }
   ],
-  "last_run": "2026-11-20T15:12:23+00:00",
+  "last_run": "2026-11-20T15:47:58+00:00",
   "market_open": true,
   "last_daily": "2026-11-19T21:22:50+00:00"
  }
