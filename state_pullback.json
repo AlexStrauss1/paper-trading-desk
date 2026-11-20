@@ -73,12 +73,12 @@
   }
  },
  "last_prices": {
-  "MRNA": 205.175,
+  "MRNA": 200.22,
   "VEEV": 279.095,
-  "TRV": 400.84,
-  "ABBV": 287.723,
-  "JNJ": 270.79,
-  "TMO": 680.655,
+  "TRV": 400.42,
+  "ABBV": 288.485,
+  "JNJ": 271.09,
+  "TMO": 679.535,
   "HLT": 362.3
  },
  "trades": [
@@ -288,7 +288,7 @@
     "decision": "more signals, out of cash: HLT"
    }
   ],
-  "last_run": "2026-11-20T16:12:31+00:00",
+  "last_run": "2026-11-20T16:42:24+00:00",
   "market_open": true,
   "last_daily": "2026-11-19T21:22:50+00:00"
  }
