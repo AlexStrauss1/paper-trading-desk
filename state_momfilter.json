@@ -418,7 +418,7 @@
   "OKTA": "yahoo"
  },
  "status": {
-  "note": "10 action(s) at today's run \u00b7 next rebalance in 17 trading days",
+  "note": "next decision after 15:30 ET on trading days",
   "decisions": [
    {
     "ticker": "MRNA",
@@ -471,7 +471,7 @@
     "decision": "CLOSED: market below 200-day"
    }
   ],
-  "last_run": "2026-11-19T23:20:59+00:00",
+  "last_run": "2026-11-20T14:09:00+00:00",
   "market_open": false,
   "last_daily": "2026-11-19T21:22:50+00:00"
  }

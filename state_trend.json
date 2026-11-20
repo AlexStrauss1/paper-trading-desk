@@ -2507,7 +2507,7 @@
   "MRK": "yahoo"
  },
  "status": {
-  "note": "1 action(s) at today's run",
+  "note": "next decision after 15:30 ET on trading days",
   "decisions": [
    {
     "ticker": "+48",
@@ -2515,7 +2515,7 @@
     "decision": "more signals, out of cash: OKTA, REGN, MCK, ADP, CAH, PTC, DHR, MSI\u2026"
    }
   ],
-  "last_run": "2026-11-19T23:20:59+00:00",
+  "last_run": "2026-11-20T14:09:00+00:00",
   "market_open": false,
   "last_daily": "2026-11-19T21:22:50+00:00"
  }
