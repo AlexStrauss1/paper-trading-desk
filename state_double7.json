@@ -128,15 +128,15 @@
   }
  },
  "last_prices": {
-  "PFE": 27.475,
-  "MRNA": 209.27,
-  "MRK": 134.97,
-  "TMO": 687.55,
-  "VEEV": 270.64,
-  "ILMN": 204.49,
-  "DE": 634.0,
-  "ACN": 221.53,
-  "VRTX": 532.755,
+  "PFE": 27.525,
+  "MRNA": 211.35,
+  "MRK": 135.6,
+  "TMO": 687.475,
+  "VEEV": 269.725,
+  "ILMN": 204.871,
+  "DE": 635.16,
+  "ACN": 220.99,
+  "VRTX": 537.43,
   "DHR": 220.44,
   "RCL": 296.17,
   "GM": 81.75,
@@ -2439,7 +2439,7 @@
     "decision": "more signals, out of cash: MPC, CAH, PSX, MSI, REGN, GILD, VLO, MAR\u2026"
    }
   ],
-  "last_run": "2026-11-23T17:42:22+00:00",
+  "last_run": "2026-11-23T18:39:00+00:00",
   "market_open": true,
   "last_daily": "2026-11-20T21:04:47+00:00"
  }
