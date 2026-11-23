@@ -73,11 +73,11 @@
   }
  },
  "last_prices": {
-  "MRNA": 211.735,
-  "TRV": 394.37,
-  "TGT": 167.08,
-  "MRK": 135.92,
-  "ABBV": 290.135,
+  "MRNA": 211.51,
+  "TRV": 394.67,
+  "TGT": 167.89,
+  "MRK": 135.155,
+  "ABBV": 288.78,
   "AMGN": 435.64,
   "GILD": 166.43,
   "KDP": 34.84,
@@ -1947,7 +1947,7 @@
     "decision": "more signals, out of cash: KO, MCK, REGN, GILD, MAR, CB, PG, JNJ\u2026"
    }
   ],
-  "last_run": "2026-11-23T15:38:52+00:00",
+  "last_run": "2026-11-23T16:27:53+00:00",
   "market_open": true,
   "last_daily": "2026-11-20T21:04:47+00:00"
  }
