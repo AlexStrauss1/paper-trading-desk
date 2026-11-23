@@ -1,37 +1,9 @@
 {
- "cash": 3802.3640834000007,
+ "cash": 2884.1256004000006,
  "positions": {
-  "KO": {
-   "qty": 10.0796,
-   "avg_price": 99.21,
-   "opened": "2026-11-13T19:41:45+00:00",
-   "side": "long",
-   "source": "auto",
-   "reason": "20-day high",
-   "entry_date": "2026-11-13",
-   "max_hold": null,
-   "meta": null,
-   "trail": null,
-   "tp": null,
-   "sl": null
-  },
   "CAH": {
    "qty": 3.5597,
    "avg_price": 280.92,
-   "opened": "2026-11-13T19:41:45+00:00",
-   "side": "long",
-   "source": "auto",
-   "reason": "20-day high",
-   "entry_date": "2026-11-13",
-   "max_hold": null,
-   "meta": null,
-   "trail": null,
-   "tp": null,
-   "sl": null
-  },
-  "MCK": {
-   "qty": 0.9123,
-   "avg_price": 1096.09,
    "opened": "2026-11-13T19:41:45+00:00",
    "side": "long",
    "source": "auto",
@@ -84,15 +56,57 @@
    "trail": null,
    "tp": null,
    "sl": null
+  },
+  "WMT": {
+   "qty": 7.3366,
+   "avg_price": 129.19,
+   "opened": "2026-11-23T20:33:49+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "20-day high",
+   "entry_date": "2026-11-23",
+   "max_hold": null,
+   "meta": null,
+   "trail": null,
+   "tp": null,
+   "sl": null
+  },
+  "ORLY": {
+   "qty": 10.1171,
+   "avg_price": 93.685,
+   "opened": "2026-11-23T20:33:49+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "20-day high",
+   "entry_date": "2026-11-23",
+   "max_hold": null,
+   "meta": null,
+   "trail": null,
+   "tp": null,
+   "sl": null
+  },
+  "T": {
+   "qty": 42.361,
+   "avg_price": 22.375,
+   "opened": "2026-11-23T20:33:49+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "20-day high",
+   "entry_date": "2026-11-23",
+   "max_hold": null,
+   "meta": null,
+   "trail": null,
+   "tp": null,
+   "sl": null
   }
  },
  "last_prices": {
-  "KO": 96.105,
+  "KO": 95.82,
   "JNJ": 267.14,
-  "CAH": 273.04,
+  "CAH": 272.5,
   "ABBV": 285.96,
   "LLY": 1351.12,
-  "MCK": 1054.22,
+  "MCK": 1051.625,
   "MO": 74.68,
   "HUM": 385.55,
   "BRK-B": 568.343,
@@ -115,12 +129,14 @@
   "HCA": 511.735,
   "DUK": 130.58,
   "SO": 94.65,
-  "ORLY": 93.37,
+  "ORLY": 93.685,
   "APP": 415.22,
-  "PCG": 14.025,
-  "TGT": 168.71,
-  "DIS": 119.76,
-  "CMG": 36.93
+  "PCG": 14.035,
+  "TGT": 168.949,
+  "DIS": 120.201,
+  "CMG": 36.93,
+  "WMT": 129.19,
+  "T": 22.375
  },
  "trades": [
   {
@@ -336,6 +352,60 @@
    "reason": "10-day low",
    "pnl": -38.43,
    "pnl_pct": -3.84
+  },
+  {
+   "time": "2026-11-23T20:33:49+00:00",
+   "ticker": "KO",
+   "side": "sell",
+   "qty": 10.0796,
+   "price": 95.82,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "10-day low",
+   "pnl": -34.17,
+   "pnl_pct": -3.42
+  },
+  {
+   "time": "2026-11-23T20:33:49+00:00",
+   "ticker": "MCK",
+   "side": "sell",
+   "qty": 0.9123,
+   "price": 1051.625,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "10-day low",
+   "pnl": -40.57,
+   "pnl_pct": -4.06
+  },
+  {
+   "time": "2026-11-23T20:33:49+00:00",
+   "ticker": "WMT",
+   "side": "buy",
+   "qty": 7.3366,
+   "price": 129.19,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "20-day high"
+  },
+  {
+   "time": "2026-11-23T20:33:49+00:00",
+   "ticker": "ORLY",
+   "side": "buy",
+   "qty": 10.1171,
+   "price": 93.685,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "20-day high"
+  },
+  {
+   "time": "2026-11-23T20:33:49+00:00",
+   "ticker": "T",
+   "side": "buy",
+   "qty": 42.361,
+   "price": 22.375,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "20-day high"
   }
  ],
  "events": [
@@ -762,15 +832,55 @@
    "price": 568.343,
    "source": "auto",
    "result": "filled sell 1.6918 @ 568.343 (10-day low)"
+  },
+  {
+   "time": "2026-11-23T20:33:49+00:00",
+   "ticker": "KO",
+   "action": "sell",
+   "price": 95.82,
+   "source": "auto",
+   "result": "filled sell 10.0796 @ 95.82 (10-day low)"
+  },
+  {
+   "time": "2026-11-23T20:33:49+00:00",
+   "ticker": "MCK",
+   "action": "sell",
+   "price": 1051.625,
+   "source": "auto",
+   "result": "filled sell 0.9123 @ 1051.625 (10-day low)"
+  },
+  {
+   "time": "2026-11-23T20:33:49+00:00",
+   "ticker": "WMT",
+   "action": "buy",
+   "price": 129.19,
+   "source": "auto",
+   "result": "filled buy 7.3366 @ 129.19 (20-day high)"
+  },
+  {
+   "time": "2026-11-23T20:33:49+00:00",
+   "ticker": "ORLY",
+   "action": "buy",
+   "price": 93.685,
+   "source": "auto",
+   "result": "filled buy 10.1171 @ 93.685 (20-day high)"
+  },
+  {
+   "time": "2026-11-23T20:33:49+00:00",
+   "ticker": "T",
+   "action": "buy",
+   "price": 22.375,
+   "source": "auto",
+   "result": "filled buy 42.361 @ 22.375 (20-day high)"
   }
  ],
  "day": {
-  "date": "2026-11-20",
-  "start_equity": 9449.309195500002,
-  "trades": 1
+  "date": "2026-11-23",
+  "start_equity": 9478.324537200002,
+  "trades": 5
  },
  "halted": false,
- "last_daily_run": "2026-11-20",
+ "last_daily_run": "2026-11-23",
  "price_sources": {
   "KO": "yahoo",
   "JNJ": "yahoo",
@@ -787,16 +897,36 @@
   "PCG": "yahoo"
  },
  "status": {
-  "note": "next decision after 15:30 ET on trading days",
+  "note": "5 action(s) at today's run",
   "decisions": [
    {
-    "ticker": "BRK-B",
-    "info": "568.34",
+    "ticker": "KO",
+    "info": "95.82",
     "decision": "CLOSED: 10-day low"
+   },
+   {
+    "ticker": "MCK",
+    "info": "1051.62",
+    "decision": "CLOSED: 10-day low"
+   },
+   {
+    "ticker": "WMT",
+    "info": "129.19",
+    "decision": "BOUGHT: 20-day high"
+   },
+   {
+    "ticker": "ORLY",
+    "info": "93.69",
+    "decision": "BOUGHT: 20-day high"
+   },
+   {
+    "ticker": "T",
+    "info": "22.38",
+    "decision": "BOUGHT: 20-day high"
    }
   ],
-  "last_run": "2026-11-23T19:48:24+00:00",
+  "last_run": "2026-11-23T20:33:32+00:00",
   "market_open": true,
-  "last_daily": "2026-11-20T21:04:47+00:00"
+  "last_daily": "2026-11-23T20:33:49+00:00"
  }
 }

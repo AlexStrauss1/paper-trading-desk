@@ -176,19 +176,19 @@
   }
  },
  "last_prices": {
-  "ABBV": 288.828,
-  "LLY": 1362.49,
-  "KO": 96.105,
-  "JNJ": 271.395,
-  "MO": 73.918,
-  "AAPL": 349.33,
-  "PG": 170.26,
-  "CL": 98.41,
-  "COST": 1098.5,
-  "CAH": 273.04,
+  "ABBV": 288.89,
+  "LLY": 1364.35,
+  "KO": 95.825,
+  "JNJ": 270.65,
+  "MO": 73.96,
+  "AAPL": 350.95,
+  "PG": 170.11,
+  "CL": 98.27,
+  "COST": 1097.77,
+  "CAH": 272.5,
   "HUM": 385.55,
-  "MCK": 1054.22,
-  "BRK-B": 572.81,
+  "MCK": 1051.625,
+  "BRK-B": 573.98,
   "CB": 381.39,
   "ADP": 313.43,
   "WM": 244.33,
@@ -196,7 +196,8 @@
   "ELV": 446.47,
   "DUK": 130.58,
   "CME": 319.37,
-  "DIS": 119.76
+  "DIS": 120.201,
+  "TGT": 168.915
  },
  "trades": [
   {
@@ -528,15 +529,23 @@
    "price": 122.37,
    "source": "auto",
    "result": "filled buy 1.7105 @ 122.37 (new 52w high)"
+  },
+  {
+   "time": "2026-11-23T20:33:49+00:00",
+   "ticker": "TGT",
+   "action": "buy",
+   "price": 168.915,
+   "source": "auto",
+   "result": "rejected: not enough cash"
   }
  ],
  "day": {
-  "date": "2026-11-18",
-  "start_equity": 9754.187805000001,
-  "trades": 2
+  "date": "2026-11-23",
+  "start_equity": 9666.895606,
+  "trades": 0
  },
  "halted": false,
- "last_daily_run": "2026-11-20",
+ "last_daily_run": "2026-11-23",
  "price_sources": {
   "ABBV": "yahoo",
   "LLY": "yahoo",
@@ -554,10 +563,16 @@
   "DIS": "yahoo"
  },
  "status": {
-  "note": "next decision after 15:30 ET on trading days",
-  "decisions": [],
-  "last_run": "2026-11-23T19:48:24+00:00",
+  "note": "1 action(s) at today's run",
+  "decisions": [
+   {
+    "ticker": "+1",
+    "info": "",
+    "decision": "more signals, out of cash: TGT"
+   }
+  ],
+  "last_run": "2026-11-23T20:33:32+00:00",
   "market_open": true,
-  "last_daily": "2026-11-20T21:04:47+00:00"
+  "last_daily": "2026-11-23T20:33:49+00:00"
  }
 }

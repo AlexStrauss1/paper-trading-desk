@@ -73,14 +73,15 @@
   }
  },
  "last_prices": {
-  "MRNA": 208.445,
+  "MRNA": 211.9,
   "VEEV": 279.095,
-  "TRV": 395.81,
-  "ABBV": 288.828,
-  "JNJ": 271.395,
-  "TMO": 687.875,
+  "TRV": 395.43,
+  "ABBV": 288.89,
+  "JNJ": 270.65,
+  "TMO": 689.62,
   "HLT": 362.3,
-  "MAR": 406.64
+  "MAR": 406.64,
+  "KO": 95.82
  },
  "trades": [
   {
@@ -266,15 +267,23 @@
    "price": 406.64,
    "source": "auto",
    "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-23T20:33:49+00:00",
+   "ticker": "KO",
+   "action": "buy",
+   "price": 95.82,
+   "source": "auto",
+   "result": "rejected: not enough cash"
   }
  ],
  "day": {
-  "date": "2026-11-20",
-  "start_equity": 9513.698470099998,
+  "date": "2026-11-23",
+  "start_equity": 9764.385891099999,
   "trades": 0
  },
  "halted": false,
- "last_daily_run": "2026-11-20",
+ "last_daily_run": "2026-11-23",
  "price_sources": {
   "MRNA": "yahoo",
   "VEEV": "yahoo",
@@ -284,16 +293,16 @@
   "TMO": "yahoo"
  },
  "status": {
-  "note": "next decision after 15:30 ET on trading days",
+  "note": "1 action(s) at today's run",
   "decisions": [
    {
     "ticker": "+1",
     "info": "",
-    "decision": "more signals, out of cash: MAR"
+    "decision": "more signals, out of cash: KO"
    }
   ],
-  "last_run": "2026-11-23T19:48:24+00:00",
+  "last_run": "2026-11-23T20:33:32+00:00",
   "market_open": true,
-  "last_daily": "2026-11-20T21:04:47+00:00"
+  "last_daily": "2026-11-23T20:33:49+00:00"
  }
 }

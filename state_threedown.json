@@ -1,5 +1,5 @@
 {
- "cash": 0.0018578000028242059,
+ "cash": 2469.8886549000026,
  "positions": {
   "TMO": {
    "qty": 1.4303,
@@ -14,19 +14,6 @@
    "tp": null,
    "sl": 643.21
   },
-  "MMM": {
-   "qty": 5.395,
-   "avg_price": 185.355,
-   "opened": "2026-11-13T19:32:39+00:00",
-   "side": "long",
-   "source": "auto",
-   "reason": "3 down days",
-   "entry_date": "2026-11-13",
-   "max_hold": 7,
-   "meta": null,
-   "tp": null,
-   "sl": 170.53
-  },
   "LOW": {
    "qty": 4.4002,
    "avg_price": 227.26,
@@ -39,48 +26,6 @@
    "meta": null,
    "tp": null,
    "sl": 209.08
-  },
-  "AMGN": {
-   "qty": 0.5394,
-   "avg_price": 462.32,
-   "opened": "2026-11-16T21:03:20+00:00",
-   "side": "long",
-   "source": "auto",
-   "reason": "3 down days",
-   "entry_date": "2026-11-16",
-   "max_hold": 7,
-   "meta": null,
-   "trail": null,
-   "tp": null,
-   "sl": 425.33
-  },
-  "DE": {
-   "qty": 0.3813,
-   "avg_price": 654.0,
-   "opened": "2026-11-16T21:03:20+00:00",
-   "side": "long",
-   "source": "auto",
-   "reason": "3 down days",
-   "entry_date": "2026-11-16",
-   "max_hold": 7,
-   "meta": null,
-   "trail": null,
-   "tp": null,
-   "sl": 601.68
-  },
-  "VRTX": {
-   "qty": 0.4637,
-   "avg_price": 537.79,
-   "opened": "2026-11-16T21:03:20+00:00",
-   "side": "long",
-   "source": "auto",
-   "reason": "3 down days",
-   "entry_date": "2026-11-16",
-   "max_hold": 7,
-   "meta": null,
-   "trail": null,
-   "tp": null,
-   "sl": 494.77
   },
   "GM": {
    "qty": 2.9805,
@@ -109,48 +54,6 @@
    "trail": null,
    "tp": null,
    "sl": 538.58
-  },
-  "CCL": {
-   "qty": 8.5905,
-   "avg_price": 29.03,
-   "opened": "2026-11-16T21:03:20+00:00",
-   "side": "long",
-   "source": "auto",
-   "reason": "3 down days",
-   "entry_date": "2026-11-16",
-   "max_hold": 7,
-   "meta": null,
-   "trail": null,
-   "tp": null,
-   "sl": 26.71
-  },
-  "NXPI": {
-   "qty": 0.981,
-   "avg_price": 254.19,
-   "opened": "2026-11-16T21:03:20+00:00",
-   "side": "long",
-   "source": "auto",
-   "reason": "3 down days",
-   "entry_date": "2026-11-16",
-   "max_hold": 7,
-   "meta": null,
-   "trail": null,
-   "tp": null,
-   "sl": 233.85
-  },
-  "TEL": {
-   "qty": 1.1679,
-   "avg_price": 213.52,
-   "opened": "2026-11-16T21:03:20+00:00",
-   "side": "long",
-   "source": "auto",
-   "reason": "3 down days",
-   "entry_date": "2026-11-16",
-   "max_hold": 7,
-   "meta": null,
-   "trail": null,
-   "tp": null,
-   "sl": 196.44
   },
   "CSX": {
    "qty": 4.8319,
@@ -334,48 +237,6 @@
    "tp": null,
    "sl": 847.03
   },
-  "GILD": {
-   "qty": 1.4459,
-   "avg_price": 166.43,
-   "opened": "2026-11-20T21:04:47+00:00",
-   "side": "long",
-   "source": "auto",
-   "reason": "3 down days",
-   "entry_date": "2026-11-20",
-   "max_hold": 7,
-   "meta": null,
-   "trail": null,
-   "tp": null,
-   "sl": 153.12
-  },
-  "V": {
-   "qty": 0.5989,
-   "avg_price": 401.81,
-   "opened": "2026-11-20T21:04:47+00:00",
-   "side": "long",
-   "source": "auto",
-   "reason": "3 down days",
-   "entry_date": "2026-11-20",
-   "max_hold": 7,
-   "meta": null,
-   "trail": null,
-   "tp": null,
-   "sl": 369.67
-  },
-  "MA": {
-   "qty": 0.385,
-   "avg_price": 624.94,
-   "opened": "2026-11-20T21:04:47+00:00",
-   "side": "long",
-   "source": "auto",
-   "reason": "3 down days",
-   "entry_date": "2026-11-20",
-   "max_hold": 7,
-   "meta": null,
-   "trail": null,
-   "tp": null,
-   "sl": 574.94
-  },
   "EOG": {
    "qty": 1.6216,
    "avg_price": 148.4,
@@ -445,60 +306,102 @@
    "trail": null,
    "tp": null,
    "sl": 91.73
+  },
+  "SO": {
+   "qty": 2.651,
+   "avg_price": 92.9,
+   "opened": "2026-11-23T20:33:49+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "3 down days",
+   "entry_date": "2026-11-23",
+   "max_hold": 7,
+   "meta": null,
+   "trail": null,
+   "tp": null,
+   "sl": 85.47
+  },
+  "PM": {
+   "qty": 1.3484,
+   "avg_price": 182.635,
+   "opened": "2026-11-23T20:33:49+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "3 down days",
+   "entry_date": "2026-11-23",
+   "max_hold": 7,
+   "meta": null,
+   "trail": null,
+   "tp": null,
+   "sl": 168.02
+  },
+  "COR": {
+   "qty": 0.7268,
+   "avg_price": 338.83,
+   "opened": "2026-11-23T20:33:49+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "3 down days",
+   "entry_date": "2026-11-23",
+   "max_hold": 7,
+   "meta": null,
+   "trail": null,
+   "tp": null,
+   "sl": 311.72
   }
  },
  "last_prices": {
-  "TMO": 687.875,
-  "MMM": 184.13,
+  "TMO": 689.62,
+  "MMM": 184.64,
   "SBUX": 108.72,
-  "LOW": 227.08,
+  "LOW": 227.14,
   "MRNA": 195.54,
-  "AMGN": 450.095,
+  "AMGN": 450.38,
   "VEEV": 262.92,
   "ILMN": 210.01,
-  "DE": 633.665,
-  "VRTX": 538.54,
+  "DE": 633.227,
+  "VRTX": 539.385,
   "HPE": 42.445,
-  "GM": 82.015,
-  "LMT": 570.68,
+  "GM": 81.98,
+  "LMT": 570.99,
   "URI": 1002.42,
   "PANW": 339.92,
   "SNOW": 257.39,
   "VZ": 46.445,
-  "CCL": 27.885,
-  "NXPI": 252.75,
-  "TEL": 212.7,
+  "CCL": 27.985,
+  "NXPI": 254.67,
+  "TEL": 214.38,
   "TWLO": 181.68,
   "PLTR": 146.68,
-  "CSX": 49.905,
+  "CSX": 49.96,
   "CRWD": 237.03,
   "SWKS": 73.9,
   "NTAP": 157.65,
   "AMD": 530.14,
   "ANET": 193.965,
-  "EQIX": 1000.81,
+  "EQIX": 1003.85,
   "P": 105.5,
-  "MPC": 359.855,
+  "MPC": 358.48,
   "TRV": 393.06,
-  "PSX": 237.745,
-  "VLO": 332.7,
+  "PSX": 237.08,
+  "VLO": 331.175,
   "ABBV": 286.095,
-  "JNJ": 271.395,
-  "BRK-B": 572.81,
-  "LLY": 1362.49,
+  "JNJ": 270.65,
+  "BRK-B": 573.98,
+  "LLY": 1364.35,
   "MRK": 132.81,
-  "ABNB": 174.085,
+  "ABNB": 174.96,
   "COP": 134.39,
   "BNY": 141.03,
-  "LIN": 514.33,
+  "LIN": 515.205,
   "CVX": 205.88,
-  "EOG": 145.59,
-  "PFE": 27.48,
+  "EOG": 145.2,
+  "PFE": 27.465,
   "USB": 58.27,
-  "PM": 183.86,
+  "PM": 182.635,
   "ICE": 170.06,
   "BLK": 1098.75,
-  "COR": 338.64,
+  "COR": 338.83,
   "ACN": 218.58,
   "BMY": 59.56,
   "JPM": 324.13,
@@ -508,16 +411,16 @@
   "PYPL": 53.3,
   "WDAY": 173.36,
   "ABT": 102.95,
-  "CAH": 273.04,
+  "CAH": 272.5,
   "KO": 96.935,
-  "MCK": 1054.22,
-  "MSI": 528.16,
-  "CB": 370.65,
+  "MCK": 1051.625,
+  "MSI": 528.285,
+  "CB": 369.955,
   "PG": 167.85,
-  "V": 410.26,
+  "V": 410.06,
   "MO": 74.68,
   "ADP": 301.19,
-  "MA": 637.04,
+  "MA": 637.058,
   "COST": 1093.83,
   "WMT": 126.04,
   "MRSH": 204.66,
@@ -525,7 +428,7 @@
   "FDX": 314.64,
   "MDLZ": 65.69,
   "WM": 238.67,
-  "MDT": 100.98,
+  "MDT": 100.99,
   "HUM": 380.0,
   "CME": 306.31,
   "KMB": 105.25,
@@ -534,8 +437,9 @@
   "SHOP": 131.97,
   "AON": 331.02,
   "ADSK": 243.45,
-  "REGN": 941.76,
-  "GILD": 170.435
+  "REGN": 943.4,
+  "GILD": 170.55,
+  "SO": 92.9
  },
  "trades": [
   {
@@ -1294,6 +1198,156 @@
    "side": "buy",
    "qty": 2.0967,
    "price": 99.71,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "3 down days"
+  },
+  {
+   "time": "2026-11-23T20:33:49+00:00",
+   "ticker": "MMM",
+   "side": "sell",
+   "qty": 5.395,
+   "price": 184.64,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "closed above prior high",
+   "pnl": -3.86,
+   "pnl_pct": -0.39
+  },
+  {
+   "time": "2026-11-23T20:33:49+00:00",
+   "ticker": "AMGN",
+   "side": "sell",
+   "qty": 0.5394,
+   "price": 450.38,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "closed above prior high",
+   "pnl": -6.44,
+   "pnl_pct": -2.58
+  },
+  {
+   "time": "2026-11-23T20:33:49+00:00",
+   "ticker": "DE",
+   "side": "sell",
+   "qty": 0.3813,
+   "price": 633.227,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "closed above prior high",
+   "pnl": -7.92,
+   "pnl_pct": -3.18
+  },
+  {
+   "time": "2026-11-23T20:33:49+00:00",
+   "ticker": "VRTX",
+   "side": "sell",
+   "qty": 0.4637,
+   "price": 539.385,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "closed above prior high",
+   "pnl": 0.74,
+   "pnl_pct": 0.3
+  },
+  {
+   "time": "2026-11-23T20:33:49+00:00",
+   "ticker": "CCL",
+   "side": "sell",
+   "qty": 8.5905,
+   "price": 27.985,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "closed above prior high",
+   "pnl": -8.98,
+   "pnl_pct": -3.6
+  },
+  {
+   "time": "2026-11-23T20:33:49+00:00",
+   "ticker": "NXPI",
+   "side": "sell",
+   "qty": 0.981,
+   "price": 254.67,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "closed above prior high",
+   "pnl": 0.47,
+   "pnl_pct": 0.19
+  },
+  {
+   "time": "2026-11-23T20:33:49+00:00",
+   "ticker": "TEL",
+   "side": "sell",
+   "qty": 1.1679,
+   "price": 214.38,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "closed above prior high",
+   "pnl": 1.0,
+   "pnl_pct": 0.4
+  },
+  {
+   "time": "2026-11-23T20:33:49+00:00",
+   "ticker": "GILD",
+   "side": "sell",
+   "qty": 1.4459,
+   "price": 170.55,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "closed above prior high",
+   "pnl": 5.96,
+   "pnl_pct": 2.48
+  },
+  {
+   "time": "2026-11-23T20:33:49+00:00",
+   "ticker": "V",
+   "side": "sell",
+   "qty": 0.5989,
+   "price": 410.06,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "closed above prior high",
+   "pnl": 4.94,
+   "pnl_pct": 2.05
+  },
+  {
+   "time": "2026-11-23T20:33:49+00:00",
+   "ticker": "MA",
+   "side": "sell",
+   "qty": 0.385,
+   "price": 637.058,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "closed above prior high",
+   "pnl": 4.67,
+   "pnl_pct": 1.94
+  },
+  {
+   "time": "2026-11-23T20:33:49+00:00",
+   "ticker": "SO",
+   "side": "buy",
+   "qty": 2.651,
+   "price": 92.9,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "3 down days"
+  },
+  {
+   "time": "2026-11-23T20:33:49+00:00",
+   "ticker": "PM",
+   "side": "buy",
+   "qty": 1.3484,
+   "price": 182.635,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "3 down days"
+  },
+  {
+   "time": "2026-11-23T20:33:49+00:00",
+   "ticker": "COR",
+   "side": "buy",
+   "qty": 0.7268,
+   "price": 338.83,
    "broker": "sim",
    "source": "auto",
    "reason": "3 down days"
@@ -2459,15 +2513,119 @@
    "price": 102.95,
    "source": "auto",
    "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-23T20:33:49+00:00",
+   "ticker": "MMM",
+   "action": "sell",
+   "price": 184.64,
+   "source": "auto",
+   "result": "filled sell 5.395 @ 184.64 (closed above prior high)"
+  },
+  {
+   "time": "2026-11-23T20:33:49+00:00",
+   "ticker": "AMGN",
+   "action": "sell",
+   "price": 450.38,
+   "source": "auto",
+   "result": "filled sell 0.5394 @ 450.38 (closed above prior high)"
+  },
+  {
+   "time": "2026-11-23T20:33:49+00:00",
+   "ticker": "DE",
+   "action": "sell",
+   "price": 633.227,
+   "source": "auto",
+   "result": "filled sell 0.3813 @ 633.227 (closed above prior high)"
+  },
+  {
+   "time": "2026-11-23T20:33:49+00:00",
+   "ticker": "VRTX",
+   "action": "sell",
+   "price": 539.385,
+   "source": "auto",
+   "result": "filled sell 0.4637 @ 539.385 (closed above prior high)"
+  },
+  {
+   "time": "2026-11-23T20:33:49+00:00",
+   "ticker": "CCL",
+   "action": "sell",
+   "price": 27.985,
+   "source": "auto",
+   "result": "filled sell 8.5905 @ 27.985 (closed above prior high)"
+  },
+  {
+   "time": "2026-11-23T20:33:49+00:00",
+   "ticker": "NXPI",
+   "action": "sell",
+   "price": 254.67,
+   "source": "auto",
+   "result": "filled sell 0.981 @ 254.67 (closed above prior high)"
+  },
+  {
+   "time": "2026-11-23T20:33:49+00:00",
+   "ticker": "TEL",
+   "action": "sell",
+   "price": 214.38,
+   "source": "auto",
+   "result": "filled sell 1.1679 @ 214.38 (closed above prior high)"
+  },
+  {
+   "time": "2026-11-23T20:33:49+00:00",
+   "ticker": "GILD",
+   "action": "sell",
+   "price": 170.55,
+   "source": "auto",
+   "result": "filled sell 1.4459 @ 170.55 (closed above prior high)"
+  },
+  {
+   "time": "2026-11-23T20:33:49+00:00",
+   "ticker": "V",
+   "action": "sell",
+   "price": 410.06,
+   "source": "auto",
+   "result": "filled sell 0.5989 @ 410.06 (closed above prior high)"
+  },
+  {
+   "time": "2026-11-23T20:33:49+00:00",
+   "ticker": "MA",
+   "action": "sell",
+   "price": 637.058,
+   "source": "auto",
+   "result": "filled sell 0.385 @ 637.058 (closed above prior high)"
+  },
+  {
+   "time": "2026-11-23T20:33:49+00:00",
+   "ticker": "SO",
+   "action": "buy",
+   "price": 92.9,
+   "source": "auto",
+   "result": "filled buy 2.651 @ 92.9 (3 down days)"
+  },
+  {
+   "time": "2026-11-23T20:33:49+00:00",
+   "ticker": "PM",
+   "action": "buy",
+   "price": 182.635,
+   "source": "auto",
+   "result": "filled buy 1.3484 @ 182.635 (3 down days)"
+  },
+  {
+   "time": "2026-11-23T20:33:49+00:00",
+   "ticker": "COR",
+   "action": "buy",
+   "price": 338.83,
+   "source": "auto",
+   "result": "filled buy 0.7268 @ 338.83 (3 down days)"
   }
  ],
  "day": {
-  "date": "2026-11-20",
-  "start_equity": 9782.532441400002,
-  "trades": 18
+  "date": "2026-11-23",
+  "start_equity": 9851.505073300003,
+  "trades": 13
  },
  "halted": false,
- "last_daily_run": "2026-11-20",
+ "last_daily_run": "2026-11-23",
  "price_sources": {
   "TMO": "yahoo",
   "MMM": "yahoo",
@@ -2523,81 +2681,76 @@
   "MDT": "yahoo"
  },
  "status": {
-  "note": "next decision after 15:30 ET on trading days",
+  "note": "13 action(s) at today's run",
   "decisions": [
    {
-    "ticker": "VZ",
-    "info": "46.45",
+    "ticker": "MMM",
+    "info": "184.64",
     "decision": "CLOSED: closed above prior high"
    },
    {
-    "ticker": "TRV",
-    "info": "393.06",
+    "ticker": "AMGN",
+    "info": "450.38",
     "decision": "CLOSED: closed above prior high"
    },
    {
-    "ticker": "ABBV",
-    "info": "286.10",
+    "ticker": "DE",
+    "info": "633.23",
     "decision": "CLOSED: closed above prior high"
    },
    {
-    "ticker": "KO",
-    "info": "96.94",
+    "ticker": "VRTX",
+    "info": "539.38",
     "decision": "CLOSED: closed above prior high"
    },
    {
-    "ticker": "REGN",
-    "info": "920.69",
-    "decision": "BOUGHT: 3 down days"
+    "ticker": "CCL",
+    "info": "27.98",
+    "decision": "CLOSED: closed above prior high"
+   },
+   {
+    "ticker": "NXPI",
+    "info": "254.67",
+    "decision": "CLOSED: closed above prior high"
+   },
+   {
+    "ticker": "TEL",
+    "info": "214.38",
+    "decision": "CLOSED: closed above prior high"
    },
    {
     "ticker": "GILD",
-    "info": "166.43",
-    "decision": "BOUGHT: 3 down days"
+    "info": "170.55",
+    "decision": "CLOSED: closed above prior high"
    },
    {
     "ticker": "V",
-    "info": "401.81",
-    "decision": "BOUGHT: 3 down days"
+    "info": "410.06",
+    "decision": "CLOSED: closed above prior high"
    },
    {
     "ticker": "MA",
-    "info": "624.94",
+    "info": "637.06",
+    "decision": "CLOSED: closed above prior high"
+   },
+   {
+    "ticker": "SO",
+    "info": "92.90",
     "decision": "BOUGHT: 3 down days"
    },
    {
-    "ticker": "EOG",
-    "info": "148.40",
+    "ticker": "PM",
+    "info": "182.63",
     "decision": "BOUGHT: 3 down days"
    },
    {
-    "ticker": "ABNB",
-    "info": "170.36",
+    "ticker": "COR",
+    "info": "338.83",
     "decision": "BOUGHT: 3 down days"
-   },
-   {
-    "ticker": "LIN",
-    "info": "502.83",
-    "decision": "BOUGHT: 3 down days"
-   },
-   {
-    "ticker": "PFE",
-    "info": "27.40",
-    "decision": "BOUGHT: 3 down days"
-   },
-   {
-    "ticker": "MDT",
-    "info": "99.71",
-    "decision": "BOUGHT: 3 down days"
-   },
-   {
-    "ticker": "+11",
-    "info": "",
-    "decision": "more signals, out of cash: BNY, ICE, PM, COR, XEL, NTAP, BLK, SWKS\u2026"
    }
   ],
-  "last_run": "2026-11-23T19:48:24+00:00",
+  "last_run": "2026-11-23T20:33:32+00:00",
   "market_open": true,
-  "last_daily": "2026-11-20T21:04:47+00:00"
+  "last_daily": "2026-11-23T20:33:49+00:00"
  }
 }

@@ -1,71 +1,20 @@
 {
- "cash": 21857.3338139,
- "positions": {
-  "DELL": {
-   "qty": 6.3561,
-   "avg_price": 343.88,
-   "opened": "2026-11-23T15:28:29+00:00",
-   "side": "short",
-   "source": "auto",
-   "reason": "gap-up +35.4% below 200-day avg",
-   "entry_date": "2026-11-23",
-   "sl": 387.8
-  },
-  "HPE": {
-   "qty": 46.0059,
-   "avg_price": 47.51,
-   "opened": "2026-11-23T15:28:29+00:00",
-   "side": "short",
-   "source": "auto",
-   "reason": "gap-up +24.7% below 200-day avg",
-   "entry_date": "2026-11-23",
-   "sl": 52.53
-  },
-  "COHR": {
-   "qty": 9.7616,
-   "avg_price": 223.91,
-   "opened": "2026-11-23T15:28:29+00:00",
-   "side": "short",
-   "source": "auto",
-   "reason": "gap-up +23.9% below 200-day avg",
-   "entry_date": "2026-11-23",
-   "sl": 238.98
-  },
-  "BE": {
-   "qty": 12.4938,
-   "avg_price": 174.945,
-   "opened": "2026-11-23T15:28:29+00:00",
-   "side": "short",
-   "source": "auto",
-   "reason": "gap-up +23.6% below 200-day avg",
-   "entry_date": "2026-11-23",
-   "sl": 181.32
-  },
-  "LITE": {
-   "qty": 3.8685,
-   "avg_price": 565.0,
-   "opened": "2026-11-23T15:28:29+00:00",
-   "side": "short",
-   "source": "auto",
-   "reason": "gap-up +22.5% below 200-day avg",
-   "entry_date": "2026-11-23",
-   "sl": 581.07
-  }
- },
+ "cash": 11121.861317600004,
+ "positions": {},
  "last_prices": {
   "FN": 333.575,
-  "COHR": 213.44,
+  "COHR": 216.84,
   "NKE": 35.85,
-  "LITE": 538.78,
+  "LITE": 548.285,
   "MRVL": 148.79,
   "MCHP": 61.86,
   "CIEN": 272.76,
   "CSCO": 96.45,
-  "DELL": 335.19,
+  "DELL": 338.483,
   "STX": 541.6,
   "FIX": 1166.52,
   "HL": 11.295,
-  "BE": 167.81,
+  "BE": 170.15,
   "GLW": 113.625,
   "WDC": 306.115,
   "ROST": 228.27,
@@ -91,7 +40,7 @@
   "CDNS": 308.69,
   "KEYS": 292.175,
   "UNH": 339.74,
-  "HPE": 47.65,
+  "HPE": 48.265,
   "FLEX": 76.5,
   "FCX": 50.04,
   "AMD": 461.02,
@@ -565,6 +514,66 @@
    "broker": "sim",
    "source": "auto",
    "reason": "gap-up +22.5% below 200-day avg"
+  },
+  {
+   "time": "2026-11-23T20:33:32+00:00",
+   "ticker": "DELL",
+   "side": "cover",
+   "qty": 6.3561,
+   "price": 338.483,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "end of day",
+   "pnl": 34.3,
+   "pnl_pct": 1.57
+  },
+  {
+   "time": "2026-11-23T20:33:32+00:00",
+   "ticker": "HPE",
+   "side": "cover",
+   "qty": 46.0059,
+   "price": 48.265,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "end of day",
+   "pnl": -34.73,
+   "pnl_pct": -1.59
+  },
+  {
+   "time": "2026-11-23T20:33:32+00:00",
+   "ticker": "COHR",
+   "side": "cover",
+   "qty": 9.7616,
+   "price": 216.84,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "end of day",
+   "pnl": 69.01,
+   "pnl_pct": 3.16
+  },
+  {
+   "time": "2026-11-23T20:33:32+00:00",
+   "ticker": "BE",
+   "side": "cover",
+   "qty": 12.4938,
+   "price": 170.15,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "end of day",
+   "pnl": 59.91,
+   "pnl_pct": 2.74
+  },
+  {
+   "time": "2026-11-23T20:33:32+00:00",
+   "ticker": "LITE",
+   "side": "cover",
+   "qty": 3.8685,
+   "price": 548.285,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "end of day",
+   "pnl": 64.66,
+   "pnl_pct": 2.96
   }
  ],
  "events": [
@@ -2007,12 +2016,52 @@
    "price": 124.94,
    "source": "auto",
    "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-23T20:33:32+00:00",
+   "ticker": "DELL",
+   "action": "cover",
+   "price": 338.483,
+   "source": "auto",
+   "result": "filled cover 6.3561 @ 338.483 (end of day)"
+  },
+  {
+   "time": "2026-11-23T20:33:32+00:00",
+   "ticker": "HPE",
+   "action": "cover",
+   "price": 48.265,
+   "source": "auto",
+   "result": "filled cover 46.0059 @ 48.265 (end of day)"
+  },
+  {
+   "time": "2026-11-23T20:33:32+00:00",
+   "ticker": "COHR",
+   "action": "cover",
+   "price": 216.84,
+   "source": "auto",
+   "result": "filled cover 9.7616 @ 216.84 (end of day)"
+  },
+  {
+   "time": "2026-11-23T20:33:32+00:00",
+   "ticker": "BE",
+   "action": "cover",
+   "price": 170.15,
+   "source": "auto",
+   "result": "filled cover 12.4938 @ 170.15 (end of day)"
+  },
+  {
+   "time": "2026-11-23T20:33:32+00:00",
+   "ticker": "LITE",
+   "action": "cover",
+   "price": 548.285,
+   "source": "auto",
+   "result": "filled cover 3.8685 @ 548.285 (end of day)"
   }
  ],
  "day": {
   "date": "2026-11-23",
   "start_equity": 10928.707639900002,
-  "trades": 5
+  "trades": 10
  },
  "halted": false,
  "status": {
@@ -2559,7 +2608,7 @@
     "decision": "short exposure would exceed 100% of equity"
    }
   ],
-  "last_run": "2026-11-23T19:48:25+00:00",
+  "last_run": "2026-11-23T20:33:32+00:00",
   "market_open": true,
   "last_daily": null
  },

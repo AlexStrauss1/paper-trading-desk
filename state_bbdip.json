@@ -353,33 +353,33 @@
   }
  },
  "last_prices": {
-  "VEEV": 269.63,
-  "WDAY": 175.43,
-  "PFE": 27.48,
-  "DHR": 226.47,
+  "VEEV": 269.69,
+  "WDAY": 176.21,
+  "PFE": 27.465,
+  "DHR": 226.37,
   "PATH": 11.345,
   "UNH": 356.445,
-  "USB": 57.3,
-  "BMY": 59.98,
-  "ACN": 222.19,
-  "MRK": 135.99,
-  "JPM": 317.18,
-  "ELV": 384.015,
-  "HUM": 384.19,
-  "CI": 271.641,
-  "SWKS": 76.7,
-  "PM": 183.03,
-  "MSFT": 494.78,
-  "AMT": 180.5,
-  "DE": 633.665,
-  "BNY": 145.505,
-  "PYPL": 54.97,
-  "UNP": 289.215,
-  "CSX": 49.905,
-  "BLK": 1144.1,
-  "AMGN": 450.095,
-  "EBAY": 118.005,
-  "TMO": 687.875
+  "USB": 57.455,
+  "BMY": 60.089,
+  "ACN": 222.83,
+  "MRK": 135.67,
+  "JPM": 317.805,
+  "ELV": 382.21,
+  "HUM": 383.91,
+  "CI": 271.335,
+  "SWKS": 76.85,
+  "PM": 182.65,
+  "MSFT": 497.41,
+  "AMT": 179.51,
+  "DE": 633.225,
+  "BNY": 145.85,
+  "PYPL": 55.19,
+  "UNP": 289.375,
+  "CSX": 49.96,
+  "BLK": 1151.19,
+  "AMGN": 450.61,
+  "EBAY": 118.07,
+  "TMO": 689.62
  },
  "trades": [
   {
@@ -955,54 +955,13 @@
   "trades": 8
  },
  "halted": false,
- "last_daily_run": "2026-11-20",
+ "last_daily_run": "2026-11-23",
  "status": {
-  "note": "next decision after 15:30 ET on trading days",
-  "decisions": [
-   {
-    "ticker": "BNY",
-    "info": "141.03",
-    "decision": "BOUGHT: below lower band"
-   },
-   {
-    "ticker": "PYPL",
-    "info": "53.30",
-    "decision": "BOUGHT: below lower band"
-   },
-   {
-    "ticker": "UNP",
-    "info": "286.93",
-    "decision": "BOUGHT: below lower band"
-   },
-   {
-    "ticker": "CSX",
-    "info": "49.10",
-    "decision": "BOUGHT: below lower band"
-   },
-   {
-    "ticker": "BLK",
-    "info": "1098.75",
-    "decision": "BOUGHT: below lower band"
-   },
-   {
-    "ticker": "AMGN",
-    "info": "435.64",
-    "decision": "BOUGHT: below lower band"
-   },
-   {
-    "ticker": "EBAY",
-    "info": "115.59",
-    "decision": "BOUGHT: below lower band"
-   },
-   {
-    "ticker": "TMO",
-    "info": "668.94",
-    "decision": "BOUGHT: below lower band"
-   }
-  ],
-  "last_run": "2026-11-23T19:48:24+00:00",
+  "note": "no signals today",
+  "decisions": [],
+  "last_run": "2026-11-23T20:33:32+00:00",
   "market_open": true,
-  "last_daily": "2026-11-20T21:04:49+00:00"
+  "last_daily": "2026-11-23T20:33:50+00:00"
  },
  "price_sources": {
   "VEEV": "yahoo",
