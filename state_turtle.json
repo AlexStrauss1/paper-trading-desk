@@ -103,7 +103,7 @@
  "last_prices": {
   "KO": 95.82,
   "JNJ": 267.14,
-  "CAH": 272.5,
+  "CAH": 271.97,
   "ABBV": 285.96,
   "LLY": 1351.12,
   "MCK": 1051.625,
@@ -129,14 +129,14 @@
   "HCA": 511.735,
   "DUK": 130.58,
   "SO": 94.65,
-  "ORLY": 93.685,
+  "ORLY": 93.62,
   "APP": 415.22,
-  "PCG": 14.035,
-  "TGT": 168.949,
-  "DIS": 120.201,
+  "PCG": 14.08,
+  "TGT": 168.19,
+  "DIS": 120.27,
   "CMG": 36.93,
-  "WMT": 129.19,
-  "T": 22.375
+  "WMT": 129.58,
+  "T": 22.3
  },
  "trades": [
   {
@@ -894,7 +894,10 @@
   "ADP": "yahoo",
   "TGT": "yahoo",
   "DIS": "yahoo",
-  "PCG": "yahoo"
+  "PCG": "yahoo",
+  "WMT": "yahoo",
+  "ORLY": "yahoo",
+  "T": "yahoo"
  },
  "status": {
   "note": "5 action(s) at today's run",
@@ -925,8 +928,8 @@
     "decision": "BOUGHT: 20-day high"
    }
   ],
-  "last_run": "2026-11-23T20:33:32+00:00",
-  "market_open": true,
+  "last_run": "2026-11-23T21:24:08+00:00",
+  "market_open": false,
   "last_daily": "2026-11-23T20:33:49+00:00"
  }
 }

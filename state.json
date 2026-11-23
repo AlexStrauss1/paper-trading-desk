@@ -76,7 +76,7 @@
   }
  },
  "last_prices": {
-  "TGT": 168.949,
+  "TGT": 168.19,
   "MRK": 147.23,
   "V": 425.81,
   "MA": 659.7,
@@ -84,15 +84,15 @@
   "COP": 142.215,
   "NVDA": 150.0,
   "ABBV": 295.46,
-  "MU": 708.05,
-  "INTC": 59.08,
-  "AMD": 451.694,
-  "AMAT": 347.09,
-  "CRWD": 208.25,
-  "LRCX": 210.032,
-  "PANW": 355.74,
-  "TXN": 289.89,
-  "FCX": 49.95
+  "MU": 707.7,
+  "INTC": 59.66,
+  "AMD": 453.46,
+  "AMAT": 346.87,
+  "CRWD": 208.97,
+  "LRCX": 209.76,
+  "PANW": 353.43,
+  "TXN": 291.19,
+  "FCX": 49.71
  },
  "trades": [
   {
@@ -916,8 +916,8 @@
  "status": {
   "note": "no signals today \u00b7 next rebalance in 15 trading days",
   "decisions": [],
-  "last_run": "2026-11-23T20:33:32+00:00",
-  "market_open": true,
+  "last_run": "2026-11-23T21:24:08+00:00",
+  "market_open": false,
   "last_daily": "2026-11-23T20:33:49+00:00"
  }
 }
