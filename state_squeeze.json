@@ -17,7 +17,7 @@
   }
  },
  "last_prices": {
-  "PCG": 14.015
+  "PCG": 14.025
  },
  "trades": [
   {
@@ -51,7 +51,7 @@
  "status": {
   "note": "next decision after 15:30 ET on trading days",
   "decisions": [],
-  "last_run": "2026-11-23T18:39:00+00:00",
+  "last_run": "2026-11-23T19:48:24+00:00",
   "market_open": true,
   "last_daily": "2026-11-20T21:04:47+00:00"
  },
