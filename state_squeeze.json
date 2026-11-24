@@ -1,5 +1,5 @@
 {
- "cash": 9000.0006865,
+ "cash": 7996.1946745,
  "positions": {
   "PCG": {
    "qty": 73.0193,
@@ -14,10 +14,25 @@
    "trail": null,
    "tp": null,
    "sl": 12.6
+  },
+  "ABBV": {
+   "qty": 3.3429,
+   "avg_price": 300.28,
+   "opened": "2026-11-24T21:27:48+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "squeeze breakout",
+   "entry_date": "2026-11-24",
+   "max_hold": 20,
+   "meta": null,
+   "trail": null,
+   "tp": null,
+   "sl": 276.26
   }
  },
  "last_prices": {
-  "PCG": 14.195
+  "PCG": 14.22,
+  "ABBV": 300.28
  },
  "trades": [
   {
@@ -26,6 +41,16 @@
    "side": "buy",
    "qty": 73.0193,
    "price": 13.695,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "squeeze breakout"
+  },
+  {
+   "time": "2026-11-24T21:27:48+00:00",
+   "ticker": "ABBV",
+   "side": "buy",
+   "qty": 3.3429,
+   "price": 300.28,
    "broker": "sim",
    "source": "auto",
    "reason": "squeeze breakout"
@@ -39,21 +64,35 @@
    "price": 13.695,
    "source": "auto",
    "result": "filled buy 73.0193 @ 13.695 (squeeze breakout)"
+  },
+  {
+   "time": "2026-11-24T21:27:48+00:00",
+   "ticker": "ABBV",
+   "action": "buy",
+   "price": 300.28,
+   "source": "auto",
+   "result": "filled buy 3.3429 @ 300.28 (squeeze breakout)"
   }
  ],
  "day": {
-  "date": "2026-11-16",
-  "start_equity": 10000.0,
+  "date": "2026-11-24",
+  "start_equity": 10038.3351325,
   "trades": 1
  },
  "halted": false,
- "last_daily_run": "2026-11-23",
+ "last_daily_run": "2026-11-24",
  "status": {
-  "note": "next decision after 15:30 ET on trading days",
-  "decisions": [],
-  "last_run": "2026-11-24T20:24:26+00:00",
-  "market_open": true,
-  "last_daily": "2026-11-23T20:33:49+00:00"
+  "note": "1 action(s) at today's run",
+  "decisions": [
+   {
+    "ticker": "ABBV",
+    "info": "300.28",
+    "decision": "BOUGHT: squeeze breakout"
+   }
+  ],
+  "last_run": "2026-11-24T21:27:28+00:00",
+  "market_open": false,
+  "last_daily": "2026-11-24T21:27:48+00:00"
  },
  "price_sources": {
   "PCG": "yahoo"

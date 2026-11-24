@@ -1,5 +1,5 @@
 {
- "cash": 6234.360807500001,
+ "cash": 2081.0948875000017,
  "positions": {
   "HD": {
    "qty": 5.8391,
@@ -34,12 +34,48 @@
    "trail": null,
    "tp": null,
    "sl": 144.25
+  },
+  "FDX": {
+   "qty": 6.736,
+   "avg_price": 308.29,
+   "opened": "2026-11-24T21:27:50+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "FDX lags UPS",
+   "entry_date": "2026-11-24",
+   "max_hold": 20,
+   "meta": [
+    "UPS",
+    "FDX"
+   ],
+   "trail": null,
+   "tp": null,
+   "sl": 283.63
+  },
+  "JPM": {
+   "qty": 6.5488,
+   "avg_price": 317.1,
+   "opened": "2026-11-24T21:27:50+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "JPM lags WFC",
+   "entry_date": "2026-11-24",
+   "max_hold": 20,
+   "meta": [
+    "JPM",
+    "WFC"
+   ],
+   "trail": null,
+   "tp": null,
+   "sl": 291.73
   }
  },
  "last_prices": {
   "NVDA": 166.27,
-  "HD": 352.64,
-  "XOM": 158.82
+  "HD": 353.69,
+  "XOM": 158.23,
+  "FDX": 308.29,
+  "JPM": 317.1
  },
  "trades": [
   {
@@ -127,6 +163,26 @@
    "broker": "sim",
    "source": "auto",
    "reason": "XOM lags CVX"
+  },
+  {
+   "time": "2026-11-24T21:27:50+00:00",
+   "ticker": "FDX",
+   "side": "buy",
+   "qty": 6.736,
+   "price": 308.29,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "FDX lags UPS"
+  },
+  {
+   "time": "2026-11-24T21:27:50+00:00",
+   "ticker": "JPM",
+   "side": "buy",
+   "qty": 6.5488,
+   "price": 317.1,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "JPM lags WFC"
   }
  ],
  "events": [
@@ -193,36 +249,52 @@
    "price": 156.79,
    "source": "auto",
    "result": "filled buy 13.1685 @ 156.79 (XOM lags CVX)"
+  },
+  {
+   "time": "2026-11-24T21:27:50+00:00",
+   "ticker": "FDX",
+   "action": "buy",
+   "price": 308.29,
+   "source": "auto",
+   "result": "filled buy 6.736 @ 308.29 (FDX lags UPS)"
+  },
+  {
+   "time": "2026-11-24T21:27:50+00:00",
+   "ticker": "JPM",
+   "action": "buy",
+   "price": 317.1,
+   "source": "auto",
+   "result": "filled buy 6.5488 @ 317.1 (JPM lags WFC)"
   }
  ],
  "day": {
-  "date": "2026-11-23",
-  "start_equity": 10324.0809245,
+  "date": "2026-11-24",
+  "start_equity": 10383.243841500002,
   "trades": 2
  },
  "halted": false,
- "last_daily_run": "2026-11-23",
+ "last_daily_run": "2026-11-24",
  "price_sources": {
   "NVDA": "yahoo",
   "HD": "yahoo",
   "XOM": "yahoo"
  },
  "status": {
-  "note": "next decision after 15:30 ET on trading days",
+  "note": "2 action(s) at today's run",
   "decisions": [
    {
-    "ticker": "NVDA",
-    "info": "166.27",
-    "decision": "CLOSED: gap closed"
+    "ticker": "FDX",
+    "info": "308.29",
+    "decision": "BOUGHT: FDX lags UPS"
    },
    {
-    "ticker": "XOM",
-    "info": "156.79",
-    "decision": "BOUGHT: XOM lags CVX"
+    "ticker": "JPM",
+    "info": "317.10",
+    "decision": "BOUGHT: JPM lags WFC"
    }
   ],
-  "last_run": "2026-11-24T20:24:26+00:00",
-  "market_open": true,
-  "last_daily": "2026-11-23T20:33:50+00:00"
+  "last_run": "2026-11-24T21:27:28+00:00",
+  "market_open": false,
+  "last_daily": "2026-11-24T21:27:50+00:00"
  }
 }

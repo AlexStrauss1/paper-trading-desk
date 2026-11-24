@@ -1,5 +1,5 @@
 {
- "cash": 3751.6865150000012,
+ "cash": 4278.045152000001,
  "positions": {
   "WDAY": {
    "qty": 1.3676,
@@ -56,20 +56,6 @@
    "trail": null,
    "tp": null,
    "sl": 53.61
-  },
-  "BMY": {
-   "qty": 4.1755,
-   "avg_price": 59.56,
-   "opened": "2026-11-18T21:08:31+00:00",
-   "side": "long",
-   "source": "auto",
-   "reason": "below lower band",
-   "entry_date": "2026-11-18",
-   "max_hold": 10,
-   "meta": null,
-   "trail": null,
-   "tp": null,
-   "sl": 54.8
   },
   "ACN": {
    "qty": 1.0933,
@@ -309,20 +295,6 @@
    "tp": null,
    "sl": 1010.85
   },
-  "AMGN": {
-   "qty": 0.5642,
-   "avg_price": 435.64,
-   "opened": "2026-11-20T21:04:49+00:00",
-   "side": "long",
-   "source": "auto",
-   "reason": "below lower band",
-   "entry_date": "2026-11-20",
-   "max_hold": 10,
-   "meta": null,
-   "trail": null,
-   "tp": null,
-   "sl": 400.79
-  },
   "EBAY": {
    "qty": 2.1265,
    "avg_price": 115.59,
@@ -353,33 +325,33 @@
   }
  },
  "last_prices": {
-  "VEEV": 273.365,
-  "WDAY": 176.595,
-  "PFE": 28.525,
-  "DHR": 229.035,
+  "VEEV": 273.62,
+  "WDAY": 179.23,
+  "PFE": 28.46,
+  "DHR": 229.09,
   "PATH": 11.345,
   "UNH": 356.445,
-  "USB": 57.84,
-  "BMY": 61.82,
-  "ACN": 232.5,
-  "MRK": 141.91,
-  "JPM": 316.455,
-  "ELV": 393.21,
-  "HUM": 407.2,
-  "CI": 276.73,
-  "SWKS": 81.49,
-  "PM": 184.785,
-  "MSFT": 494.0,
-  "AMT": 182.205,
-  "DE": 611.045,
-  "BNY": 145.19,
-  "PYPL": 55.953,
-  "UNP": 289.795,
-  "CSX": 50.01,
-  "BLK": 1142.31,
-  "AMGN": 471.81,
-  "EBAY": 113.23,
-  "TMO": 696.45
+  "USB": 58.07,
+  "BMY": 62.02,
+  "ACN": 232.32,
+  "MRK": 141.57,
+  "JPM": 317.1,
+  "ELV": 391.17,
+  "HUM": 402.72,
+  "CI": 275.0,
+  "SWKS": 80.95,
+  "PM": 183.95,
+  "MSFT": 496.13,
+  "AMT": 182.83,
+  "DE": 613.76,
+  "BNY": 145.22,
+  "PYPL": 56.17,
+  "UNP": 290.83,
+  "CSX": 50.08,
+  "BLK": 1146.03,
+  "AMGN": 473.935,
+  "EBAY": 113.77,
+  "TMO": 695.62
  },
  "trades": [
   {
@@ -697,6 +669,30 @@
    "broker": "sim",
    "source": "auto",
    "reason": "below lower band"
+  },
+  {
+   "time": "2026-11-24T21:27:50+00:00",
+   "ticker": "BMY",
+   "side": "sell",
+   "qty": 4.1755,
+   "price": 62.02,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "back to average",
+   "pnl": 10.27,
+   "pnl_pct": 4.13
+  },
+  {
+   "time": "2026-11-24T21:27:50+00:00",
+   "ticker": "AMGN",
+   "side": "sell",
+   "qty": 0.5642,
+   "price": 473.935,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "back to average",
+   "pnl": 21.61,
+   "pnl_pct": 8.79
   }
  ],
  "events": [
@@ -947,21 +943,48 @@
    "price": 668.94,
    "source": "auto",
    "result": "filled buy 0.3674 @ 668.94 (below lower band)"
+  },
+  {
+   "time": "2026-11-24T21:27:50+00:00",
+   "ticker": "BMY",
+   "action": "sell",
+   "price": 62.02,
+   "source": "auto",
+   "result": "filled sell 4.1755 @ 62.02 (back to average)"
+  },
+  {
+   "time": "2026-11-24T21:27:50+00:00",
+   "ticker": "AMGN",
+   "action": "sell",
+   "price": 473.935,
+   "source": "auto",
+   "result": "filled sell 0.5642 @ 473.935 (back to average)"
   }
  ],
  "day": {
-  "date": "2026-11-20",
-  "start_equity": 9832.219309,
-  "trades": 8
+  "date": "2026-11-24",
+  "start_equity": 10026.013469000001,
+  "trades": 2
  },
  "halted": false,
- "last_daily_run": "2026-11-23",
+ "last_daily_run": "2026-11-24",
  "status": {
-  "note": "next decision after 15:30 ET on trading days",
-  "decisions": [],
-  "last_run": "2026-11-24T20:24:26+00:00",
-  "market_open": true,
-  "last_daily": "2026-11-23T20:33:50+00:00"
+  "note": "2 action(s) at today's run",
+  "decisions": [
+   {
+    "ticker": "BMY",
+    "info": "62.02",
+    "decision": "CLOSED: back to average"
+   },
+   {
+    "ticker": "AMGN",
+    "info": "473.94",
+    "decision": "CLOSED: back to average"
+   }
+  ],
+  "last_run": "2026-11-24T21:27:28+00:00",
+  "market_open": false,
+  "last_daily": "2026-11-24T21:27:50+00:00"
  },
  "price_sources": {
   "VEEV": "yahoo",

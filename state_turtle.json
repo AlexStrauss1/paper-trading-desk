@@ -1,5 +1,5 @@
 {
- "cash": 2884.1256004000006,
+ "cash": 0.006330400000933878,
  "positions": {
   "CAH": {
    "qty": 3.5597,
@@ -98,13 +98,55 @@
    "trail": null,
    "tp": null,
    "sl": null
+  },
+  "GILD": {
+   "qty": 5.4045,
+   "avg_price": 178.29,
+   "opened": "2026-11-24T21:27:48+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "20-day high",
+   "entry_date": "2026-11-24",
+   "max_hold": null,
+   "meta": null,
+   "trail": null,
+   "tp": null,
+   "sl": null
+  },
+  "REGN": {
+   "qty": 0.9761,
+   "avg_price": 987.09,
+   "opened": "2026-11-24T21:27:48+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "20-day high",
+   "entry_date": "2026-11-24",
+   "max_hold": null,
+   "meta": null,
+   "trail": null,
+   "tp": null,
+   "sl": null
+  },
+  "ABBV": {
+   "qty": 3.1872,
+   "avg_price": 300.28,
+   "opened": "2026-11-24T21:27:48+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "20-day high",
+   "entry_date": "2026-11-24",
+   "max_hold": null,
+   "meta": null,
+   "trail": null,
+   "tp": null,
+   "sl": null
   }
  },
  "last_prices": {
   "KO": 95.82,
   "JNJ": 267.14,
-  "CAH": 279.61,
-  "ABBV": 285.96,
+  "CAH": 279.65,
+  "ABBV": 300.28,
   "LLY": 1351.12,
   "MCK": 1051.625,
   "MO": 74.68,
@@ -124,19 +166,27 @@
   "PEP": 146.43,
   "CMCSA": 25.6,
   "ALL": 270.5,
-  "WM": 244.33,
+  "WM": 244.71,
   "ELV": 446.47,
   "HCA": 511.735,
-  "DUK": 130.58,
+  "DUK": 130.96,
   "SO": 94.65,
-  "ORLY": 95.21,
+  "ORLY": 95.43,
   "APP": 415.22,
-  "PCG": 14.195,
-  "TGT": 175.25,
-  "DIS": 121.935,
-  "CMG": 36.93,
-  "WMT": 131.91,
-  "T": 22.81
+  "PCG": 14.22,
+  "TGT": 176.06,
+  "DIS": 122.51,
+  "CMG": 37.05,
+  "WMT": 132.31,
+  "T": 22.88,
+  "GILD": 178.29,
+  "REGN": 987.09,
+  "MRSH": 213.16,
+  "VRTX": 563.92,
+  "VZ": 47.16,
+  "AZO": 3355.69,
+  "SCHW": 93.91,
+  "DKS": 153.17
  },
  "trades": [
   {
@@ -403,6 +453,36 @@
    "side": "buy",
    "qty": 42.361,
    "price": 22.375,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "20-day high"
+  },
+  {
+   "time": "2026-11-24T21:27:48+00:00",
+   "ticker": "GILD",
+   "side": "buy",
+   "qty": 5.4045,
+   "price": 178.29,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "20-day high"
+  },
+  {
+   "time": "2026-11-24T21:27:48+00:00",
+   "ticker": "REGN",
+   "side": "buy",
+   "qty": 0.9761,
+   "price": 987.09,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "20-day high"
+  },
+  {
+   "time": "2026-11-24T21:27:48+00:00",
+   "ticker": "ABBV",
+   "side": "buy",
+   "qty": 3.1872,
+   "price": 300.28,
    "broker": "sim",
    "source": "auto",
    "reason": "20-day high"
@@ -872,15 +952,111 @@
    "price": 22.375,
    "source": "auto",
    "result": "filled buy 42.361 @ 22.375 (20-day high)"
+  },
+  {
+   "time": "2026-11-24T21:27:48+00:00",
+   "ticker": "GILD",
+   "action": "buy",
+   "price": 178.29,
+   "source": "auto",
+   "result": "filled buy 5.4045 @ 178.29 (20-day high)"
+  },
+  {
+   "time": "2026-11-24T21:27:48+00:00",
+   "ticker": "REGN",
+   "action": "buy",
+   "price": 987.09,
+   "source": "auto",
+   "result": "filled buy 0.9761 @ 987.09 (20-day high)"
+  },
+  {
+   "time": "2026-11-24T21:27:48+00:00",
+   "ticker": "ABBV",
+   "action": "buy",
+   "price": 300.28,
+   "source": "auto",
+   "result": "filled buy 3.1872 @ 300.28 (20-day high)"
+  },
+  {
+   "time": "2026-11-24T21:27:48+00:00",
+   "ticker": "MRSH",
+   "action": "buy",
+   "price": 213.16,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-24T21:27:48+00:00",
+   "ticker": "VRTX",
+   "action": "buy",
+   "price": 563.92,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-24T21:27:48+00:00",
+   "ticker": "WM",
+   "action": "buy",
+   "price": 244.71,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-24T21:27:48+00:00",
+   "ticker": "DUK",
+   "action": "buy",
+   "price": 130.96,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-24T21:27:48+00:00",
+   "ticker": "VZ",
+   "action": "buy",
+   "price": 47.16,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-24T21:27:48+00:00",
+   "ticker": "CMG",
+   "action": "buy",
+   "price": 37.05,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-24T21:27:48+00:00",
+   "ticker": "AZO",
+   "action": "buy",
+   "price": 3355.69,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-24T21:27:48+00:00",
+   "ticker": "SCHW",
+   "action": "buy",
+   "price": 93.91,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-24T21:27:48+00:00",
+   "ticker": "DKS",
+   "action": "buy",
+   "price": 153.17,
+   "source": "auto",
+   "result": "rejected: not enough cash"
   }
  ],
  "day": {
-  "date": "2026-11-23",
-  "start_equity": 9478.324537200002,
-  "trades": 5
+  "date": "2026-11-24",
+  "start_equity": 9635.7480534,
+  "trades": 3
  },
  "halted": false,
- "last_daily_run": "2026-11-23",
+ "last_daily_run": "2026-11-24",
  "price_sources": {
   "KO": "yahoo",
   "JNJ": "yahoo",
@@ -900,36 +1076,31 @@
   "T": "yahoo"
  },
  "status": {
-  "note": "next decision after 15:30 ET on trading days",
+  "note": "4 action(s) at today's run",
   "decisions": [
    {
-    "ticker": "KO",
-    "info": "95.82",
-    "decision": "CLOSED: 10-day low"
-   },
-   {
-    "ticker": "MCK",
-    "info": "1051.62",
-    "decision": "CLOSED: 10-day low"
-   },
-   {
-    "ticker": "WMT",
-    "info": "129.19",
+    "ticker": "GILD",
+    "info": "178.29",
     "decision": "BOUGHT: 20-day high"
    },
    {
-    "ticker": "ORLY",
-    "info": "93.69",
+    "ticker": "REGN",
+    "info": "987.09",
     "decision": "BOUGHT: 20-day high"
    },
    {
-    "ticker": "T",
-    "info": "22.38",
+    "ticker": "ABBV",
+    "info": "300.28",
     "decision": "BOUGHT: 20-day high"
+   },
+   {
+    "ticker": "+9",
+    "info": "",
+    "decision": "more signals, out of cash: MRSH, VRTX, WM, DUK, VZ, CMG, AZO, SCHW\u2026"
    }
   ],
-  "last_run": "2026-11-24T20:24:26+00:00",
-  "market_open": true,
-  "last_daily": "2026-11-23T20:33:49+00:00"
+  "last_run": "2026-11-24T21:27:28+00:00",
+  "market_open": false,
+  "last_daily": "2026-11-24T21:27:48+00:00"
  }
 }

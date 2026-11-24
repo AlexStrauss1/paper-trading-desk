@@ -2065,7 +2065,7 @@
  },
  "halted": false,
  "status": {
-  "note": "scanned 123 downtrending stocks: 1 gap-ups \u2265 2%",
+  "note": "market closed",
   "decisions": [
    {
     "ticker": "DKS",
@@ -2073,8 +2073,8 @@
     "decision": "skipped: already above the stop"
    }
   ],
-  "last_run": "2026-11-24T20:24:26+00:00",
-  "market_open": true,
+  "last_run": "2026-11-24T21:27:28+00:00",
+  "market_open": false,
   "last_daily": null
  },
  "gap_scan_date": "2026-11-24",
