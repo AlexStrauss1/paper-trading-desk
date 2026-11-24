@@ -38,8 +38,8 @@
  },
  "last_prices": {
   "NVDA": 166.27,
-  "HD": 349.89,
-  "XOM": 158.856
+  "HD": 348.02,
+  "XOM": 158.6
  },
  "trades": [
   {
@@ -221,7 +221,7 @@
     "decision": "BOUGHT: XOM lags CVX"
    }
   ],
-  "last_run": "2026-11-24T15:14:20+00:00",
+  "last_run": "2026-11-24T15:24:54+00:00",
   "market_open": true,
   "last_daily": "2026-11-23T20:33:50+00:00"
  }
