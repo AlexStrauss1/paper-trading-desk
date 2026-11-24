@@ -41,7 +41,8 @@
    "meta": null,
    "trail": 0.0905258243940316,
    "tp": 204.49,
-   "sl": 138.98
+   "sl": 160.815,
+   "trailed": true
   },
   "MRK": {
    "qty": 13.5652,
@@ -73,11 +74,11 @@
   }
  },
  "last_prices": {
-  "MRNA": 212.08,
-  "TRV": 394.71,
-  "TGT": 168.19,
-  "MRK": 135.47,
-  "ABBV": 288.45,
+  "MRNA": 223.11,
+  "TRV": 401.7,
+  "TGT": 175.392,
+  "MRK": 138.09,
+  "ABBV": 296.07,
   "AMGN": 450.38,
   "GILD": 170.55,
   "KDP": 35.46,
@@ -2275,8 +2276,8 @@
     "decision": "more signals, out of cash: OKTA, KO, GILD, REGN, MAR, MCK, HLT, AMGN\u2026"
    }
   ],
-  "last_run": "2026-11-24T14:20:57+00:00",
-  "market_open": false,
+  "last_run": "2026-11-24T15:14:20+00:00",
+  "market_open": true,
   "last_daily": "2026-11-23T20:33:49+00:00"
  }
 }
