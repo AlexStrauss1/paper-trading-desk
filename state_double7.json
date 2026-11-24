@@ -2615,7 +2615,7 @@
   "MPC": "yahoo"
  },
  "status": {
-  "note": "3 action(s) at today's run",
+  "note": "next decision after 15:30 ET on trading days",
   "decisions": [
    {
     "ticker": "VRTX",
@@ -2633,7 +2633,7 @@
     "decision": "more signals, out of cash: PSX, KO, VLO, MCK, CB, MO, CVX, ALL\u2026"
    }
   ],
-  "last_run": "2026-11-23T23:26:56+00:00",
+  "last_run": "2026-11-24T14:14:08+00:00",
   "market_open": false,
   "last_daily": "2026-11-23T20:33:49+00:00"
  }
