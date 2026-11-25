@@ -2065,19 +2065,13 @@
  },
  "halted": false,
  "status": {
-  "note": "market closed",
-  "decisions": [
-   {
-    "ticker": "DKS",
-    "info": "gap +11.3%",
-    "decision": "skipped: already above the stop"
-   }
-  ],
-  "last_run": "2026-11-25T14:22:53+00:00",
-  "market_open": false,
+  "note": "scanned 125 downtrending stocks: 0 gap-ups \u2265 2%",
+  "decisions": [],
+  "last_run": "2026-11-25T15:17:15+00:00",
+  "market_open": true,
   "last_daily": null
  },
- "gap_scan_date": "2026-11-24",
+ "gap_scan_date": "2026-11-25",
  "price_sources": {
   "FN": "yahoo",
   "COHR": "yahoo",

@@ -59,12 +59,12 @@
   }
  },
  "last_prices": {
-  "MRNA": 227.38,
+  "MRNA": 215.095,
   "VEEV": 279.095,
-  "TRV": 400.87,
+  "TRV": 405.12,
   "ABBV": 300.28,
-  "JNJ": 276.46,
-  "TMO": 695.62,
+  "JNJ": 275.085,
+  "TMO": 675.455,
   "HLT": 362.3,
   "MAR": 406.64,
   "KO": 95.82
@@ -307,8 +307,8 @@
     "decision": "CLOSED: new 10-day high"
    }
   ],
-  "last_run": "2026-11-25T14:22:53+00:00",
-  "market_open": false,
+  "last_run": "2026-11-25T15:17:06+00:00",
+  "market_open": true,
   "last_daily": "2026-11-24T21:27:48+00:00"
  }
 }

@@ -1,5 +1,5 @@
 {
- "cash": 7061.902882900003,
+ "cash": 7290.488853900003,
  "positions": {
   "GM": {
    "qty": 2.9805,
@@ -42,20 +42,6 @@
    "trail": null,
    "tp": null,
    "sl": 952.04
-  },
-  "MPC": {
-   "qty": 0.6649,
-   "avg_price": 373.86,
-   "opened": "2026-11-18T21:08:29+00:00",
-   "side": "long",
-   "source": "auto",
-   "reason": "3 down days",
-   "entry_date": "2026-11-18",
-   "max_hold": 7,
-   "meta": null,
-   "trail": null,
-   "tp": null,
-   "sl": 343.95
   },
   "PSX": {
    "qty": 1.0157,
@@ -182,7 +168,7 @@
   "DE": 633.227,
   "VRTX": 539.385,
   "HPE": 42.445,
-  "GM": 82.32,
+  "GM": 81.72,
   "LMT": 586.63,
   "URI": 1002.42,
   "PANW": 339.92,
@@ -193,32 +179,32 @@
   "TEL": 214.38,
   "TWLO": 181.68,
   "PLTR": 146.68,
-  "CSX": 50.08,
+  "CSX": 49.74,
   "CRWD": 237.03,
   "SWKS": 73.9,
   "NTAP": 157.65,
   "AMD": 530.14,
   "ANET": 193.965,
-  "EQIX": 982.77,
+  "EQIX": 956.74,
   "P": 105.5,
-  "MPC": 355.16,
+  "MPC": 343.79,
   "TRV": 393.06,
-  "PSX": 236.95,
-  "VLO": 324.67,
+  "PSX": 233.0,
+  "VLO": 318.959,
   "ABBV": 286.095,
   "JNJ": 276.46,
   "BRK-B": 577.21,
   "LLY": 1407.59,
   "MRK": 132.81,
-  "ABNB": 173.39,
+  "ABNB": 167.055,
   "COP": 134.39,
   "BNY": 141.03,
-  "LIN": 516.83,
+  "LIN": 519.136,
   "CVX": 205.88,
-  "EOG": 146.59,
+  "EOG": 148.89,
   "PFE": 28.46,
   "USB": 58.27,
-  "PM": 183.95,
+  "PM": 184.449,
   "ICE": 170.06,
   "BLK": 1098.75,
   "COR": 349.68,
@@ -234,7 +220,7 @@
   "CAH": 279.65,
   "KO": 96.935,
   "MCK": 1078.09,
-  "MSI": 530.08,
+  "MSI": 526.8,
   "CB": 375.37,
   "PG": 167.85,
   "V": 410.06,
@@ -248,7 +234,7 @@
   "FDX": 314.64,
   "MDLZ": 65.69,
   "WM": 238.67,
-  "MDT": 96.13,
+  "MDT": 95.11,
   "HUM": 380.0,
   "CME": 306.31,
   "KMB": 105.25,
@@ -1327,6 +1313,18 @@
    "reason": "held 7 trading days",
    "pnl": -5.03,
    "pnl_pct": -0.5
+  },
+  {
+   "time": "2026-11-25T15:17:06+00:00",
+   "ticker": "MPC",
+   "side": "sell",
+   "qty": 0.6649,
+   "price": 343.79,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "stop 343.95 [yahoo price]",
+   "pnl": -19.99,
+   "pnl_pct": -8.04
   }
  ],
  "events": [
@@ -2697,12 +2695,20 @@
    "price": 695.62,
    "source": "auto",
    "result": "filled sell 1.4303 @ 695.62 (held 7 trading days)"
+  },
+  {
+   "time": "2026-11-25T15:17:06+00:00",
+   "ticker": "MPC",
+   "action": "sell",
+   "price": 343.79,
+   "source": "auto",
+   "result": "filled sell 0.6649 @ 343.79 (stop 343.95 [yahoo price])"
   }
  ],
  "day": {
-  "date": "2026-11-24",
-  "start_equity": 9923.572081900002,
-  "trades": 13
+  "date": "2026-11-25",
+  "start_equity": 9891.106262800004,
+  "trades": 1
  },
  "halted": false,
  "last_daily_run": "2026-11-24",
@@ -2832,8 +2838,8 @@
     "decision": "CLOSED: held 7 trading days"
    }
   ],
-  "last_run": "2026-11-25T14:22:53+00:00",
-  "market_open": false,
+  "last_run": "2026-11-25T15:17:06+00:00",
+  "market_open": true,
   "last_daily": "2026-11-24T21:27:48+00:00"
  }
 }

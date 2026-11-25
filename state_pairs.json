@@ -72,10 +72,10 @@
  },
  "last_prices": {
   "NVDA": 166.27,
-  "HD": 353.69,
-  "XOM": 158.23,
-  "FDX": 308.29,
-  "JPM": 317.1
+  "HD": 353.29,
+  "XOM": 159.04,
+  "FDX": 302.05,
+  "JPM": 310.929
  },
  "trades": [
   {
@@ -295,8 +295,8 @@
     "decision": "BOUGHT: JPM lags WFC"
    }
   ],
-  "last_run": "2026-11-25T14:22:53+00:00",
-  "market_open": false,
+  "last_run": "2026-11-25T15:17:06+00:00",
+  "market_open": true,
   "last_daily": "2026-11-24T21:27:50+00:00"
  }
 }
