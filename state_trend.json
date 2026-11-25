@@ -133,16 +133,16 @@
   }
  },
  "last_prices": {
-  "TMO": 687.89,
-  "ACN": 243.425,
-  "LLY": 1396.47,
-  "AMGN": 472.35,
-  "ABBV": 297.08,
-  "ABNB": 173.62,
-  "MDT": 96.395,
-  "TGT": 172.361,
-  "PYPL": 57.37,
-  "MRK": 140.44,
+  "TMO": 689.18,
+  "ACN": 243.64,
+  "LLY": 1401.2,
+  "AMGN": 473.17,
+  "ABBV": 296.035,
+  "ABNB": 174.445,
+  "MDT": 96.58,
+  "TGT": 171.716,
+  "PYPL": 57.67,
+  "MRK": 140.56,
   "MA": 647.44,
   "GILD": 178.29,
   "V": 416.78,
@@ -3670,7 +3670,7 @@
     "decision": "more signals, out of cash: MRNA, REGN, ADP, MCK, CAH, PTC, GILD, TRV\u2026"
    }
   ],
-  "last_run": "2026-11-25T18:16:28+00:00",
+  "last_run": "2026-11-25T19:12:29+00:00",
   "market_open": true,
   "last_daily": "2026-11-24T21:27:48+00:00"
  }
