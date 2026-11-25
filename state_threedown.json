@@ -2764,7 +2764,7 @@
   "COR": "yahoo"
  },
  "status": {
-  "note": "13 action(s) at today's run",
+  "note": "next decision after 15:30 ET on trading days",
   "decisions": [
    {
     "ticker": "LOW",
@@ -2832,7 +2832,7 @@
     "decision": "CLOSED: held 7 trading days"
    }
   ],
-  "last_run": "2026-11-24T23:26:31+00:00",
+  "last_run": "2026-11-25T14:12:33+00:00",
   "market_open": false,
   "last_daily": "2026-11-24T21:27:48+00:00"
  }

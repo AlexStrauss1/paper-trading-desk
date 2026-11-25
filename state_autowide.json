@@ -2599,7 +2599,7 @@
   "ABBV": "yahoo"
  },
  "status": {
-  "note": "1 action(s) at today's run",
+  "note": "next decision after 15:30 ET on trading days",
   "decisions": [
    {
     "ticker": "+41",
@@ -2607,7 +2607,7 @@
     "decision": "more signals, out of cash: GILD, REGN, KO, AMGN, MCK, JNJ, CB, BRK-B\u2026"
    }
   ],
-  "last_run": "2026-11-24T23:26:31+00:00",
+  "last_run": "2026-11-25T14:12:33+00:00",
   "market_open": false,
   "last_daily": "2026-11-24T21:27:48+00:00"
  }
