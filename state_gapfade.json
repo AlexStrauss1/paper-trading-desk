@@ -2065,10 +2065,10 @@
  },
  "halted": false,
  "status": {
-  "note": "scanned 125 downtrending stocks: 0 gap-ups \u2265 2%",
+  "note": "market closed",
   "decisions": [],
-  "last_run": "2026-11-25T20:10:57+00:00",
-  "market_open": true,
+  "last_run": "2026-11-25T21:13:07+00:00",
+  "market_open": false,
   "last_daily": null
  },
  "gap_scan_date": "2026-11-25",

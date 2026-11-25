@@ -1,5 +1,5 @@
 {
- "cash": 2085.6648680999997,
+ "cash": 4079.0736000999996,
  "positions": {
   "MRNA": {
    "qty": 9.4313,
@@ -14,20 +14,6 @@
    "trail": null,
    "tp": null,
    "sl": 192.32
-  },
-  "TRV": {
-   "qty": 4.9007,
-   "avg_price": 391.6,
-   "opened": "2026-11-18T21:08:29+00:00",
-   "side": "long",
-   "source": "auto",
-   "reason": "leader pullback",
-   "entry_date": "2026-11-18",
-   "max_hold": 15,
-   "meta": null,
-   "trail": null,
-   "tp": null,
-   "sl": 364.19
   },
   "JNJ": {
    "qty": 7.0369,
@@ -59,12 +45,12 @@
   }
  },
  "last_prices": {
-  "MRNA": 222.675,
+  "MRNA": 220.84,
   "VEEV": 279.095,
-  "TRV": 407.54,
+  "TRV": 406.76,
   "ABBV": 300.28,
-  "JNJ": 275.35,
-  "TMO": 686.045,
+  "JNJ": 273.93,
+  "TMO": 685.46,
   "HLT": 362.3,
   "MAR": 406.64,
   "KO": 95.82
@@ -175,6 +161,18 @@
    "reason": "new 10-day high",
    "pnl": 96.1,
    "pnl_pct": 5.01
+  },
+  {
+   "time": "2026-11-25T21:13:29+00:00",
+   "ticker": "TRV",
+   "side": "sell",
+   "qty": 4.9007,
+   "price": 406.76,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "new 10-day high",
+   "pnl": 74.29,
+   "pnl_pct": 3.87
   }
  ],
  "events": [
@@ -281,15 +279,23 @@
    "price": 300.28,
    "source": "auto",
    "result": "filled sell 6.7111 @ 300.28 (new 10-day high)"
+  },
+  {
+   "time": "2026-11-25T21:13:29+00:00",
+   "ticker": "TRV",
+   "action": "sell",
+   "price": 406.76,
+   "source": "auto",
+   "result": "filled sell 4.9007 @ 406.76 (new 10-day high)"
   }
  ],
  "day": {
-  "date": "2026-11-24",
-  "start_equity": 10071.020841099999,
+  "date": "2026-11-25",
+  "start_equity": 9992.199777099999,
   "trades": 1
  },
  "halted": false,
- "last_daily_run": "2026-11-24",
+ "last_daily_run": "2026-11-25",
  "price_sources": {
   "MRNA": "yahoo",
   "VEEV": "yahoo",
@@ -299,16 +305,16 @@
   "TMO": "yahoo"
  },
  "status": {
-  "note": "next decision after 15:30 ET on trading days",
+  "note": "1 action(s) at today's run",
   "decisions": [
    {
-    "ticker": "ABBV",
-    "info": "300.28",
+    "ticker": "TRV",
+    "info": "406.76",
     "decision": "CLOSED: new 10-day high"
    }
   ],
-  "last_run": "2026-11-25T20:10:57+00:00",
-  "market_open": true,
-  "last_daily": "2026-11-24T21:27:48+00:00"
+  "last_run": "2026-11-25T21:13:07+00:00",
+  "market_open": false,
+  "last_daily": "2026-11-25T21:13:29+00:00"
  }
 }

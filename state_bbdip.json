@@ -1,5 +1,5 @@
 {
- "cash": 4278.045152000001,
+ "cash": 4534.162344,
  "positions": {
   "WDAY": {
    "qty": 1.3676,
@@ -267,20 +267,6 @@
    "tp": null,
    "sl": 263.97
   },
-  "CSX": {
-   "qty": 5.0062,
-   "avg_price": 49.1,
-   "opened": "2026-11-20T21:04:49+00:00",
-   "side": "long",
-   "source": "auto",
-   "reason": "below lower band",
-   "entry_date": "2026-11-20",
-   "max_hold": 10,
-   "meta": null,
-   "trail": null,
-   "tp": null,
-   "sl": 45.17
-  },
   "BLK": {
    "qty": 0.2237,
    "avg_price": 1098.75,
@@ -325,33 +311,33 @@
   }
  },
  "last_prices": {
-  "VEEV": 273.375,
-  "WDAY": 182.28,
-  "PFE": 28.445,
-  "DHR": 228.32,
+  "VEEV": 271.855,
+  "WDAY": 180.44,
+  "PFE": 28.45,
+  "DHR": 227.35,
   "PATH": 11.345,
   "UNH": 356.445,
-  "USB": 58.62,
+  "USB": 58.53,
   "BMY": 62.02,
-  "ACN": 241.225,
-  "MRK": 140.477,
-  "JPM": 317.215,
-  "ELV": 389.765,
-  "HUM": 405.84,
-  "CI": 271.67,
-  "SWKS": 81.67,
-  "PM": 184.635,
-  "MSFT": 489.645,
-  "AMT": 185.185,
-  "DE": 643.0,
-  "BNY": 146.72,
-  "PYPL": 57.63,
-  "UNP": 298.395,
-  "CSX": 51.335,
-  "BLK": 1145.115,
+  "ACN": 240.44,
+  "MRK": 140.39,
+  "JPM": 316.93,
+  "ELV": 389.355,
+  "HUM": 406.261,
+  "CI": 271.41,
+  "SWKS": 82.01,
+  "PM": 184.22,
+  "MSFT": 489.93,
+  "AMT": 184.648,
+  "DE": 641.69,
+  "BNY": 147.18,
+  "PYPL": 57.81,
+  "UNP": 298.34,
+  "CSX": 51.16,
+  "BLK": 1141.73,
   "AMGN": 473.935,
-  "EBAY": 115.535,
-  "TMO": 686.045
+  "EBAY": 115.54,
+  "TMO": 685.46
  },
  "trades": [
   {
@@ -693,6 +679,18 @@
    "reason": "back to average",
    "pnl": 21.61,
    "pnl_pct": 8.79
+  },
+  {
+   "time": "2026-11-25T21:13:31+00:00",
+   "ticker": "CSX",
+   "side": "sell",
+   "qty": 5.0062,
+   "price": 51.16,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "back to average",
+   "pnl": 10.31,
+   "pnl_pct": 4.2
   }
  ],
  "events": [
@@ -959,32 +957,35 @@
    "price": 473.935,
    "source": "auto",
    "result": "filled sell 0.5642 @ 473.935 (back to average)"
+  },
+  {
+   "time": "2026-11-25T21:13:31+00:00",
+   "ticker": "CSX",
+   "action": "sell",
+   "price": 51.16,
+   "source": "auto",
+   "result": "filled sell 5.0062 @ 51.16 (back to average)"
   }
  ],
  "day": {
-  "date": "2026-11-24",
-  "start_equity": 10026.013469000001,
-  "trades": 2
+  "date": "2026-11-25",
+  "start_equity": 10066.607900800002,
+  "trades": 1
  },
  "halted": false,
- "last_daily_run": "2026-11-24",
+ "last_daily_run": "2026-11-25",
  "status": {
-  "note": "next decision after 15:30 ET on trading days",
+  "note": "1 action(s) at today's run",
   "decisions": [
    {
-    "ticker": "BMY",
-    "info": "62.02",
-    "decision": "CLOSED: back to average"
-   },
-   {
-    "ticker": "AMGN",
-    "info": "473.94",
+    "ticker": "CSX",
+    "info": "51.16",
     "decision": "CLOSED: back to average"
    }
   ],
-  "last_run": "2026-11-25T20:10:57+00:00",
-  "market_open": true,
-  "last_daily": "2026-11-24T21:27:50+00:00"
+  "last_run": "2026-11-25T21:13:07+00:00",
+  "market_open": false,
+  "last_daily": "2026-11-25T21:13:31+00:00"
  },
  "price_sources": {
   "VEEV": "yahoo",

@@ -1,5 +1,5 @@
 {
- "cash": 9009.6254372,
+ "cash": 9256.9184702,
  "positions": {
   "MPC": {
    "qty": 0.6286,
@@ -42,20 +42,6 @@
    "trail": null,
    "tp": null,
    "sl": null
-  },
-  "MO": {
-   "qty": 3.2434,
-   "avg_price": 76.25,
-   "opened": "2026-11-18T21:08:29+00:00",
-   "side": "long",
-   "source": "auto",
-   "reason": "leader dip",
-   "entry_date": "2026-11-18",
-   "max_hold": 10,
-   "meta": null,
-   "trail": null,
-   "tp": null,
-   "sl": null
   }
  },
  "last_prices": {
@@ -69,10 +55,10 @@
   "HLT": 364.32,
   "CSX": 50.08,
   "OKTA": 195.61,
-  "MPC": 347.605,
-  "PSX": 236.68,
+  "MPC": 346.275,
+  "PSX": 236.14,
   "TRV": 395.43,
-  "VLO": 324.025,
+  "VLO": 323.06,
   "ABBV": 288.885,
   "JNJ": 276.46,
   "BRK-B": 577.21,
@@ -84,7 +70,7 @@
   "KO": 97.62,
   "MCK": 1078.09,
   "PG": 170.08,
-  "MO": 76.445,
+  "MO": 76.245,
   "MA": 637.058,
   "CB": 375.37,
   "GILD": 170.55,
@@ -837,6 +823,18 @@
    "reason": "bounced",
    "pnl": 5.54,
    "pnl_pct": 2.27
+  },
+  {
+   "time": "2026-11-25T21:13:29+00:00",
+   "ticker": "MO",
+   "side": "sell",
+   "qty": 3.2434,
+   "price": 76.245,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "bounced",
+   "pnl": -0.02,
+   "pnl_pct": -0.01
   }
  ],
  "events": [
@@ -1383,15 +1381,23 @@
    "price": 364.32,
    "source": "auto",
    "result": "filled sell 0.6867 @ 364.32 (bounced)"
+  },
+  {
+   "time": "2026-11-25T21:13:29+00:00",
+   "ticker": "MO",
+   "action": "sell",
+   "price": 76.245,
+   "source": "auto",
+   "result": "filled sell 3.2434 @ 76.245 (bounced)"
   }
  ],
  "day": {
-  "date": "2026-11-24",
-  "start_equity": 9926.853441199999,
-  "trades": 14
+  "date": "2026-11-25",
+  "start_equity": 9924.0055792,
+  "trades": 1
  },
  "halted": false,
- "last_daily_run": "2026-11-24",
+ "last_daily_run": "2026-11-25",
  "price_sources": {
   "MRNA": "yahoo",
   "TGT": "yahoo",
@@ -1428,81 +1434,16 @@
   "AAPL": "yahoo"
  },
  "status": {
-  "note": "next decision after 15:30 ET on trading days",
+  "note": "1 action(s) at today's run",
   "decisions": [
    {
-    "ticker": "VEEV",
-    "info": "273.62",
-    "decision": "CLOSED: bounced"
-   },
-   {
-    "ticker": "CSX",
-    "info": "50.08",
-    "decision": "CLOSED: bounced"
-   },
-   {
-    "ticker": "JNJ",
-    "info": "276.46",
-    "decision": "CLOSED: bounced"
-   },
-   {
-    "ticker": "BRK-B",
-    "info": "577.21",
-    "decision": "CLOSED: bounced"
-   },
-   {
-    "ticker": "LLY",
-    "info": "1407.59",
-    "decision": "CLOSED: bounced"
-   },
-   {
-    "ticker": "MRK",
-    "info": "141.57",
-    "decision": "CLOSED: bounced"
-   },
-   {
-    "ticker": "CAH",
-    "info": "279.65",
-    "decision": "CLOSED: bounced"
-   },
-   {
-    "ticker": "KO",
-    "info": "97.62",
-    "decision": "CLOSED: bounced"
-   },
-   {
-    "ticker": "MCK",
-    "info": "1078.09",
-    "decision": "CLOSED: bounced"
-   },
-   {
-    "ticker": "CB",
-    "info": "375.37",
-    "decision": "CLOSED: bounced"
-   },
-   {
-    "ticker": "ADP",
-    "info": "310.79",
-    "decision": "CLOSED: bounced"
-   },
-   {
-    "ticker": "ALL",
-    "info": "270.39",
-    "decision": "CLOSED: bounced"
-   },
-   {
-    "ticker": "MAR",
-    "info": "416.23",
-    "decision": "CLOSED: bounced"
-   },
-   {
-    "ticker": "HLT",
-    "info": "364.32",
+    "ticker": "MO",
+    "info": "76.25",
     "decision": "CLOSED: bounced"
    }
   ],
-  "last_run": "2026-11-25T20:10:57+00:00",
-  "market_open": true,
-  "last_daily": "2026-11-24T21:27:48+00:00"
+  "last_run": "2026-11-25T21:13:07+00:00",
+  "market_open": false,
+  "last_daily": "2026-11-25T21:13:29+00:00"
  }
 }

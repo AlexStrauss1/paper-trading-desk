@@ -72,10 +72,10 @@
  },
  "last_prices": {
   "NVDA": 166.27,
-  "HD": 361.79,
-  "XOM": 159.235,
-  "FDX": 309.67,
-  "JPM": 317.215
+  "HD": 361.32,
+  "XOM": 158.16,
+  "FDX": 308.765,
+  "JPM": 316.93
  },
  "trades": [
   {
@@ -273,7 +273,7 @@
   "trades": 2
  },
  "halted": false,
- "last_daily_run": "2026-11-24",
+ "last_daily_run": "2026-11-25",
  "price_sources": {
   "NVDA": "yahoo",
   "HD": "yahoo",
@@ -282,21 +282,10 @@
   "JPM": "yahoo"
  },
  "status": {
-  "note": "next decision after 15:30 ET on trading days",
-  "decisions": [
-   {
-    "ticker": "FDX",
-    "info": "308.29",
-    "decision": "BOUGHT: FDX lags UPS"
-   },
-   {
-    "ticker": "JPM",
-    "info": "317.10",
-    "decision": "BOUGHT: JPM lags WFC"
-   }
-  ],
-  "last_run": "2026-11-25T20:10:57+00:00",
-  "market_open": true,
-  "last_daily": "2026-11-24T21:27:50+00:00"
+  "note": "no signals today",
+  "decisions": [],
+  "last_run": "2026-11-25T21:13:07+00:00",
+  "market_open": false,
+  "last_daily": "2026-11-25T21:13:31+00:00"
  }
 }
