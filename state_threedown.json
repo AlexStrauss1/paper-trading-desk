@@ -2870,7 +2870,7 @@
   "COR": "yahoo"
  },
  "status": {
-  "note": "7 action(s) at today's run",
+  "note": "next decision after 15:30 ET on trading days",
   "decisions": [
    {
     "ticker": "GM",
@@ -2908,7 +2908,7 @@
     "decision": "BOUGHT: 3 down days"
    }
   ],
-  "last_run": "2026-11-25T23:25:57+00:00",
+  "last_run": "2026-11-26T14:11:17+00:00",
   "market_open": false,
   "last_daily": "2026-11-25T21:13:29+00:00"
  }
