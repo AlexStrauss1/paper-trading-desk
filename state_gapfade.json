@@ -1,5 +1,5 @@
 {
- "cash": 22243.6688896,
+ "cash": 19949.577325600003,
  "positions": {
   "LITE": {
    "qty": 4.4889,
@@ -10,16 +10,6 @@
    "reason": "gap-up +8.0% below 200-day avg",
    "entry_date": "2026-11-27",
    "sl": 530.22
-  },
-  "COHR": {
-   "qty": 10.4844,
-   "avg_price": 212.16,
-   "opened": "2026-11-27T15:08:00+00:00",
-   "side": "short",
-   "source": "auto",
-   "reason": "gap-up +7.6% below 200-day avg",
-   "entry_date": "2026-11-27",
-   "sl": 217.51
   },
   "MRVL": {
    "qty": 16.5288,
@@ -54,22 +44,22 @@
  },
  "last_prices": {
   "FN": 293.24,
-  "COHR": 217.205,
+  "COHR": 218.81,
   "NKE": 35.85,
-  "LITE": 506.948,
-  "MRVL": 137.98,
+  "LITE": 507.37,
+  "MRVL": 138.07,
   "MCHP": 57.72,
   "CIEN": 246.48,
   "CSCO": 95.69,
   "DELL": 312.895,
   "STX": 484.497,
   "FIX": 1107.385,
-  "HL": 11.86,
+  "HL": 11.885,
   "BE": 155.155,
   "GLW": 102.06,
   "WDC": 281.03,
   "ROST": 228.27,
-  "SMTC": 94.36,
+  "SMTC": 95.715,
   "NVDA": 155.9,
   "VRT": 174.52,
   "TER": 213.64,
@@ -677,6 +667,18 @@
    "broker": "sim",
    "source": "auto",
    "reason": "gap-up +5.9% below 200-day avg"
+  },
+  {
+   "time": "2026-11-27T16:24:21+00:00",
+   "ticker": "COHR",
+   "side": "cover",
+   "qty": 10.4844,
+   "price": 218.81,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "stop 217.51 [yahoo price]",
+   "pnl": -69.72,
+   "pnl_pct": -3.13
   }
  ],
  "events": [
@@ -2655,12 +2657,20 @@
    "price": 49.74,
    "source": "auto",
    "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T16:24:21+00:00",
+   "ticker": "COHR",
+   "action": "cover",
+   "price": 218.81,
+   "source": "auto",
+   "result": "filled cover 10.4844 @ 218.81 (stop 217.51 [yahoo price])"
   }
  ],
  "day": {
   "date": "2026-11-27",
   "start_equity": 11121.861317600004,
-  "trades": 5
+  "trades": 6
  },
  "halted": false,
  "status": {
@@ -2977,7 +2987,7 @@
     "decision": "short exposure would exceed 100% of equity"
    }
   ],
-  "last_run": "2026-11-27T16:06:01+00:00",
+  "last_run": "2026-11-27T16:24:21+00:00",
   "market_open": true,
   "last_daily": null
  },
