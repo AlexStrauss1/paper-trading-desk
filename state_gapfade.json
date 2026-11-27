@@ -1,47 +1,6 @@
 {
- "cash": 19949.577325600003,
- "positions": {
-  "LITE": {
-   "qty": 4.4889,
-   "avg_price": 495.52,
-   "opened": "2026-11-27T15:08:00+00:00",
-   "side": "short",
-   "source": "auto",
-   "reason": "gap-up +8.0% below 200-day avg",
-   "entry_date": "2026-11-27",
-   "sl": 530.22
-  },
-  "MRVL": {
-   "qty": 16.5288,
-   "avg_price": 134.575,
-   "opened": "2026-11-27T15:08:00+00:00",
-   "side": "short",
-   "source": "auto",
-   "reason": "gap-up +6.5% below 200-day avg",
-   "entry_date": "2026-11-27",
-   "sl": 143.59
-  },
-  "SMTC": {
-   "qty": 23.7392,
-   "avg_price": 93.7,
-   "opened": "2026-11-27T15:08:00+00:00",
-   "side": "short",
-   "source": "auto",
-   "reason": "gap-up +5.9% below 200-day avg",
-   "entry_date": "2026-11-27",
-   "sl": 101.38
-  },
-  "HL": {
-   "qty": 188.028,
-   "avg_price": 11.83,
-   "opened": "2026-11-27T15:08:00+00:00",
-   "side": "short",
-   "source": "auto",
-   "reason": "gap-up +5.9% below 200-day avg",
-   "entry_date": "2026-11-27",
-   "sl": 12.3
-  }
- },
+ "cash": 10726.349294600002,
+ "positions": {},
  "last_prices": {
   "FN": 293.24,
   "COHR": 218.81,
@@ -679,6 +638,54 @@
    "reason": "stop 217.51 [yahoo price]",
    "pnl": -69.72,
    "pnl_pct": -3.13
+  },
+  {
+   "time": "2026-11-27T21:11:43+00:00",
+   "ticker": "LITE",
+   "side": "cover",
+   "qty": 4.4889,
+   "price": 514.63,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "end of day",
+   "pnl": -85.78,
+   "pnl_pct": -3.86
+  },
+  {
+   "time": "2026-11-27T21:11:43+00:00",
+   "ticker": "MRVL",
+   "side": "cover",
+   "qty": 16.5288,
+   "price": 140.54,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "end of day",
+   "pnl": -98.59,
+   "pnl_pct": -4.43
+  },
+  {
+   "time": "2026-11-27T21:11:43+00:00",
+   "ticker": "SMTC",
+   "side": "cover",
+   "qty": 23.7392,
+   "price": 97.36,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "end of day",
+   "pnl": -86.89,
+   "pnl_pct": -3.91
+  },
+  {
+   "time": "2026-11-27T21:11:43+00:00",
+   "ticker": "HL",
+   "side": "cover",
+   "qty": 188.028,
+   "price": 12.12,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "end of day",
+   "pnl": -54.53,
+   "pnl_pct": -2.45
   }
  ],
  "events": [
@@ -2665,14 +2672,46 @@
    "price": 218.81,
    "source": "auto",
    "result": "filled cover 10.4844 @ 218.81 (stop 217.51 [yahoo price])"
+  },
+  {
+   "time": "2026-11-27T21:11:43+00:00",
+   "ticker": "LITE",
+   "action": "cover",
+   "price": 514.63,
+   "source": "auto",
+   "result": "filled cover 4.4889 @ 514.63 (end of day)"
+  },
+  {
+   "time": "2026-11-27T21:11:43+00:00",
+   "ticker": "MRVL",
+   "action": "cover",
+   "price": 140.54,
+   "source": "auto",
+   "result": "filled cover 16.5288 @ 140.54 (end of day)"
+  },
+  {
+   "time": "2026-11-27T21:11:43+00:00",
+   "ticker": "SMTC",
+   "action": "cover",
+   "price": 97.36,
+   "source": "auto",
+   "result": "filled cover 23.7392 @ 97.36 (end of day)"
+  },
+  {
+   "time": "2026-11-27T21:11:43+00:00",
+   "ticker": "HL",
+   "action": "cover",
+   "price": 12.12,
+   "source": "auto",
+   "result": "filled cover 188.028 @ 12.12 (end of day)"
   }
  ],
  "day": {
   "date": "2026-11-27",
   "start_equity": 11121.861317600004,
-  "trades": 6
+  "trades": 10
  },
- "halted": false,
+ "halted": true,
  "status": {
   "note": "market closed",
   "decisions": [
@@ -2987,7 +3026,7 @@
     "decision": "short exposure would exceed 100% of equity"
    }
   ],
-  "last_run": "2026-11-27T20:15:07+00:00",
+  "last_run": "2026-11-27T21:11:43+00:00",
   "market_open": false,
   "last_daily": null
  },

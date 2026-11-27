@@ -1,19 +1,6 @@
 {
- "cash": 119.83264259999817,
+ "cash": 2102.2414335999983,
  "positions": {
-  "PFE": {
-   "qty": 69.3842,
-   "avg_price": 28.825,
-   "opened": "2026-11-13T19:32:39+00:00",
-   "side": "long",
-   "source": "auto",
-   "reason": "7-day low",
-   "entry_date": "2026-11-13",
-   "max_hold": 15,
-   "meta": null,
-   "tp": null,
-   "sl": null
-  },
   "MRK": {
    "qty": 6.9219,
    "avg_price": 144.52,
@@ -45,20 +32,6 @@
   "ILMN": {
    "qty": 5.0522,
    "avg_price": 198.0,
-   "opened": "2026-11-16T21:03:20+00:00",
-   "side": "long",
-   "source": "auto",
-   "reason": "7-day low",
-   "entry_date": "2026-11-16",
-   "max_hold": 15,
-   "meta": null,
-   "trail": null,
-   "tp": null,
-   "sl": null
-  },
-  "DE": {
-   "qty": 1.5295,
-   "avg_price": 654.0,
    "opened": "2026-11-16T21:03:20+00:00",
    "side": "long",
    "source": "auto",
@@ -125,6 +98,20 @@
    "trail": null,
    "tp": null,
    "sl": null
+  },
+  "EBAY": {
+   "qty": 8.7981,
+   "avg_price": 113.33,
+   "opened": "2026-11-27T21:11:57+00:00",
+   "side": "long",
+   "source": "auto",
+   "reason": "7-day low",
+   "entry_date": "2026-11-27",
+   "max_hold": 15,
+   "meta": null,
+   "trail": null,
+   "tp": null,
+   "sl": null
   }
  },
  "last_prices": {
@@ -159,7 +146,7 @@
   "KDP": 34.41,
   "MA": 624.94,
   "CRWD": 208.33,
-  "EBAY": 113.77,
+  "EBAY": 113.33,
   "PTC": 195.1,
   "ABNB": 170.36,
   "DAL": 79.92,
@@ -423,6 +410,40 @@
    "side": "buy",
    "qty": 10.2451,
    "price": 96.05,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "7-day low"
+  },
+  {
+   "time": "2026-11-27T21:11:57+00:00",
+   "ticker": "PFE",
+   "side": "sell",
+   "qty": 69.3842,
+   "price": 28.52,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "7-day high",
+   "pnl": -21.16,
+   "pnl_pct": -1.06
+  },
+  {
+   "time": "2026-11-27T21:11:57+00:00",
+   "ticker": "DE",
+   "side": "sell",
+   "qty": 1.5295,
+   "price": 654.24,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "7-day high",
+   "pnl": 0.37,
+   "pnl_pct": 0.04
+  },
+  {
+   "time": "2026-11-27T21:11:57+00:00",
+   "ticker": "EBAY",
+   "side": "buy",
+   "qty": 8.7981,
+   "price": 113.33,
    "broker": "sim",
    "source": "auto",
    "reason": "7-day low"
@@ -2732,15 +2753,39 @@
    "price": 96.05,
    "source": "auto",
    "result": "filled buy 10.2451 @ 96.05 (7-day low)"
+  },
+  {
+   "time": "2026-11-27T21:11:57+00:00",
+   "ticker": "PFE",
+   "action": "sell",
+   "price": 28.52,
+   "source": "auto",
+   "result": "filled sell 69.3842 @ 28.52 (7-day high)"
+  },
+  {
+   "time": "2026-11-27T21:11:57+00:00",
+   "ticker": "DE",
+   "action": "sell",
+   "price": 654.24,
+   "source": "auto",
+   "result": "filled sell 1.5295 @ 654.24 (7-day high)"
+  },
+  {
+   "time": "2026-11-27T21:11:57+00:00",
+   "ticker": "EBAY",
+   "action": "buy",
+   "price": 113.33,
+   "source": "auto",
+   "result": "filled buy 8.7981 @ 113.33 (7-day low)"
   }
  ],
  "day": {
-  "date": "2026-11-25",
-  "start_equity": 9840.4892881,
-  "trades": 2
+  "date": "2026-11-27",
+  "start_equity": 9970.9292926,
+  "trades": 3
  },
  "halted": false,
- "last_daily_run": "2026-11-25",
+ "last_daily_run": "2026-11-27",
  "price_sources": {
   "PFE": "yahoo",
   "MRNA": "yahoo",
@@ -2757,21 +2802,26 @@
   "MDT": "yahoo"
  },
  "status": {
-  "note": "next decision after 15:30 ET on trading days",
+  "note": "3 action(s) at today's run",
   "decisions": [
    {
-    "ticker": "ACN",
-    "info": "240.44",
+    "ticker": "PFE",
+    "info": "28.52",
     "decision": "CLOSED: 7-day high"
    },
    {
-    "ticker": "MDT",
-    "info": "96.05",
+    "ticker": "DE",
+    "info": "654.24",
+    "decision": "CLOSED: 7-day high"
+   },
+   {
+    "ticker": "EBAY",
+    "info": "113.33",
     "decision": "BOUGHT: 7-day low"
    }
   ],
-  "last_run": "2026-11-27T20:15:07+00:00",
+  "last_run": "2026-11-27T21:11:43+00:00",
   "market_open": false,
-  "last_daily": "2026-11-25T21:13:29+00:00"
+  "last_daily": "2026-11-27T21:11:57+00:00"
  }
 }

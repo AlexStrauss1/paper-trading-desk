@@ -1,48 +1,6 @@
 {
- "cash": 8264.973107400003,
+ "cash": 9763.181938400005,
  "positions": {
-  "EQIX": {
-   "qty": 0.2387,
-   "avg_price": 1034.83,
-   "opened": "2026-11-17T21:10:47+00:00",
-   "side": "long",
-   "source": "auto",
-   "reason": "3 down days",
-   "entry_date": "2026-11-17",
-   "max_hold": 7,
-   "meta": null,
-   "trail": null,
-   "tp": null,
-   "sl": 952.04
-  },
-  "PSX": {
-   "qty": 1.0157,
-   "avg_price": 244.74,
-   "opened": "2026-11-18T21:08:29+00:00",
-   "side": "long",
-   "source": "auto",
-   "reason": "3 down days",
-   "entry_date": "2026-11-18",
-   "max_hold": 7,
-   "meta": null,
-   "trail": null,
-   "tp": null,
-   "sl": 225.16
-  },
-  "ABNB": {
-   "qty": 1.4125,
-   "avg_price": 170.36,
-   "opened": "2026-11-20T21:04:47+00:00",
-   "side": "long",
-   "source": "auto",
-   "reason": "3 down days",
-   "entry_date": "2026-11-20",
-   "max_hold": 7,
-   "meta": null,
-   "trail": null,
-   "tp": null,
-   "sl": 156.73
-  },
   "MDT": {
    "qty": 2.0967,
    "avg_price": 99.71,
@@ -56,48 +14,6 @@
    "trail": null,
    "tp": null,
    "sl": 91.73
-  },
-  "PM": {
-   "qty": 1.3484,
-   "avg_price": 182.635,
-   "opened": "2026-11-23T20:33:49+00:00",
-   "side": "long",
-   "source": "auto",
-   "reason": "3 down days",
-   "entry_date": "2026-11-23",
-   "max_hold": 7,
-   "meta": null,
-   "trail": null,
-   "tp": null,
-   "sl": 168.02
-  },
-  "MPC": {
-   "qty": 0.7167,
-   "avg_price": 346.275,
-   "opened": "2026-11-25T21:13:29+00:00",
-   "side": "long",
-   "source": "auto",
-   "reason": "3 down days",
-   "entry_date": "2026-11-25",
-   "max_hold": 7,
-   "meta": null,
-   "trail": null,
-   "tp": null,
-   "sl": 318.57
-  },
-  "VLO": {
-   "qty": 0.7682,
-   "avg_price": 323.06,
-   "opened": "2026-11-25T21:13:29+00:00",
-   "side": "long",
-   "source": "auto",
-   "reason": "3 down days",
-   "entry_date": "2026-11-25",
-   "max_hold": 7,
-   "meta": null,
-   "trail": null,
-   "tp": null,
-   "sl": 297.22
   }
  },
  "last_prices": {
@@ -1361,6 +1277,78 @@
    "broker": "sim",
    "source": "auto",
    "reason": "3 down days"
+  },
+  {
+   "time": "2026-11-27T21:11:57+00:00",
+   "ticker": "PSX",
+   "side": "sell",
+   "qty": 1.0157,
+   "price": 242.12,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "closed above prior high",
+   "pnl": -2.66,
+   "pnl_pct": -1.07
+  },
+  {
+   "time": "2026-11-27T21:11:57+00:00",
+   "ticker": "ABNB",
+   "side": "sell",
+   "qty": 1.4125,
+   "price": 179.16,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "closed above prior high",
+   "pnl": 12.43,
+   "pnl_pct": 5.17
+  },
+  {
+   "time": "2026-11-27T21:11:57+00:00",
+   "ticker": "PM",
+   "side": "sell",
+   "qty": 1.3484,
+   "price": 187.8,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "closed above prior high",
+   "pnl": 6.96,
+   "pnl_pct": 2.83
+  },
+  {
+   "time": "2026-11-27T21:11:57+00:00",
+   "ticker": "MPC",
+   "side": "sell",
+   "qty": 0.7167,
+   "price": 359.8,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "closed above prior high",
+   "pnl": 9.69,
+   "pnl_pct": 3.91
+  },
+  {
+   "time": "2026-11-27T21:11:57+00:00",
+   "ticker": "VLO",
+   "side": "sell",
+   "qty": 0.7682,
+   "price": 329.39,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "closed above prior high",
+   "pnl": 4.86,
+   "pnl_pct": 1.96
+  },
+  {
+   "time": "2026-11-27T21:11:57+00:00",
+   "ticker": "EQIX",
+   "side": "sell",
+   "qty": 0.2387,
+   "price": 984.87,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "held 7 trading days",
+   "pnl": -11.93,
+   "pnl_pct": -4.83
   }
  ],
  "events": [
@@ -2803,15 +2791,63 @@
    "price": 323.06,
    "source": "auto",
    "result": "filled buy 0.7682 @ 323.06 (3 down days)"
+  },
+  {
+   "time": "2026-11-27T21:11:57+00:00",
+   "ticker": "PSX",
+   "action": "sell",
+   "price": 242.12,
+   "source": "auto",
+   "result": "filled sell 1.0157 @ 242.12 (closed above prior high)"
+  },
+  {
+   "time": "2026-11-27T21:11:57+00:00",
+   "ticker": "ABNB",
+   "action": "sell",
+   "price": 179.16,
+   "source": "auto",
+   "result": "filled sell 1.4125 @ 179.16 (closed above prior high)"
+  },
+  {
+   "time": "2026-11-27T21:11:57+00:00",
+   "ticker": "PM",
+   "action": "sell",
+   "price": 187.8,
+   "source": "auto",
+   "result": "filled sell 1.3484 @ 187.8 (closed above prior high)"
+  },
+  {
+   "time": "2026-11-27T21:11:57+00:00",
+   "ticker": "MPC",
+   "action": "sell",
+   "price": 359.8,
+   "source": "auto",
+   "result": "filled sell 0.7167 @ 359.8 (closed above prior high)"
+  },
+  {
+   "time": "2026-11-27T21:11:57+00:00",
+   "ticker": "VLO",
+   "action": "sell",
+   "price": 329.39,
+   "source": "auto",
+   "result": "filled sell 0.7682 @ 329.39 (closed above prior high)"
+  },
+  {
+   "time": "2026-11-27T21:11:57+00:00",
+   "ticker": "EQIX",
+   "action": "sell",
+   "price": 984.87,
+   "source": "auto",
+   "result": "filled sell 0.2387 @ 984.87 (held 7 trading days)"
   }
  ],
  "day": {
-  "date": "2026-11-25",
-  "start_equity": 9891.106262800004,
-  "trades": 9
+  "date": "2026-11-27",
+  "start_equity": 9963.228085400002,
+  "trades": 6
  },
  "halted": false,
- "last_daily_run": "2026-11-25",
+ "last_daily_run": "2026-11-27",
  "price_sources": {
   "TMO": "yahoo",
   "MMM": "yahoo",
@@ -2870,46 +2906,41 @@
   "COR": "yahoo"
  },
  "status": {
-  "note": "next decision after 15:30 ET on trading days",
+  "note": "6 action(s) at today's run",
   "decisions": [
    {
-    "ticker": "GM",
-    "info": "83.99",
+    "ticker": "PSX",
+    "info": "242.12",
     "decision": "CLOSED: closed above prior high"
    },
    {
-    "ticker": "CSX",
-    "info": "51.16",
+    "ticker": "ABNB",
+    "info": "179.16",
     "decision": "CLOSED: closed above prior high"
    },
    {
-    "ticker": "MSI",
-    "info": "540.69",
-    "decision": "CLOSED: closed above prior high"
-   },
-   {
-    "ticker": "EOG",
-    "info": "148.32",
-    "decision": "CLOSED: closed above prior high"
-   },
-   {
-    "ticker": "LIN",
-    "info": "524.61",
+    "ticker": "PM",
+    "info": "187.80",
     "decision": "CLOSED: closed above prior high"
    },
    {
     "ticker": "MPC",
-    "info": "346.27",
-    "decision": "BOUGHT: 3 down days"
+    "info": "359.80",
+    "decision": "CLOSED: closed above prior high"
    },
    {
     "ticker": "VLO",
-    "info": "323.06",
-    "decision": "BOUGHT: 3 down days"
+    "info": "329.39",
+    "decision": "CLOSED: closed above prior high"
+   },
+   {
+    "ticker": "EQIX",
+    "info": "984.87",
+    "decision": "CLOSED: held 7 trading days"
    }
   ],
-  "last_run": "2026-11-27T20:15:07+00:00",
+  "last_run": "2026-11-27T21:11:43+00:00",
   "market_open": false,
-  "last_daily": "2026-11-25T21:13:29+00:00"
+  "last_daily": "2026-11-27T21:11:57+00:00"
  }
 }

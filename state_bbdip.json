@@ -1,5 +1,5 @@
 {
- "cash": 4534.162344,
+ "cash": 5339.480458,
  "positions": {
   "WDAY": {
    "qty": 1.3676,
@@ -155,20 +155,6 @@
    "tp": null,
    "sl": 241.89
   },
-  "SWKS": {
-   "qty": 3.1357,
-   "avg_price": 78.66,
-   "opened": "2026-11-19T21:22:52+00:00",
-   "side": "long",
-   "source": "auto",
-   "reason": "below lower band",
-   "entry_date": "2026-11-19",
-   "max_hold": 10,
-   "meta": null,
-   "trail": null,
-   "tp": null,
-   "sl": 72.37
-  },
   "PM": {
    "qty": 1.323,
    "avg_price": 186.43,
@@ -224,34 +210,6 @@
    "trail": null,
    "tp": null,
    "sl": 574.9
-  },
-  "BNY": {
-   "qty": 1.7429,
-   "avg_price": 141.03,
-   "opened": "2026-11-20T21:04:49+00:00",
-   "side": "long",
-   "source": "auto",
-   "reason": "below lower band",
-   "entry_date": "2026-11-20",
-   "max_hold": 10,
-   "meta": null,
-   "trail": null,
-   "tp": null,
-   "sl": 129.75
-  },
-  "PYPL": {
-   "qty": 4.6117,
-   "avg_price": 53.3,
-   "opened": "2026-11-20T21:04:49+00:00",
-   "side": "long",
-   "source": "auto",
-   "reason": "below lower band",
-   "entry_date": "2026-11-20",
-   "max_hold": 10,
-   "meta": null,
-   "trail": null,
-   "tp": null,
-   "sl": 49.04
   },
   "UNP": {
    "qty": 0.8566,
@@ -691,6 +649,42 @@
    "reason": "back to average",
    "pnl": 10.31,
    "pnl_pct": 4.2
+  },
+  {
+   "time": "2026-11-27T21:11:58+00:00",
+   "ticker": "SWKS",
+   "side": "sell",
+   "qty": 3.1357,
+   "price": 86.66,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "back to average",
+   "pnl": 25.09,
+   "pnl_pct": 10.17
+  },
+  {
+   "time": "2026-11-27T21:11:58+00:00",
+   "ticker": "BNY",
+   "side": "sell",
+   "qty": 1.7429,
+   "price": 149.66,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "back to average",
+   "pnl": 15.04,
+   "pnl_pct": 6.12
+  },
+  {
+   "time": "2026-11-27T21:11:58+00:00",
+   "ticker": "PYPL",
+   "side": "sell",
+   "qty": 4.6117,
+   "price": 59.14,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "back to average",
+   "pnl": 26.93,
+   "pnl_pct": 10.96
   }
  ],
  "events": [
@@ -965,27 +959,61 @@
    "price": 51.16,
    "source": "auto",
    "result": "filled sell 5.0062 @ 51.16 (back to average)"
+  },
+  {
+   "time": "2026-11-27T21:11:58+00:00",
+   "ticker": "SWKS",
+   "action": "sell",
+   "price": 86.66,
+   "source": "auto",
+   "result": "filled sell 3.1357 @ 86.66 (back to average)"
+  },
+  {
+   "time": "2026-11-27T21:11:58+00:00",
+   "ticker": "BNY",
+   "action": "sell",
+   "price": 149.66,
+   "source": "auto",
+   "result": "filled sell 1.7429 @ 149.66 (back to average)"
+  },
+  {
+   "time": "2026-11-27T21:11:58+00:00",
+   "ticker": "PYPL",
+   "action": "sell",
+   "price": 59.14,
+   "source": "auto",
+   "result": "filled sell 4.6117 @ 59.14 (back to average)"
   }
  ],
  "day": {
-  "date": "2026-11-25",
-  "start_equity": 10066.607900800002,
-  "trades": 1
+  "date": "2026-11-27",
+  "start_equity": 10120.530875,
+  "trades": 3
  },
  "halted": false,
- "last_daily_run": "2026-11-25",
+ "last_daily_run": "2026-11-27",
  "status": {
-  "note": "next decision after 15:30 ET on trading days",
+  "note": "3 action(s) at today's run",
   "decisions": [
    {
-    "ticker": "CSX",
-    "info": "51.16",
+    "ticker": "SWKS",
+    "info": "86.66",
+    "decision": "CLOSED: back to average"
+   },
+   {
+    "ticker": "BNY",
+    "info": "149.66",
+    "decision": "CLOSED: back to average"
+   },
+   {
+    "ticker": "PYPL",
+    "info": "59.14",
     "decision": "CLOSED: back to average"
    }
   ],
-  "last_run": "2026-11-27T20:15:07+00:00",
+  "last_run": "2026-11-27T21:11:43+00:00",
   "market_open": false,
-  "last_daily": "2026-11-25T21:13:31+00:00"
+  "last_daily": "2026-11-27T21:11:58+00:00"
  },
  "price_sources": {
   "VEEV": "yahoo",

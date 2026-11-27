@@ -295,7 +295,7 @@
   "trades": 1
  },
  "halted": false,
- "last_daily_run": "2026-11-25",
+ "last_daily_run": "2026-11-27",
  "price_sources": {
   "MRNA": "yahoo",
   "VEEV": "yahoo",
@@ -305,16 +305,10 @@
   "TMO": "yahoo"
  },
  "status": {
-  "note": "next decision after 15:30 ET on trading days",
-  "decisions": [
-   {
-    "ticker": "TRV",
-    "info": "406.76",
-    "decision": "CLOSED: new 10-day high"
-   }
-  ],
-  "last_run": "2026-11-27T20:15:07+00:00",
+  "note": "no signals today",
+  "decisions": [],
+  "last_run": "2026-11-27T21:11:43+00:00",
   "market_open": false,
-  "last_daily": "2026-11-25T21:13:29+00:00"
+  "last_daily": "2026-11-27T21:11:57+00:00"
  }
 }

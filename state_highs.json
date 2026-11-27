@@ -190,20 +190,21 @@
   "MCK": 1075.66,
   "BRK-B": 580.79,
   "CB": 381.39,
-  "ADP": 316.72,
+  "ADP": 319.43,
   "WM": 247.22,
-  "PGR": 238.71,
+  "PGR": 239.14,
   "ELV": 446.47,
-  "DUK": 131.95,
+  "DUK": 131.91,
   "CME": 319.37,
   "DIS": 127.24,
   "TGT": 176.06,
   "GILD": 178.29,
-  "REGN": 987.09,
-  "MRSH": 216.795,
+  "REGN": 992.14,
+  "MRSH": 218.04,
   "VRTX": 564.12,
-  "MSI": 540.69,
-  "MDLZ": 67.81
+  "MSI": 544.83,
+  "MDLZ": 67.81,
+  "PTC": 196.85
  },
  "trades": [
   {
@@ -663,15 +664,71 @@
    "price": 131.95,
    "source": "auto",
    "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-27T21:11:57+00:00",
+   "ticker": "REGN",
+   "action": "buy",
+   "price": 992.14,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-27T21:11:57+00:00",
+   "ticker": "MSI",
+   "action": "buy",
+   "price": 544.83,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-27T21:11:57+00:00",
+   "ticker": "MRSH",
+   "action": "buy",
+   "price": 218.04,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-27T21:11:57+00:00",
+   "ticker": "ADP",
+   "action": "buy",
+   "price": 319.43,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-27T21:11:57+00:00",
+   "ticker": "PTC",
+   "action": "buy",
+   "price": 196.85,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-27T21:11:57+00:00",
+   "ticker": "PGR",
+   "action": "buy",
+   "price": 239.14,
+   "source": "auto",
+   "result": "rejected: not enough cash"
+  },
+  {
+   "time": "2026-11-27T21:11:57+00:00",
+   "ticker": "DUK",
+   "action": "buy",
+   "price": 131.91,
+   "source": "auto",
+   "result": "rejected: not enough cash"
   }
  ],
  "day": {
-  "date": "2026-11-25",
-  "start_equity": 9825.9597405,
+  "date": "2026-11-27",
+  "start_equity": 9848.503377500001,
   "trades": 0
  },
  "halted": false,
- "last_daily_run": "2026-11-25",
+ "last_daily_run": "2026-11-27",
  "price_sources": {
   "ABBV": "yahoo",
   "LLY": "yahoo",
@@ -689,16 +746,16 @@
   "DIS": "yahoo"
  },
  "status": {
-  "note": "next decision after 15:30 ET on trading days",
+  "note": "1 action(s) at today's run",
   "decisions": [
    {
-    "ticker": "+8",
+    "ticker": "+7",
     "info": "",
-    "decision": "more signals, out of cash: MSI, MRSH, ADP, VRTX, WM, MDLZ, PGR, DUK"
+    "decision": "more signals, out of cash: REGN, MSI, MRSH, ADP, PTC, PGR, DUK"
    }
   ],
-  "last_run": "2026-11-27T20:15:07+00:00",
+  "last_run": "2026-11-27T21:11:43+00:00",
   "market_open": false,
-  "last_daily": "2026-11-25T21:13:29+00:00"
+  "last_daily": "2026-11-27T21:11:57+00:00"
  }
 }
