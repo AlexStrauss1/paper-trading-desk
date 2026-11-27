@@ -2799,7 +2799,8 @@
   "MPC": "yahoo",
   "PSX": "yahoo",
   "VLO": "yahoo",
-  "MDT": "yahoo"
+  "MDT": "yahoo",
+  "EBAY": "yahoo"
  },
  "status": {
   "note": "3 action(s) at today's run",
@@ -2820,7 +2821,7 @@
     "decision": "BOUGHT: 7-day low"
    }
   ],
-  "last_run": "2026-11-27T21:11:43+00:00",
+  "last_run": "2026-11-27T22:11:44+00:00",
   "market_open": false,
   "last_daily": "2026-11-27T21:11:57+00:00"
  }
