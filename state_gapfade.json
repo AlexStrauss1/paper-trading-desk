@@ -54,7 +54,7 @@
   "DELL": 312.895,
   "STX": 484.497,
   "FIX": 1107.385,
-  "HL": 11.94,
+  "HL": 12.12,
   "BE": 155.155,
   "GLW": 102.06,
   "WDC": 281.03,
@@ -2987,7 +2987,7 @@
     "decision": "short exposure would exceed 100% of equity"
    }
   ],
-  "last_run": "2026-11-27T18:18:52+00:00",
+  "last_run": "2026-11-27T19:19:27+00:00",
   "market_open": false,
   "last_daily": null
  },

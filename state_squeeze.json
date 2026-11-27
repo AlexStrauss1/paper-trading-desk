@@ -45,9 +45,9 @@
   }
  },
  "last_prices": {
-  "PCG": 14.425,
-  "ABBV": 292.75,
-  "SO": 95.05
+  "PCG": 14.43,
+  "ABBV": 291.88,
+  "SO": 95.04
  },
  "trades": [
   {
@@ -123,7 +123,7 @@
     "decision": "BOUGHT: squeeze breakout"
    }
   ],
-  "last_run": "2026-11-27T18:18:52+00:00",
+  "last_run": "2026-11-27T19:19:27+00:00",
   "market_open": false,
   "last_daily": "2026-11-25T21:13:29+00:00"
  },
