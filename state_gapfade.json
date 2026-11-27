@@ -1,98 +1,149 @@
 {
- "cash": 11121.861317600004,
- "positions": {},
+ "cash": 22243.6688896,
+ "positions": {
+  "LITE": {
+   "qty": 4.4889,
+   "avg_price": 495.52,
+   "opened": "2026-11-27T15:08:00+00:00",
+   "side": "short",
+   "source": "auto",
+   "reason": "gap-up +8.0% below 200-day avg",
+   "entry_date": "2026-11-27",
+   "sl": 530.22
+  },
+  "COHR": {
+   "qty": 10.4844,
+   "avg_price": 212.16,
+   "opened": "2026-11-27T15:08:00+00:00",
+   "side": "short",
+   "source": "auto",
+   "reason": "gap-up +7.6% below 200-day avg",
+   "entry_date": "2026-11-27",
+   "sl": 217.51
+  },
+  "MRVL": {
+   "qty": 16.5288,
+   "avg_price": 134.575,
+   "opened": "2026-11-27T15:08:00+00:00",
+   "side": "short",
+   "source": "auto",
+   "reason": "gap-up +6.5% below 200-day avg",
+   "entry_date": "2026-11-27",
+   "sl": 143.59
+  },
+  "SMTC": {
+   "qty": 23.7392,
+   "avg_price": 93.7,
+   "opened": "2026-11-27T15:08:00+00:00",
+   "side": "short",
+   "source": "auto",
+   "reason": "gap-up +5.9% below 200-day avg",
+   "entry_date": "2026-11-27",
+   "sl": 101.38
+  },
+  "HL": {
+   "qty": 188.028,
+   "avg_price": 11.83,
+   "opened": "2026-11-27T15:08:00+00:00",
+   "side": "short",
+   "source": "auto",
+   "reason": "gap-up +5.9% below 200-day avg",
+   "entry_date": "2026-11-27",
+   "sl": 12.3
+  }
+ },
  "last_prices": {
-  "FN": 333.575,
-  "COHR": 216.84,
+  "FN": 293.24,
+  "COHR": 212.16,
   "NKE": 35.85,
-  "LITE": 548.285,
-  "MRVL": 148.79,
-  "MCHP": 61.86,
-  "CIEN": 272.76,
-  "CSCO": 96.45,
-  "DELL": 338.483,
-  "STX": 541.6,
-  "FIX": 1166.52,
-  "HL": 11.295,
-  "BE": 170.15,
-  "GLW": 113.625,
-  "WDC": 306.115,
+  "LITE": 495.52,
+  "MRVL": 134.575,
+  "MCHP": 57.72,
+  "CIEN": 246.48,
+  "CSCO": 95.69,
+  "DELL": 312.895,
+  "STX": 484.497,
+  "FIX": 1107.385,
+  "HL": 11.83,
+  "BE": 155.155,
+  "GLW": 102.06,
+  "WDC": 281.03,
   "ROST": 228.27,
-  "SMTC": 104.64,
+  "SMTC": 93.7,
   "NVDA": 155.9,
-  "VRT": 189.27,
-  "TER": 242.065,
+  "VRT": 174.52,
+  "TER": 213.64,
   "AVGO": 312.855,
-  "SMCI": 26.15,
-  "ORCL": 116.06,
-  "KLAC": 144.735,
-  "HOOD": 69.205,
-  "INTC": 59.04,
-  "MU": 756.09,
-  "AMAT": 347.455,
-  "LRCX": 212.12,
+  "SMCI": 23.13,
+  "ORCL": 104.82,
+  "KLAC": 134.84,
+  "HOOD": 66.28,
+  "INTC": 55.56,
+  "MU": 617.21,
+  "AMAT": 311.335,
+  "LRCX": 185.265,
   "GOOGL": 282.345,
-  "GOOG": 280.22,
-  "MPWR": 1330.54,
-  "SNPS": 433.825,
-  "COIN": 110.235,
-  "ON": 66.455,
-  "CDNS": 308.69,
-  "KEYS": 292.175,
+  "GOOG": 269.31,
+  "MPWR": 1206.18,
+  "SNPS": 413.85,
+  "COIN": 105.35,
+  "ON": 63.33,
+  "CDNS": 297.425,
+  "KEYS": 272.92,
   "UNH": 339.74,
-  "HPE": 48.265,
-  "FLEX": 76.5,
-  "FCX": 50.04,
-  "AMD": 461.02,
-  "CDE": 11.605,
-  "ADI": 384.33,
-  "ANET": 183.79,
-  "DDOG": 169.19,
-  "NXPI": 259.07,
-  "ETN": 336.28,
+  "HPE": 42.19,
+  "FLEX": 68.32,
+  "FCX": 50.06,
+  "AMD": 402.032,
+  "CDE": 12.385,
+  "ADI": 335.55,
+  "ANET": 167.61,
+  "DDOG": 163.09,
+  "NXPI": 248.64,
+  "ETN": 318.75,
   "PLTR": 160.357,
   "SHOP": 136.025,
-  "QCOM": 165.01,
+  "QCOM": 174.03,
   "TXN": 295.119,
-  "CAT": 549.91,
-  "PWR": 602.37,
-  "APH": 76.998,
-  "FSLR": 146.935,
-  "VST": 124.69,
-  "NEM": 101.39,
-  "APP": 382.82,
+  "CAT": 553.55,
+  "PWR": 569.2,
+  "APH": 74.085,
+  "FSLR": 149.68,
+  "VST": 121.27,
+  "NEM": 105.33,
+  "APP": 394.13,
   "AKAM": 90.28,
   "TEL": 215.93,
-  "AXON": 308.24,
+  "AXON": 360.12,
   "CVNA": 68.14,
   "UAL": 107.302,
   "TT": 411.53,
-  "MS": 173.41,
+  "MS": 169.995,
   "BX": 116.49,
   "URI": 1038.89,
-  "META": 593.65,
-  "CMI": 429.95,
+  "META": 625.96,
+  "CMI": 427.533,
   "KKR": 92.32,
   "FTNT": 131.115,
   "AAL": 12.565,
-  "GS": 826.43,
+  "GS": 808.34,
   "PH": 915.03,
-  "JCI": 138.305,
+  "JCI": 136.945,
   "DASH": 162.03,
   "CCL": 28.17,
   "HWM": 219.235,
   "EQIX": 1030.52,
-  "BKR": 46.63,
+  "BKR": 47.22,
   "NOW": 93.0,
-  "C": 114.71,
+  "C": 115.4,
   "DT": 46.01,
   "PATH": 11.65,
-  "SLB": 46.89,
+  "SLB": 49.74,
   "HON": 218.885,
   "CRH": 91.36,
   "GE": 319.95,
   "GM": 80.711,
-  "NFLX": 58.215,
+  "NFLX": 60.47,
   "ISRG": 415.34,
   "EXPE": 237.02,
   "BKNG": 147.22,
@@ -110,7 +161,9 @@
   "AXP": 307.42,
   "DE": 623.95,
   "FDX": 310.435,
-  "PLD": 124.94
+  "PLD": 124.94,
+  "TSLA": 393.55,
+  "AMZN": 250.635
  },
  "trades": [
   {
@@ -574,6 +627,56 @@
    "reason": "end of day",
    "pnl": 64.66,
    "pnl_pct": 2.96
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "LITE",
+   "side": "short",
+   "qty": 4.4889,
+   "price": 495.52,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "gap-up +8.0% below 200-day avg"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "COHR",
+   "side": "short",
+   "qty": 10.4844,
+   "price": 212.16,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "gap-up +7.6% below 200-day avg"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "MRVL",
+   "side": "short",
+   "qty": 16.5288,
+   "price": 134.575,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "gap-up +6.5% below 200-day avg"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "SMTC",
+   "side": "short",
+   "qty": 23.7392,
+   "price": 93.7,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "gap-up +5.9% below 200-day avg"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "HL",
+   "side": "short",
+   "qty": 188.028,
+   "price": 11.83,
+   "broker": "sim",
+   "source": "auto",
+   "reason": "gap-up +5.9% below 200-day avg"
   }
  ],
  "events": [
@@ -2056,22 +2159,829 @@
    "price": 548.285,
    "source": "auto",
    "result": "filled cover 3.8685 @ 548.285 (end of day)"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "LITE",
+   "action": "short",
+   "price": 495.52,
+   "source": "auto",
+   "result": "filled short 4.4889 @ 495.52 (gap-up +8.0% below 200-day avg)"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "COHR",
+   "action": "short",
+   "price": 212.16,
+   "source": "auto",
+   "result": "filled short 10.4844 @ 212.16 (gap-up +7.6% below 200-day avg)"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "MRVL",
+   "action": "short",
+   "price": 134.575,
+   "source": "auto",
+   "result": "filled short 16.5288 @ 134.575 (gap-up +6.5% below 200-day avg)"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "SMTC",
+   "action": "short",
+   "price": 93.7,
+   "source": "auto",
+   "result": "filled short 23.7392 @ 93.7 (gap-up +5.9% below 200-day avg)"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "HL",
+   "action": "short",
+   "price": 11.83,
+   "source": "auto",
+   "result": "filled short 188.028 @ 11.83 (gap-up +5.9% below 200-day avg)"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "BE",
+   "action": "short",
+   "price": 155.155,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "FLEX",
+   "action": "short",
+   "price": 68.32,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "CDE",
+   "action": "short",
+   "price": 12.385,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "FN",
+   "action": "short",
+   "price": 293.24,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "WDC",
+   "action": "short",
+   "price": 281.03,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "HOOD",
+   "action": "short",
+   "price": 66.28,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "APP",
+   "action": "short",
+   "price": 394.13,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "MU",
+   "action": "short",
+   "price": 617.21,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "STX",
+   "action": "short",
+   "price": 484.497,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "TER",
+   "action": "short",
+   "price": 213.64,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "LRCX",
+   "action": "short",
+   "price": 185.265,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "COIN",
+   "action": "short",
+   "price": 105.35,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "VRT",
+   "action": "short",
+   "price": 174.52,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "GLW",
+   "action": "short",
+   "price": 102.06,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "NEM",
+   "action": "short",
+   "price": 105.33,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "AMAT",
+   "action": "short",
+   "price": 311.335,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "FCX",
+   "action": "short",
+   "price": 50.06,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "CIEN",
+   "action": "short",
+   "price": 246.48,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "INTC",
+   "action": "short",
+   "price": 55.56,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "FIX",
+   "action": "short",
+   "price": 1107.385,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "PWR",
+   "action": "short",
+   "price": 569.2,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "HPE",
+   "action": "short",
+   "price": 42.19,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "SMCI",
+   "action": "short",
+   "price": 23.13,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "AXON",
+   "action": "short",
+   "price": 360.12,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "ANET",
+   "action": "short",
+   "price": 167.61,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "KLAC",
+   "action": "short",
+   "price": 134.84,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "TSLA",
+   "action": "short",
+   "price": 393.55,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "AMD",
+   "action": "short",
+   "price": 402.032,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "DELL",
+   "action": "short",
+   "price": 312.895,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "DDOG",
+   "action": "short",
+   "price": 163.09,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "CAT",
+   "action": "short",
+   "price": 553.55,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "ADI",
+   "action": "short",
+   "price": 335.55,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "META",
+   "action": "short",
+   "price": 625.96,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "SNPS",
+   "action": "short",
+   "price": 413.85,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "CDNS",
+   "action": "short",
+   "price": 297.425,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "APH",
+   "action": "short",
+   "price": 74.085,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "QCOM",
+   "action": "short",
+   "price": 174.03,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "ORCL",
+   "action": "short",
+   "price": 104.82,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "KEYS",
+   "action": "short",
+   "price": 272.92,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "CSCO",
+   "action": "short",
+   "price": 95.69,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "ON",
+   "action": "short",
+   "price": 63.33,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "MPWR",
+   "action": "short",
+   "price": 1206.18,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "MS",
+   "action": "short",
+   "price": 169.995,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "MCHP",
+   "action": "short",
+   "price": 57.72,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "AMZN",
+   "action": "short",
+   "price": 250.635,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "FSLR",
+   "action": "short",
+   "price": 149.68,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "ETN",
+   "action": "short",
+   "price": 318.75,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "CMI",
+   "action": "short",
+   "price": 427.533,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "VST",
+   "action": "short",
+   "price": 121.27,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "BKR",
+   "action": "short",
+   "price": 47.22,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "GOOG",
+   "action": "short",
+   "price": 269.31,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "GS",
+   "action": "short",
+   "price": 808.34,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "NFLX",
+   "action": "short",
+   "price": 60.47,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "JCI",
+   "action": "short",
+   "price": 136.945,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "NXPI",
+   "action": "short",
+   "price": 248.64,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "C",
+   "action": "short",
+   "price": 115.4,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
+  },
+  {
+   "time": "2026-11-27T15:08:00+00:00",
+   "ticker": "SLB",
+   "action": "short",
+   "price": 49.74,
+   "source": "auto",
+   "result": "rejected: short exposure would exceed 100% of equity"
   }
  ],
  "day": {
-  "date": "2026-11-23",
-  "start_equity": 10928.707639900002,
-  "trades": 10
+  "date": "2026-11-27",
+  "start_equity": 11121.861317600004,
+  "trades": 5
  },
  "halted": false,
  "status": {
-  "note": "market closed",
-  "decisions": [],
-  "last_run": "2026-11-27T14:20:59+00:00",
-  "market_open": false,
+  "note": "scanned 119 downtrending stocks: 62 gap-ups \u2265 2%",
+  "decisions": [
+   {
+    "ticker": "LITE",
+    "info": "gap +8.0%",
+    "decision": "SHORTED @ 495.52, stop 530.22"
+   },
+   {
+    "ticker": "COHR",
+    "info": "gap +7.6%",
+    "decision": "SHORTED @ 212.16, stop 217.51"
+   },
+   {
+    "ticker": "MRVL",
+    "info": "gap +6.5%",
+    "decision": "SHORTED @ 134.57, stop 143.59"
+   },
+   {
+    "ticker": "SMTC",
+    "info": "gap +5.9%",
+    "decision": "SHORTED @ 93.70, stop 101.38"
+   },
+   {
+    "ticker": "HL",
+    "info": "gap +5.9%",
+    "decision": "SHORTED @ 11.83, stop 12.3"
+   },
+   {
+    "ticker": "BE",
+    "info": "gap +5.5%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "FLEX",
+    "info": "gap +5.4%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "CDE",
+    "info": "gap +5.3%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "FN",
+    "info": "gap +5.1%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "WDC",
+    "info": "gap +5.0%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "HOOD",
+    "info": "gap +4.9%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "APP",
+    "info": "gap +4.9%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "MU",
+    "info": "gap +4.8%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "STX",
+    "info": "gap +4.6%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "TER",
+    "info": "gap +4.6%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "LRCX",
+    "info": "gap +4.6%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "COIN",
+    "info": "gap +4.6%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "VRT",
+    "info": "gap +4.4%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "GLW",
+    "info": "gap +4.3%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "NEM",
+    "info": "gap +4.1%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "AMAT",
+    "info": "gap +4.0%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "FCX",
+    "info": "gap +3.9%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "CIEN",
+    "info": "gap +3.8%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "INTC",
+    "info": "gap +3.7%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "FIX",
+    "info": "gap +3.7%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "PWR",
+    "info": "gap +3.6%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "HPE",
+    "info": "gap +3.6%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "SMCI",
+    "info": "gap +3.6%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "AXON",
+    "info": "gap +3.6%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "ANET",
+    "info": "gap +3.5%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "KLAC",
+    "info": "gap +3.5%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "TSLA",
+    "info": "gap +3.5%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "AMD",
+    "info": "gap +3.4%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "DELL",
+    "info": "gap +3.4%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "DDOG",
+    "info": "gap +3.2%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "CAT",
+    "info": "gap +3.2%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "ADI",
+    "info": "gap +3.0%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "META",
+    "info": "gap +2.9%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "SNPS",
+    "info": "gap +2.9%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "CDNS",
+    "info": "gap +2.9%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "APH",
+    "info": "gap +2.9%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "QCOM",
+    "info": "gap +2.9%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "ORCL",
+    "info": "gap +2.8%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "KEYS",
+    "info": "gap +2.7%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "CSCO",
+    "info": "gap +2.7%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "ON",
+    "info": "gap +2.7%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "MPWR",
+    "info": "gap +2.7%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "MS",
+    "info": "gap +2.6%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "MCHP",
+    "info": "gap +2.5%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "AMZN",
+    "info": "gap +2.5%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "FSLR",
+    "info": "gap +2.5%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "ETN",
+    "info": "gap +2.5%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "CMI",
+    "info": "gap +2.4%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "VST",
+    "info": "gap +2.3%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "BKR",
+    "info": "gap +2.3%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "GOOG",
+    "info": "gap +2.2%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "GS",
+    "info": "gap +2.2%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "NFLX",
+    "info": "gap +2.2%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "JCI",
+    "info": "gap +2.2%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "NXPI",
+    "info": "gap +2.1%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "C",
+    "info": "gap +2.0%",
+    "decision": "short exposure would exceed 100% of equity"
+   },
+   {
+    "ticker": "SLB",
+    "info": "gap +2.0%",
+    "decision": "short exposure would exceed 100% of equity"
+   }
+  ],
+  "last_run": "2026-11-27T15:08:00+00:00",
+  "market_open": true,
   "last_daily": null
  },
- "gap_scan_date": "2026-11-25",
+ "gap_scan_date": "2026-11-27",
  "price_sources": {
   "FN": "yahoo",
   "COHR": "yahoo",
