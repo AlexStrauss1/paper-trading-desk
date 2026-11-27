@@ -46,20 +46,20 @@
   "FN": 293.24,
   "COHR": 218.81,
   "NKE": 35.85,
-  "LITE": 502.905,
-  "MRVL": 136.625,
+  "LITE": 514.63,
+  "MRVL": 140.54,
   "MCHP": 57.72,
   "CIEN": 246.48,
   "CSCO": 95.69,
   "DELL": 312.895,
   "STX": 484.497,
   "FIX": 1107.385,
-  "HL": 12.005,
+  "HL": 11.94,
   "BE": 155.155,
   "GLW": 102.06,
   "WDC": 281.03,
   "ROST": 228.27,
-  "SMTC": 94.715,
+  "SMTC": 97.36,
   "NVDA": 155.9,
   "VRT": 174.52,
   "TER": 213.64,
@@ -2674,7 +2674,7 @@
  },
  "halted": false,
  "status": {
-  "note": "scanned 119 downtrending stocks: 62 gap-ups \u2265 2%",
+  "note": "market closed",
   "decisions": [
    {
     "ticker": "LITE",
@@ -2987,8 +2987,8 @@
     "decision": "short exposure would exceed 100% of equity"
    }
   ],
-  "last_run": "2026-11-27T17:29:46+00:00",
-  "market_open": true,
+  "last_run": "2026-11-27T18:18:52+00:00",
+  "market_open": false,
   "last_daily": null
  },
  "gap_scan_date": "2026-11-27",
