@@ -54,22 +54,22 @@
  },
  "last_prices": {
   "FN": 293.24,
-  "COHR": 212.16,
+  "COHR": 216.59,
   "NKE": 35.85,
-  "LITE": 495.52,
-  "MRVL": 134.575,
+  "LITE": 502.48,
+  "MRVL": 136.45,
   "MCHP": 57.72,
   "CIEN": 246.48,
   "CSCO": 95.69,
   "DELL": 312.895,
   "STX": 484.497,
   "FIX": 1107.385,
-  "HL": 11.83,
+  "HL": 11.846,
   "BE": 155.155,
   "GLW": 102.06,
   "WDC": 281.03,
   "ROST": 228.27,
-  "SMTC": 93.7,
+  "SMTC": 94.63,
   "NVDA": 155.9,
   "VRT": 174.52,
   "TER": 213.64,
@@ -2977,7 +2977,7 @@
     "decision": "short exposure would exceed 100% of equity"
    }
   ],
-  "last_run": "2026-11-27T15:08:00+00:00",
+  "last_run": "2026-11-27T15:19:30+00:00",
   "market_open": true,
   "last_daily": null
  },
@@ -2996,6 +2996,8 @@
   "CIEN": "yahoo",
   "UNH": "yahoo",
   "DELL": "yahoo",
-  "HPE": "yahoo"
+  "HPE": "yahoo",
+  "SMTC": "yahoo",
+  "HL": "yahoo"
  }
 }
